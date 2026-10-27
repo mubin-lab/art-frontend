@@ -1,0 +1,168 @@
+[
+  {
+    "slug": "vincent-van-gogh/the-starry-night",
+    "title": "The Starry Night by Vincent van Gogh: Composition, Solitude and the Celestial Swirl",
+    "artist": "Vincent van Gogh",
+    "artistSlug": "vincent-van-gogh",
+    "artistAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%284bzkVelocity%29.jpg/400px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%284bzkVelocity%29.jpg",
+    "date": "June 1889",
+    "medium": "Oil on canvas",
+    "dimensions": "73.7 cm × 92.1 cm",
+    "location": "Museum of Modern Art, New York",
+    "movement": "POST-IMPRESSIONISM",
+    "paintingSlug": "the-starry-night",
+    "toc": [
+      {
+        "id": "introduction",
+        "label": "01 The Asylum Window at Saint-Rémy"
+      },
+      {
+        "id": "symbolism",
+        "label": "02 The Cypress: Tree of Mourning and Eternity"
+      },
+      {
+        "id": "celestial-swirl",
+        "label": "03 The Turbulent Night Sky"
+      },
+      {
+        "id": "village",
+        "label": "04 An Imagined Dutch Village in Provence"
+      },
+      {
+        "id": "technique",
+        "label": "05 Impasto Technique and Color Theory"
+      },
+      {
+        "id": "letters",
+        "label": "06 What Vincent Wrote to Theo"
+      },
+      {
+        "id": "legacy",
+        "label": "07 The Masterpiece Today"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "h2",
+        "id": "introduction",
+        "content": "The Asylum Window at Saint-Rémy"
+      },
+      {
+        "type": "p",
+        "content": "In June 1889, Vincent van Gogh stood at the barred window of his room in the Saint-Paul-de-Mausole asylum in Saint-Rémy-de-Provence. Looking out just before dawn, he beheld a countryside illuminated by a sky so incandescent and alive that it defied the quiet stillness of the sleeping earth below."
+      },
+      {
+        "type": "p",
+        "content": "Following the catastrophic collapse of his mental health in Arles—an episode culminating in the severance of his left earlobe—Van Gogh had voluntarily committed himself to the care of Dr. Théophile Peyron. Here, amidst bouts of severe distress and profound lucidity, he was granted two rooms: a humble bedroom and an adjoining ground-floor studio where he could channel his turmoil directly onto canvas."
+      },
+      {
+        "type": "quote",
+        "quote": "This morning I saw the countryside from my window a long time before sunrise, with nothing but the morning star, which looked very big.",
+        "attribution": "Vincent van Gogh, Letter to Theo (Letter 777)"
+      },
+      {
+        "type": "figure",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+        "caption": "Vincent van Gogh, The Starry Night (June 1889), Oil on canvas, 73.7 × 92.1 cm, Museum of Modern Art, New York."
+      },
+      {
+        "type": "h2",
+        "id": "symbolism",
+        "content": "The Cypress: Tree of Mourning and Eternity"
+      },
+      {
+        "type": "p",
+        "content": "Dominating the immediate foreground on the left is a monumental, towering cypress tree. Rising like a dark green flame, its sinuous branches connect the mortal earthly realm to the celestial heavens above. In traditional Mediterranean symbolism, the cypress is associated with mourning and the cemetery, yet for Van Gogh, it was also a vital motif of enduring resilience and spiritual ascent."
+      },
+      {
+        "type": "p",
+        "content": "The cypress offsets the vast horizon, providing a dramatic structural anchor that balances the undulating rhythm of the Alpilles mountains stretching in the background."
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "h2",
+        "id": "celestial-swirl",
+        "content": "The Turbulent Night Sky"
+      },
+      {
+        "type": "p",
+        "content": "What makes The Starry Night unforgettable is its dynamic, whirlpool sky. Eleven glowing stars pulse with aureoles of vibrant yellow and white light, while a crescent moon burns with the brilliance of a miniature sun. Modern astrophysicists studying the canvas have observed that Van Gogh's rhythmic swirls mathematically mirror the fluid dynamics of Kolmogorov turbulence—decades before physicists formalized the theory."
+      },
+      {
+        "type": "quote",
+        "quote": "Looking at the stars always makes me dream, as simply as I dream over the black dots of a map representing towns and villages. Why, I ask myself, should the shining dots of the sky not be as accessible as the black dots on the map of France?",
+        "attribution": "Vincent van Gogh"
+      },
+      {
+        "type": "h2",
+        "id": "village",
+        "content": "An Imagined Dutch Village in Provence"
+      },
+      {
+        "type": "p",
+        "content": "Nestled beneath the rhythmic hills is an idyllic, peaceful village punctuated by a church with a soaring steeple. Curiously, no such church spire existed in the landscape of Saint-Rémy. Instead, Van Gogh wove nostalgic memories of his homeland in Brabant, Netherlands, into the Provençal topography—a poignant visual longing for the sanctuary of home."
+      },
+      {
+        "type": "h2",
+        "id": "technique",
+        "content": "Impasto Technique and Color Theory"
+      },
+      {
+        "type": "p",
+        "content": "Van Gogh did not blend his colors delicately on the palette; he laid unadulterated cobalt blue, ultramarine, zinc yellow, and viridian directly onto the canvas with confident, rhythmic strokes of the hog-bristle brush and palette knife. The physical ridges of paint cast microscopic shadows across the surface, giving the canvas an electric visual vibration under varying room lighting."
+      },
+      {
+        "type": "h2",
+        "id": "letters",
+        "content": "What Vincent Wrote to Theo"
+      },
+      {
+        "type": "p",
+        "content": "Curiously, Van Gogh himself did not consider The Starry Night among his best works, calling it 'an exaggeration' and a departure from pure study after nature. Yet to his brother Theo, he confessed that painting the night sky was the only medicine that could silence the fever in his head."
+      },
+      {
+        "type": "h2",
+        "id": "legacy",
+        "content": "The Masterpiece Today"
+      },
+      {
+        "type": "p",
+        "content": "Acquired by the Museum of Modern Art in New York in 1941 through the Lillie P. Bliss Bequest, The Starry Night stands today as one of the most recognized and universally beloved images in human history. To experience it recreated in genuine oil on canvas is to touch the raw emotional pulse of a painter who reached past the darkness to seize the light."
+      }
+    ],
+    "series": [
+      {
+        "title": "Sunflowers (Fifteen Sunflowers)",
+        "date": "1888",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Vincent_Willem_van_Gogh_127.jpg/400px-Vincent_Willem_van_Gogh_127.jpg",
+        "href": "/painting/sunflowers"
+      },
+      {
+        "title": "Café Terrace at Night",
+        "date": "1888",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Vincent_Willem_van_Gogh_-_Cafe_Terrace_at_Night_%28Yorck%29.jpg/400px-Vincent_Willem_van_Gogh_-_Cafe_Terrace_at_Night_%28Yorck%29.jpg",
+        "href": "/painting/cafe-terrace-at-night"
+      },
+      {
+        "title": "Almond Blossoms",
+        "date": "1890",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Vincent_van_Gogh_-_Almond_blossom_-_Google_Art_Project.jpg/400px-Vincent_van_Gogh_-_Almond_blossom_-_Google_Art_Project.jpg",
+        "href": "/painting/almond-blossoms"
+      },
+      {
+        "title": "Irises",
+        "date": "1889",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Irises-Vincent_van_Gogh.jpg/400px-Irises-Vincent_van_Gogh.jpg",
+        "href": "/painting/irises"
+      }
+    ],
+    "author": {
+      "name": "Editorial Curatorial Board",
+      "role": "SENIOR ART HISTORIAN",
+      "bio": "Our editorial team consists of classical painters and art historians dedicated to illuminating the technique, provenance, and human stories behind the world's greatest oil paintings.",
+      "avatarInitials": "BM"
+    }
+  }
+]

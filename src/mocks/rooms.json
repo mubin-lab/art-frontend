@@ -1,0 +1,59 @@
+[
+  {
+    "id": "room-1",
+    "title": "Modern Minimalist Salon",
+    "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80",
+    "hotspots": [
+      {
+        "id": "h1",
+        "x": 42,
+        "y": 32,
+        "paintingSlug": "the-starry-night"
+      },
+      {
+        "id": "h2",
+        "x": 74,
+        "y": 38,
+        "paintingSlug": "water-lilies"
+      }
+    ]
+  },
+  {
+    "id": "room-2",
+    "title": "Classical Parisian Living Room",
+    "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=80",
+    "hotspots": [
+      {
+        "id": "h3",
+        "x": 50,
+        "y": 30,
+        "paintingSlug": "the-kiss"
+      },
+      {
+        "id": "h4",
+        "x": 26,
+        "y": 40,
+        "paintingSlug": "girl-with-a-pearl-earring"
+      }
+    ]
+  },
+  {
+    "id": "room-3",
+    "title": "Scandinavian Contemporary Study",
+    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=80",
+    "hotspots": [
+      {
+        "id": "h5",
+        "x": 48,
+        "y": 34,
+        "paintingSlug": "sunflowers"
+      },
+      {
+        "id": "h6",
+        "x": 80,
+        "y": 42,
+        "paintingSlug": "the-great-wave"
+      }
+    ]
+  }
+]

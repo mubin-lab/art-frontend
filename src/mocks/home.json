@@ -1,0 +1,150 @@
+{
+  "heroSlides": [
+    {
+      "id": "slide-1",
+      "tag": "FOR HALLOWEEN",
+      "linkLabel": "The Haunted Gallery →",
+      "linkHref": "/collections/halloween",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/John_William_Waterhouse_-_The_Magic_Circle_-_Google_Art_Project.jpg/1280px-John_William_Waterhouse_-_The_Magic_Circle_-_Google_Art_Project.jpg",
+      "product": {
+        "title": "The Magic Circle",
+        "priceFrom": 38280,
+        "priceWas": 76680,
+        "artist": "John William Waterhouse",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/John_William_Waterhouse_-_The_Magic_Circle_-_Google_Art_Project.jpg/400px-John_William_Waterhouse_-_The_Magic_Circle_-_Google_Art_Project.jpg",
+        "href": "/painting/the-magic-circle"
+      }
+    },
+    {
+      "id": "slide-2",
+      "tag": "CURATOR'S CHOICE",
+      "linkLabel": "Post-Impressionist Masterworks →",
+      "linkHref": "/art-movements/post-impressionism",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+      "product": {
+        "title": "The Starry Night",
+        "priceFrom": 35880,
+        "priceWas": 71880,
+        "artist": "Vincent van Gogh",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/400px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+        "href": "/painting/the-starry-night"
+      }
+    },
+    {
+      "id": "slide-3",
+      "tag": "GOLDEN LUXURY",
+      "linkLabel": "Vienna Secession Collection →",
+      "linkHref": "/collections/gold-frames",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/1280px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+      "product": {
+        "title": "The Kiss",
+        "priceFrom": 41880,
+        "priceWas": 83880,
+        "artist": "Gustav Klimt",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/400px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+        "href": "/painting/the-kiss"
+      }
+    },
+    {
+      "id": "slide-4",
+      "tag": "PEACEFUL WATERS",
+      "linkLabel": "Monet's Giverny Gardens →",
+      "linkHref": "/artists/claude-monet",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet_-_Water_Lilies_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_Water_Lilies_-_Google_Art_Project.jpg",
+      "product": {
+        "title": "Water Lilies",
+        "priceFrom": 34680,
+        "priceWas": 69480,
+        "artist": "Claude Monet",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet_-_Water_Lilies_-_Google_Art_Project.jpg/400px-Claude_Monet_-_Water_Lilies_-_Google_Art_Project.jpg",
+        "href": "/painting/water-lilies"
+      }
+    },
+    {
+      "id": "slide-5",
+      "tag": "DUTCH MASTERPIECE",
+      "linkLabel": "Enigmatic Portraits →",
+      "linkHref": "/artists/johannes-vermeer",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/1280px-1665_Girl_with_a_Pearl_Earring.jpg",
+      "product": {
+        "title": "Girl with a Pearl Earring",
+        "priceFrom": 35880,
+        "priceWas": 71880,
+        "artist": "Johannes Vermeer",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/400px-1665_Girl_with_a_Pearl_Earring.jpg",
+        "href": "/painting/girl-with-a-pearl-earring"
+      }
+    }
+  ],
+  "trustBullets": [],
+  "popularLinks": [
+    {
+      "label": "Van Gogh",
+      "href": "/artists/vincent-van-gogh"
+    },
+    {
+      "label": "Monet",
+      "href": "/artists/claude-monet"
+    },
+    {
+      "label": "Klimt",
+      "href": "/artists/gustav-klimt"
+    },
+    {
+      "label": "Da Vinci",
+      "href": "/artists/leonardo-da-vinci"
+    },
+    {
+      "label": "Impressionism",
+      "href": "/art-movements/impressionism"
+    },
+    {
+      "label": "Top 100 famous paintings",
+      "href": "/collections/top-100"
+    }
+  ],
+  "whyChoose": [
+    {
+      "icon": "palette",
+      "title": "Museum-Quality Archival Canvas",
+      "description": "Ultra-high-definition archival art printing on premium heavyweight textured canvas, capturing every historical brushstroke with lifelike gallery fidelity."
+    },
+    {
+      "icon": "eye",
+      "title": "Museum Quality",
+      "description": "Layer by layer glazing, rich texture and brushwork fidelity calibrated under colour-standardised museum studio lighting."
+    },
+    {
+      "icon": "frame",
+      "title": "Faithful to the Original",
+      "description": "Our academic painters study brush pressure, pigment age, and authentic compositional geometry directly from high-resolution museum scans."
+    },
+    {
+      "icon": "painter",
+      "title": "Master Artists Behind Every Piece",
+      "description": "Each painting is created by an artist with over 15 years of classical training, specialising in specific artistic movements and techniques."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the quality of our framed canvas art reproductions?",
+      "answer": "We produce premium museum-grade canvas art. Every masterpiece is reproduced in ultra-high resolution with archival, fade-resistant pigments on textured woven canvas, then expertly stretched and custom-framed in handcrafted solid wood frames (Gold, Silver-White, and Classic Silver). It arrives ready to hang straight out of the box."
+    },
+    {
+      "question": "How long does it take to paint and deliver my artwork?",
+      "answer": "A masterwork takes roughly 2 to 3 weeks to paint by hand, followed by 5 to 7 days for the oil layers to cure and dry properly. Once framed, express tracked worldwide delivery takes 3 to 5 business days. You will receive studio preview photos before dispatch to approve your painting."
+    },
+    {
+      "question": "Can I preview and approve my painting before it ships?",
+      "answer": "Yes, absolutely! Before your painting is framed and packed, our atelier sends high-resolution studio photos of your finished canvas from multiple angles. If you want any adjustments or revisions made, your artist will make them happily at no extra charge until you are 100% satisfied."
+    },
+    {
+      "question": "What is your return policy and guarantee?",
+      "answer": "We offer an unconditional 90-Day Money-Back Guarantee. If your reproduction does not meet your expectations when it arrives, you can return it within 90 days for a full refund or exchange. We also cover worldwide return shipping costs."
+    },
+    {
+      "question": "Can you create custom sizes or frame my own photo on canvas?",
+      "answer": "Yes! Any masterpiece in our catalogue can be custom-scaled to fit your wall space. We can also turn your personal family portraits, wedding memories, and cherished photos into museum-quality framed canvas art."
+    }
+  ]
+}

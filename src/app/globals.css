@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: var(--font-playfair), Georgia, serif;
+  --font-sans: var(--font-jost), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --color-ink: #161616;
+  --color-ink-soft: #221e1f;
+  --color-btn-dark: #181713;
+  --color-footer-bg: #1d1916;
+  --color-bg: #f5f2ed;
+  --color-bg-strip: #f3f1e8;
+  --color-surface: #ffffff;
+  --color-card-soft: #f9f9f7;
+  --color-gold: #ceab51;
+  --color-gold-text: #a8844a;
+  --color-muted: #6b6560;
+  --color-border: #e5e0d8;
+  --color-trust-green: #00b67a;
+  --color-footer-link: #d9d4c8;
+}
+
+:root {
+  --color-ink: #161616;
+  --color-ink-soft: #221e1f;
+  --color-btn-dark: #181713;
+  --color-footer-bg: #1d1916;
+  --color-bg: #f5f2ed;
+  --color-bg-strip: #f3f1e8;
+  --color-surface: #ffffff;
+  --color-card-soft: #f9f9f7;
+  --color-gold: #ceab51;
+  --color-gold-text: #a8844a;
+  --color-muted: #6b6560;
+  --color-border: #e5e0d8;
+  --color-trust-green: #00b67a;
+  --color-footer-link: #d9d4c8;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-jost), sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f0ece4;
+}
+::-webkit-scrollbar-thumb {
+  background: #c9c3b8;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a8844a;
+}

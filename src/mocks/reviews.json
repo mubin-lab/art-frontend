@@ -1,0 +1,62 @@
+[
+  {
+    "id": "rev-1",
+    "author": "Laura M.",
+    "rating": 5,
+    "text": "The texture and brushstrokes in our Starry Night are breathtaking. When the morning sunlight hits the thick yellow impasto, it feels alive. Outstanding craftsmanship!",
+    "source": "Trustpilot",
+    "paintingSlug": "the-starry-night",
+    "paintingTitle": "The Starry Night",
+    "paintingImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/400px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+    "frameLabel": "Antique Gold Frame",
+    "photographer": "Studio review photograph"
+  },
+  {
+    "id": "rev-2",
+    "author": "Alexander K.",
+    "rating": 5,
+    "text": "Received the studio approval photos before shipping, and the artist gladly adjusted the water reflection in Monet's Water Lilies. Arrived in London in perfect condition.",
+    "source": "Trustpilot",
+    "paintingSlug": "water-lilies",
+    "paintingTitle": "Water Lilies",
+    "paintingImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet_-_Water_Lilies_-_Google_Art_Project.jpg/400px-Claude_Monet_-_Water_Lilies_-_Google_Art_Project.jpg",
+    "frameLabel": "Silver White Frame",
+    "photographer": "Client photo in living room"
+  },
+  {
+    "id": "rev-3",
+    "author": "David & Christine B.",
+    "rating": 5,
+    "text": "The gold leaf detailing on Klimt's The Kiss is extraordinary. Visitors stop in their tracks when entering our dining room. Genuine museum quality.",
+    "source": "Trustpilot",
+    "paintingSlug": "the-kiss",
+    "paintingTitle": "The Kiss",
+    "paintingImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/400px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+    "frameLabel": "Gold Leaf Ornate Frame",
+    "photographer": "Studio photograph preview"
+  },
+  {
+    "id": "rev-4",
+    "author": "Elena R.",
+    "rating": 5,
+    "text": "Vermeer's Girl with a Pearl Earring is subtle, luminous, and captures that exact delicate glance. You can see individual brush bristles in the turban glaze.",
+    "source": "Trustpilot",
+    "paintingSlug": "girl-with-a-pearl-earring",
+    "paintingTitle": "Girl with a Pearl Earring",
+    "paintingImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/400px-1665_Girl_with_a_Pearl_Earring.jpg",
+    "frameLabel": "Black & Gold Float Frame",
+    "photographer": "Client submission"
+  },
+  {
+    "id": "rev-5",
+    "author": "Julian T.",
+    "rating": 5,
+    "text": "The Magic Circle has that eerie, mystical pre-Raphaelite glow. Framing was solid wood and arrived double-crated. Couldn't recommend YourMuseum more highly.",
+    "source": "Trustpilot",
+    "paintingSlug": "the-magic-circle",
+    "paintingTitle": "The Magic Circle",
+    "paintingImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/John_William_Waterhouse_-_The_Magic_Circle_-_Google_Art_Project.jpg/400px-John_William_Waterhouse_-_The_Magic_Circle_-_Google_Art_Project.jpg",
+    "frameLabel": "Gold & Black Frame",
+    "photographer": "Studio photograph: 120 x 85 cm preview"
+  }
+]

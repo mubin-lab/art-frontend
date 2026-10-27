@@ -1,0 +1,50 @@
+[
+  {
+    "id": "audio-1",
+    "title": "Swirling Madness: The Asylum Night Sky",
+    "artist": "Vincent van Gogh",
+    "duration": "4:15",
+    "paintingSlug": "the-starry-night",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/600px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+  },
+  {
+    "id": "audio-2",
+    "title": "Gold and Passion: The Secret Romance of Adele",
+    "artist": "Gustav Klimt",
+    "duration": "5:30",
+    "paintingSlug": "the-kiss",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/600px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg"
+  },
+  {
+    "id": "audio-3",
+    "title": "The Floating World: Surviving the Wave",
+    "artist": "Katsushika Hokusai",
+    "duration": "3:48",
+    "paintingSlug": "the-great-wave",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/600px-Tsunami_by_hokusai_19th_century.jpg"
+  },
+  {
+    "id": "audio-4",
+    "title": "The Unknown Girl and the Delft Pearl",
+    "artist": "Johannes Vermeer",
+    "duration": "4:02",
+    "paintingSlug": "girl-with-a-pearl-earring",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/600px-1665_Girl_with_a_Pearl_Earring.jpg"
+  },
+  {
+    "id": "audio-5",
+    "title": "Colors at Midnight: The Café on Place du Forum",
+    "artist": "Vincent van Gogh",
+    "duration": "3:25",
+    "paintingSlug": "cafe-terrace-at-night",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Vincent_Willem_van_Gogh_-_Cafe_Terrace_at_Night_%28Yorck%29.jpg/600px-Vincent_Willem_van_Gogh_-_Cafe_Terrace_at_Night_%28Yorck%29.jpg"
+  },
+  {
+    "id": "audio-6",
+    "title": "Sorcery by the Sea: Waterhouse's Magic Circle",
+    "artist": "John William Waterhouse",
+    "duration": "4:50",
+    "paintingSlug": "the-magic-circle",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/John_William_Waterhouse_-_The_Magic_Circle_-_Google_Art_Project.jpg/600px-John_William_Waterhouse_-_The_Magic_Circle_-_Google_Art_Project.jpg"
+  }
+]

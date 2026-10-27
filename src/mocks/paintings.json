@@ -1,0 +1,2679 @@
+[
+  {
+    "id": "10001",
+    "slug": "the-starry-night",
+    "title": "The Starry Night",
+    "artistSlug": "vincent-van-gogh",
+    "artistName": "Vincent van Gogh",
+    "movement": "POST-IMPRESSIONISM",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+    "year": "June 1889",
+    "medium": "Oil on canvas",
+    "location": "Museum of Modern Art, New York",
+    "dimensions": "73.7 cm × 92.1 cm",
+    "priceFrom": 35880,
+    "priceWas": 71760,
+    "currency": "BDT",
+    "hasAudio": true,
+    "audioIcon": "play",
+    "bestseller": true,
+    "top100Rank": 1,
+    "featured": true,
+    "frames": [
+      {
+        "id": "gold",
+        "name": "Gold",
+        "swatch": "#d4af37"
+      },
+      {
+        "id": "silver-white",
+        "name": "Silver white",
+        "swatch": "#f0efe9"
+      },
+      {
+        "id": "silver",
+        "name": "Silver",
+        "swatch": "#a8a9ad"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "1-hat",
+        "feetLabel": "1 Feet",
+        "hatLabel": "1 Feet",
+        "dimensions": "18 × 12″",
+        "widthInch": 18,
+        "heightInch": 12,
+        "label": "1 Feet (18 × 12″)",
+        "price": 35880
+      },
+      {
+        "id": "2-hat",
+        "feetLabel": "2 Feet",
+        "hatLabel": "2 Feet",
+        "dimensions": "36 × 24″",
+        "widthInch": 36,
+        "heightInch": 24,
+        "label": "2 Feet (36 × 24″)",
+        "price": 61000
+      },
+      {
+        "id": "3-hat",
+        "feetLabel": "3 Feet",
+        "hatLabel": "3 Feet",
+        "dimensions": "54 × 36″",
+        "widthInch": 54,
+        "heightInch": 36,
+        "label": "3 Feet (54 × 36″)",
+        "price": 89700
+      }
+    ],
+    "description": "Van Gogh painted The Starry Night from his asylum room in Saint-Rémy-de-Provence, capturing turbulent swirls, glowing cypress trees, and vibrant celestial orbs.",
+    "orientation": "horizontal",
+    "freeDelivery": false,
+    "deliveryFee": 70,
+    "descriptions": [
+      "Painted in June 1889 from the east-facing barred window of his asylum room at Saint-Rémy-de-Provence, 'The Starry Night' represents Vincent van Gogh's emotional transcendence over intense suffering. Just months after severing his ear in Arles, Vincent looked out toward the Alpilles mountain range in the quiet pre-dawn hours and rendered the cosmos not as a detached astronomical event, but as an ecstatic, rhythmic dance of celestial energy.",
+      "Van Gogh used thick, undulating impasto applied with ferocious confidence, blending ultramarine, cobalt, and glowing zinc-yellow hues. The swirling vortex dominating the night sky echoes the mathematical patterns of turbulent fluid flow, while the towering dark cypress in the foreground serves as a visual bridge connecting terrestrial mortality with cosmic eternity.",
+      "The stylized village at the base of the canvas is largely idealized, reminiscent of the rustic Dutch steeples of Van Gogh's youth rather than provincial southern France. Through this imaginative synthesis of memory, observation, and raw spirituality, the canvas moves beyond traditional Impressionism into groundbreaking Expressionism.",
+      "Today, 'The Starry Night' resides in the permanent collection of the Museum of Modern Art (MoMA) in New York, celebrated as one of Western art's greatest treasures. Our museum-grade canvas reproduction captures every subtle brushstroke, color gradient, and historic contour of the original, expertly stretched and framed in solid wood."
+    ],
+    "discountPercent": 50,
+    "customerFeedbacks": [
+      {
+        "customer_name": "Tanvir Rahman",
+        "customer_img": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=160&h=160&fit=crop&crop=face",
+        "feedback": "The canvas print resolution and rich textured finish on this piece are breathtaking! The Gold frame has a regal, museum-grade weight. It transformed our living room wall in Gulshan.",
+        "rating": 5,
+        "customer_location": "Gulshan-2, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=800&q=80"
+      },
+      {
+        "customer_name": "Nusrat Jahan",
+        "customer_img": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=160&h=160&fit=crop&crop=face",
+        "feedback": "Received high-res preview photos before shipping, which gave me total confidence. Arrived in a reinforced wooden crate without a single scratch. The canvas quality and wood framing are truly museum-grade!",
+        "rating": 5,
+        "customer_location": "Dhanmondi, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80"
+      },
+      {
+        "customer_name": "Dr. Shafiqul Islam",
+        "customer_img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=160&h=160&fit=crop&crop=face",
+        "feedback": "I ordered the 3 Feet canvas. The vibrant archival colors and canvas texture match museum originals. Delivery was prompt and the hanging hardware made installation effortless.",
+        "rating": 5,
+        "customer_location": "Banani DOHS, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1540518614846-7ede433c4ef0?w=800&q=80"
+      }
+    ],
+    "descriptionImage": [
+      "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=900&q=80",
+      "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=900&q=80",
+      "https://images.unsplash.com/photo-1582561121162-71d27194305a?w=900&q=80"
+    ]
+  },
+  {
+    "id": "10002",
+    "slug": "the-kiss",
+    "title": "The Kiss",
+    "artistSlug": "gustav-klimt",
+    "artistName": "Gustav Klimt",
+    "movement": "ART NOUVEAU",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/1024px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+    "year": "1907–1908",
+    "medium": "Oil and gold leaf on canvas",
+    "location": "Österreichische Galerie Belvedere, Vienna",
+    "dimensions": "180 cm × 180 cm",
+    "priceFrom": 41880,
+    "priceWas": 69840,
+    "currency": "BDT",
+    "hasAudio": true,
+    "audioIcon": "headphones",
+    "bestseller": true,
+    "top100Rank": 2,
+    "featured": true,
+    "frames": [
+      {
+        "id": "gold",
+        "name": "Gold",
+        "swatch": "#d4af37"
+      },
+      {
+        "id": "silver-white",
+        "name": "Silver white",
+        "swatch": "#f0efe9"
+      },
+      {
+        "id": "silver",
+        "name": "Silver",
+        "swatch": "#a8a9ad"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "1-hat",
+        "feetLabel": "1 Feet",
+        "hatLabel": "1 Feet",
+        "dimensions": "18 × 18″",
+        "widthInch": 18,
+        "heightInch": 18,
+        "label": "1 Feet (18 × 18″)",
+        "price": 41880
+      },
+      {
+        "id": "2-hat",
+        "feetLabel": "2 Feet",
+        "hatLabel": "2 Feet",
+        "dimensions": "36 × 36″",
+        "widthInch": 36,
+        "heightInch": 36,
+        "label": "2 Feet (36 × 36″)",
+        "price": 71200
+      },
+      {
+        "id": "3-hat",
+        "feetLabel": "3 Feet",
+        "hatLabel": "3 Feet",
+        "dimensions": "54 × 54″",
+        "widthInch": 54,
+        "heightInch": 54,
+        "label": "3 Feet (54 × 54″)",
+        "price": 104700
+      }
+    ],
+    "description": "The high point of Klimt's Golden Phase, depicting an embracing couple veiled in elaborate gold patterns and blossoms on the edge of a precipice.",
+    "orientation": "square",
+    "freeDelivery": true,
+    "deliveryFee": 0,
+    "descriptions": [
+      "Created between 1907 and 1908 in Vienna, 'The Kiss' (Der Kuss) stands as the undisputed pinnacle of Gustav Klimt's Golden Phase. During a period of rapid societal modernization in fin-de-siècle Vienna, Klimt sought sanctuary in timeless human passion, crafting an intimate monument to lovers enveloped in eternal tenderness.",
+      "Klimt drew deep inspiration from the Byzantine gold mosaics of Ravenna, using genuine gold leaf, silver leaf, and jewel-toned oil pigments. The man is cloaked in austere geometric rectangles denoting masculine firmness, while the kneeling woman is draped in soft floral spirals and concentric circles expressing radiant feminine grace.",
+      "The lovers embrace atop a precipice overflowing with vibrant wildflowers, disconnected from the mundane world and suspended in a golden cosmic realm. Their faces radiate tranquility, intimacy, and surrender, contrasting vividly with the decorative abstraction of their ornate robes.",
+      "Currently the crown jewel of the Belvedere Museum in Vienna, 'The Kiss' continues to mesmerize millions with its luxurious romantic aura. Our museum canvas recreation honors Klimt's opulent vision, using rich archival detail and luminous golden accents to produce a museum-worthy centerpiece for your space."
+    ],
+    "discountPercent": 40,
+    "customerFeedbacks": [
+      {
+        "customer_name": "Dr. Shafiqul Islam",
+        "customer_img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=160&h=160&fit=crop&crop=face",
+        "feedback": "I ordered the 3 Feet canvas. The vibrant archival colors and canvas texture match museum originals. Delivery was prompt and the hanging hardware made installation effortless.",
+        "rating": 5,
+        "customer_location": "Banani DOHS, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1582561121162-71d27194305a?w=800&q=80"
+      },
+      {
+        "customer_name": "Farzana Haque",
+        "customer_img": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=160&h=160&fit=crop&crop=face",
+        "feedback": "The Silver-White frame perfectly matches our modern interior. You can clearly feel the heavyweight canvas texture and handcrafted solid wood framing. Exceptional craftsmanship!",
+        "rating": 5,
+        "customer_location": "Uttara Sector 4, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&q=80"
+      },
+      {
+        "customer_name": "Rezwanul Karim",
+        "customer_img": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=160&h=160&fit=crop&crop=face",
+        "feedback": "Safe delivery to Chittagong within 4 days. The wooden framing craftsmanship is top notch, and the colors look even more vibrant in person than on screen.",
+        "rating": 5,
+        "customer_location": "Panchlaish, Chittagong",
+        "customer_product": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=80"
+      }
+    ],
+    "descriptionImage": [
+      "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?w=900&q=80",
+      "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=900&q=80",
+      "https://images.unsplash.com/photo-1579783901586-d88db74b4fe4?w=900&q=80"
+    ]
+  },
+  {
+    "id": "10003",
+    "slug": "water-lilies",
+    "title": "Water Lilies",
+    "artistSlug": "claude-monet",
+    "artistName": "Claude Monet",
+    "movement": "IMPRESSIONISM",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet_-_Water_Lilies_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_Water_Lilies_-_Google_Art_Project.jpg",
+    "year": "1916",
+    "medium": "Oil on canvas",
+    "location": "Musée de l'Orangerie, Paris",
+    "dimensions": "200 cm × 200 cm",
+    "priceFrom": 34680,
+    "priceWas": 69360,
+    "currency": "BDT",
+    "hasAudio": true,
+    "audioIcon": "book",
+    "bestseller": true,
+    "top100Rank": 3,
+    "featured": true,
+    "frames": [
+      {
+        "id": "gold",
+        "name": "Gold",
+        "swatch": "#d4af37"
+      },
+      {
+        "id": "silver-white",
+        "name": "Silver white",
+        "swatch": "#f0efe9"
+      },
+      {
+        "id": "silver",
+        "name": "Silver",
+        "swatch": "#a8a9ad"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "1-hat",
+        "feetLabel": "1 Feet",
+        "hatLabel": "1 Feet",
+        "dimensions": "18 × 18″",
+        "widthInch": 18,
+        "heightInch": 18,
+        "label": "1 Feet (18 × 18″)",
+        "price": 34680
+      },
+      {
+        "id": "2-hat",
+        "feetLabel": "2 Feet",
+        "hatLabel": "2 Feet",
+        "dimensions": "36 × 36″",
+        "widthInch": 36,
+        "heightInch": 36,
+        "label": "2 Feet (36 × 36″)",
+        "price": 58960
+      },
+      {
+        "id": "3-hat",
+        "feetLabel": "3 Feet",
+        "hatLabel": "3 Feet",
+        "dimensions": "54 × 54″",
+        "widthInch": 54,
+        "heightInch": 54,
+        "label": "3 Feet (54 × 54″)",
+        "price": 86700
+      }
+    ],
+    "description": "Part of Monet's legendary Nymphéas series painted at Giverny, capturing the ephemeral play of light and atmospheric reflection across the pond.",
+    "orientation": "square",
+    "freeDelivery": false,
+    "deliveryFee": 70,
+    "descriptions": [
+      "During the final three decades of his life, Claude Monet dedicated himself to painting the water garden he meticulously cultivated at his sanctuary in Giverny, France. 'Water Lilies' (Nymphéas) represents the culmination of French Impressionism, where the boundaries between subject, reflection, and pure atmosphere dissolve into poetry.",
+      "Rather than including a horizon line, shoreline, or sky, Monet focuses his composition entirely on the water's shimmering surface. Willows, clouds, and morning skies are perceived only through their liquid reflections, mingling seamlessly with floating lily pads and blooming blossoms.",
+      "Monet applied layered, broken brushwork of pale violet, emerald, cerulean, and soft rose, allowing the optical mixing of colors to recreate the sensation of gentle aquatic movement. As his eyesight began to struggle with cataracts, his brushwork evolved into broad, sweeping gestures that anticipated modern 20th-century abstract expressionism.",
+      "Housed in Paris at the Musée de l'Orangerie and the Musée d'Orsay, the Nymphéas series offers an oasis of serene contemplation. Our artists replicate each tranquil brushstroke on heavy woven linen canvas, creating an atmosphere of natural calm and timeless French elegance in your home."
+    ],
+    "discountPercent": 50,
+    "customerFeedbacks": [
+      {
+        "customer_name": "Rezwanul Karim",
+        "customer_img": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=160&h=160&fit=crop&crop=face",
+        "feedback": "Safe delivery to Chittagong within 4 days. The wooden framing craftsmanship is top notch, and the colors look even more vibrant in person than on screen.",
+        "rating": 5,
+        "customer_location": "Panchlaish, Chittagong",
+        "customer_product": "https://images.unsplash.com/photo-1616137466211-f939a420be84?w=800&q=80"
+      },
+      {
+        "customer_name": "Sabiha Yasmin",
+        "customer_img": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=160&h=160&fit=crop&crop=face",
+        "feedback": "Every guest who visited our home thought we purchased an original gallery painting from Europe. Customer support was very helpful during frame selection.",
+        "rating": 5,
+        "customer_location": "Baridhara, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80"
+      },
+      {
+        "customer_name": "Zubair Al-Mamun",
+        "customer_img": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=160&h=160&fit=crop&crop=face",
+        "feedback": "The 90-day money-back guarantee gave me peace of mind, but honestly this painting is never leaving my home. Outstanding canvas reproduction of the original artwork.",
+        "rating": 5,
+        "customer_location": "Zindabazar, Sylhet",
+        "customer_product": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=800&q=80"
+      }
+    ],
+    "descriptionImage": [
+      "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=900&q=80",
+      "https://images.unsplash.com/photo-1579783901467-31b604eac7a8?w=900&q=80",
+      "https://images.unsplash.com/photo-1579783902269-8a5ff6b1897c?w=900&q=80"
+    ]
+  },
+  {
+    "id": "10004",
+    "slug": "girl-with-a-pearl-earring",
+    "title": "Girl with a Pearl Earring",
+    "artistSlug": "johannes-vermeer",
+    "artistName": "Johannes Vermeer",
+    "movement": "DUTCH GOLDEN AGE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/1024px-1665_Girl_with_a_Pearl_Earring.jpg",
+    "year": "c. 1665",
+    "medium": "Oil on canvas",
+    "location": "Mauritshuis, The Hague",
+    "dimensions": "44.5 cm × 39 cm",
+    "priceFrom": 35880,
+    "priceWas": 55200,
+    "currency": "BDT",
+    "hasAudio": true,
+    "audioIcon": "play",
+    "bestseller": true,
+    "top100Rank": 4,
+    "featured": true,
+    "frames": [
+      {
+        "id": "gold",
+        "name": "Gold",
+        "swatch": "#d4af37"
+      },
+      {
+        "id": "silver-white",
+        "name": "Silver white",
+        "swatch": "#f0efe9"
+      },
+      {
+        "id": "silver",
+        "name": "Silver",
+        "swatch": "#a8a9ad"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "1-hat",
+        "feetLabel": "1 Feet",
+        "hatLabel": "1 Feet",
+        "dimensions": "12 × 18″",
+        "widthInch": 12,
+        "heightInch": 18,
+        "label": "1 Feet (12 × 18″)",
+        "price": 35880
+      },
+      {
+        "id": "2-hat",
+        "feetLabel": "2 Feet",
+        "hatLabel": "2 Feet",
+        "dimensions": "24 × 36″",
+        "widthInch": 24,
+        "heightInch": 36,
+        "label": "2 Feet (24 × 36″)",
+        "price": 61000
+      },
+      {
+        "id": "3-hat",
+        "feetLabel": "3 Feet",
+        "hatLabel": "3 Feet",
+        "dimensions": "36 × 54″",
+        "widthInch": 36,
+        "heightInch": 54,
+        "label": "3 Feet (36 × 54″)",
+        "price": 89700
+      }
+    ],
+    "description": "Often termed the 'Mona Lisa of the North', Vermeer's master tronie portrays an enigmatic young woman turning toward the viewer with an oversized teardrop pearl.",
+    "orientation": "vertical",
+    "freeDelivery": true,
+    "deliveryFee": 0,
+    "descriptions": [
+      "Painted around 1665 during the Dutch Golden Age, Johannes Vermeer's 'Girl with a Pearl Earring' is an enigmatic tronie—a study of character, costume, and facial expression rather than a formal portrait. Cloaked in an exotic oriental turban and an amber-tinted jacket, the young woman gazes over her shoulder directly into the viewer's eyes.",
+      "Vermeer was known as the master of light, and nowhere is his technique more evident than here. The girl's moist parted lips, the subtle highlight on the bridge of her nose, and above all, the luminous teardrop pearl earring are rendered with just a few breathtaking dabs of white lead and translucent glaze.",
+      "The stark, dark background—originally an intense olive-green glaze—isolates the figure, lending her an ethereal, timeless presence. Her ambiguous expression, wavering between surprise, intimacy, and quiet contemplation, has earned this masterpiece the enduring title of the 'Mona Lisa of the North'.",
+      "Kept in the Mauritshuis in The Hague, this intimate canvas is one of only thirty-four confirmed paintings by Vermeer. Our museum canvas reproduction captures Vermeer's delicate light and luminous nuances, preserving the haunting beauty of this classic Dutch masterwork."
+    ],
+    "discountPercent": 35,
+    "customerFeedbacks": [
+      {
+        "customer_name": "Zubair Al-Mamun",
+        "customer_img": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=160&h=160&fit=crop&crop=face",
+        "feedback": "The 90-day money-back guarantee gave me peace of mind, but honestly this painting is never leaving my home. Outstanding canvas reproduction of the original artwork.",
+        "rating": 5,
+        "customer_location": "Zindabazar, Sylhet",
+        "customer_product": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80"
+      },
+      {
+        "customer_name": "Tahmina Chowdhury",
+        "customer_img": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=160&h=160&fit=crop&crop=face",
+        "feedback": "Ordered as an anniversary gift. My husband was speechless! The gold leaf frame finish and real linen canvas make it look like a crore-taka museum piece.",
+        "rating": 5,
+        "customer_location": "Mirpur DOHS, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1540518614846-7ede433c4ef0?w=800&q=80"
+      },
+      {
+        "customer_name": "Tanvir Rahman",
+        "customer_img": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=160&h=160&fit=crop&crop=face",
+        "feedback": "The canvas print resolution and rich textured finish on this piece are breathtaking! The Gold frame has a regal, museum-grade weight. It transformed our living room wall in Gulshan.",
+        "rating": 5,
+        "customer_location": "Gulshan-2, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1582561121162-71d27194305a?w=800&q=80"
+      }
+    ],
+    "descriptionImage": [
+      "https://images.unsplash.com/photo-1576769267415-9642010aa962?w=900&q=80",
+      "https://images.unsplash.com/photo-1579783902021-396a5b4816be?w=900&q=80",
+      "https://images.unsplash.com/photo-1582201942988-13e60e4556ee?w=900&q=80"
+    ]
+  },
+  {
+    "id": "10005",
+    "slug": "mona-lisa",
+    "title": "Mona Lisa",
+    "artistSlug": "leonardo-da-vinci",
+    "artistName": "Leonardo da Vinci",
+    "movement": "HIGH RENAISSANCE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1024px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+    "year": "1503–1506",
+    "medium": "Oil on poplar panel",
+    "location": "Musée du Louvre, Paris",
+    "dimensions": "77 cm × 53 cm",
+    "priceFrom": 39480,
+    "priceWas": 71760,
+    "currency": "BDT",
+    "hasAudio": true,
+    "audioIcon": "headphones",
+    "bestseller": true,
+    "top100Rank": 5,
+    "featured": true,
+    "frames": [
+      {
+        "id": "gold",
+        "name": "Gold",
+        "swatch": "#d4af37"
+      },
+      {
+        "id": "silver-white",
+        "name": "Silver white",
+        "swatch": "#f0efe9"
+      },
+      {
+        "id": "silver",
+        "name": "Silver",
+        "swatch": "#a8a9ad"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "1-hat",
+        "feetLabel": "1 Feet",
+        "hatLabel": "1 Feet",
+        "dimensions": "12 × 18″",
+        "widthInch": 12,
+        "heightInch": 18,
+        "label": "1 Feet (12 × 18″)",
+        "price": 39480
+      },
+      {
+        "id": "2-hat",
+        "feetLabel": "2 Feet",
+        "hatLabel": "2 Feet",
+        "dimensions": "24 × 36″",
+        "widthInch": 24,
+        "heightInch": 36,
+        "label": "2 Feet (24 × 36″)",
+        "price": 67120
+      },
+      {
+        "id": "3-hat",
+        "feetLabel": "3 Feet",
+        "hatLabel": "3 Feet",
+        "dimensions": "36 × 54″",
+        "widthInch": 36,
+        "heightInch": 54,
+        "label": "3 Feet (36 × 54″)",
+        "price": 98700
+      }
+    ],
+    "description": "The world's most renowned portrait, celebrated for Leonardo's subtle sfumato technique and Lisa Gherardini's timeless, unreadable expression.",
+    "orientation": "vertical",
+    "freeDelivery": false,
+    "deliveryFee": 70,
+    "descriptions": [
+      "Commenced in Florence around 1503 by Leonardo da Vinci, the portrait of Lisa Gherardini—wife of Florentine silk merchant Francesco del Giocondo—has transcended art history to become the world's most recognizable cultural icon. Da Vinci worked on the panel for years, carrying it with him to France and continuously refining its delicate layers until his death in 1519.",
+      "The painting is celebrated for its revolutionary sfumato technique—the smoke-like blending of tones without sharp contours or perceptible brushstrokes. This seamless transition is especially profound around the corners of Mona Lisa's eyes and mouth, creating the legendary, ever-shifting smile that seems to respond to the viewer's gaze.",
+      "Behind her sits an imaginary, primordial landscape of winding rivers, jagged peaks, and distant bridges, connecting human anatomy with the macrocosm of nature. Leonardo's deep mastery of human psychology and optics turned what began as a private portrait into a profound inquiry into the living soul.",
+      "Safeguarded behind bulletproof glass in the Salle des États at the Louvre Museum in Paris, 'Mona Lisa' attracts millions each year. Our museum canvas reproduction faithfully captures Leonardo's intricate sfumato glazes and delicate transitions on heavyweight canvas, bringing High Renaissance majesty to your wall."
+    ],
+    "discountPercent": 45,
+    "customerFeedbacks": [
+      {
+        "customer_name": "Tanvir Rahman",
+        "customer_img": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=160&h=160&fit=crop&crop=face",
+        "feedback": "The canvas print resolution and rich textured finish on this piece are breathtaking! The Gold frame has a regal, museum-grade weight. It transformed our living room wall in Gulshan.",
+        "rating": 5,
+        "customer_location": "Gulshan-2, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&q=80"
+      },
+      {
+        "customer_name": "Nusrat Jahan",
+        "customer_img": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=160&h=160&fit=crop&crop=face",
+        "feedback": "Received high-res preview photos before shipping, which gave me total confidence. Arrived in a reinforced wooden crate without a single scratch. The canvas quality and wood framing are truly museum-grade!",
+        "rating": 5,
+        "customer_location": "Dhanmondi, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=80"
+      },
+      {
+        "customer_name": "Dr. Shafiqul Islam",
+        "customer_img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=160&h=160&fit=crop&crop=face",
+        "feedback": "I ordered the 3 Feet canvas. The vibrant archival colors and canvas texture match museum originals. Delivery was prompt and the hanging hardware made installation effortless.",
+        "rating": 5,
+        "customer_location": "Banani DOHS, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1616137466211-f939a420be84?w=800&q=80"
+      }
+    ],
+    "descriptionImage": [
+      "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=900&q=80",
+      "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=900&q=80",
+      "https://images.unsplash.com/photo-1582561121162-71d27194305a?w=900&q=80"
+    ]
+  },
+  {
+    "id": "10006",
+    "slug": "the-great-wave",
+    "title": "The Great Wave off Kanagawa",
+    "artistSlug": "katsushika-hokusai",
+    "artistName": "Katsushika Hokusai",
+    "movement": "JAPANESE UKIYO-E",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/1280px-Tsunami_by_hokusai_19th_century.jpg",
+    "year": "c. 1831",
+    "medium": "Color woodblock print / Hand oil on canvas",
+    "location": "Metropolitan Museum of Art, New York",
+    "dimensions": "25.7 cm × 37.8 cm",
+    "priceFrom": 33480,
+    "priceWas": 66960,
+    "currency": "BDT",
+    "hasAudio": true,
+    "audioIcon": "book",
+    "bestseller": true,
+    "top100Rank": 6,
+    "featured": true,
+    "frames": [
+      {
+        "id": "gold",
+        "name": "Gold",
+        "swatch": "#d4af37"
+      },
+      {
+        "id": "silver-white",
+        "name": "Silver white",
+        "swatch": "#f0efe9"
+      },
+      {
+        "id": "silver",
+        "name": "Silver",
+        "swatch": "#a8a9ad"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "1-hat",
+        "feetLabel": "1 Feet",
+        "hatLabel": "1 Feet",
+        "dimensions": "18 × 12″",
+        "widthInch": 18,
+        "heightInch": 12,
+        "label": "1 Feet (18 × 12″)",
+        "price": 33480
+      },
+      {
+        "id": "2-hat",
+        "feetLabel": "2 Feet",
+        "hatLabel": "2 Feet",
+        "dimensions": "36 × 24″",
+        "widthInch": 36,
+        "heightInch": 24,
+        "label": "2 Feet (36 × 24″)",
+        "price": 56920
+      },
+      {
+        "id": "3-hat",
+        "feetLabel": "3 Feet",
+        "hatLabel": "3 Feet",
+        "dimensions": "54 × 36″",
+        "widthInch": 54,
+        "heightInch": 36,
+        "label": "3 Feet (54 × 36″)",
+        "price": 83700
+      }
+    ],
+    "description": "Hokusai's iconic wave towering with claw-like crests before the serene peak of Mount Fuji in the background.",
+    "orientation": "horizontal",
+    "freeDelivery": true,
+    "deliveryFee": 0,
+    "descriptions": [
+      "Published around 1831 as the first print in Katsushika Hokusai's celebrated series 'Thirty-Six Views of Mount Fuji', 'The Great Wave off Kanagawa' is arguably the most famous Japanese artwork in the world. Created during Japan's Edo period using traditional ukiyo-e woodblock printing, it captures nature's sublime, untamable force.",
+      "The composition is dramatic and tense: a colossal wave curves like a clawed beast over desperate fishermen in narrow wooden boats, while snow-capped Mount Fuji stands serene and eternal in the distant background. The painting brilliantly juxtaposes fleeting human vulnerability with the timeless permanence of the sacred mountain.",
+      "Hokusai innovated by introducing newly imported synthetic Prussian blue pigment, giving the surging ocean deep, previously unseen tonal richness. The wave's spray mimics breaking claws and falling snowflakes, demonstrating Hokusai's extraordinary ability to render rapid kinetic motion with crisp graphic poise.",
+      "Held in world-class institutions including the Tokyo National Museum, the British Museum, and the Metropolitan Museum of Art, 'The Great Wave' influenced Western Impressionists like Monet and Van Gogh. Our museum canvas reproduction translates this iconic Japanese woodblock masterpiece onto textured canvas with dynamic contrast and vibrant maritime hues."
+    ],
+    "discountPercent": 50,
+    "customerFeedbacks": [
+      {
+        "customer_name": "Dr. Shafiqul Islam",
+        "customer_img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=160&h=160&fit=crop&crop=face",
+        "feedback": "I ordered the 3 Feet canvas. The vibrant archival colors and canvas texture match museum originals. Delivery was prompt and the hanging hardware made installation effortless.",
+        "rating": 5,
+        "customer_location": "Banani DOHS, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80"
+      },
+      {
+        "customer_name": "Farzana Haque",
+        "customer_img": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=160&h=160&fit=crop&crop=face",
+        "feedback": "The Silver-White frame perfectly matches our modern interior. You can clearly feel the heavyweight canvas texture and handcrafted solid wood framing. Exceptional craftsmanship!",
+        "rating": 5,
+        "customer_location": "Uttara Sector 4, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=800&q=80"
+      },
+      {
+        "customer_name": "Rezwanul Karim",
+        "customer_img": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=160&h=160&fit=crop&crop=face",
+        "feedback": "Safe delivery to Chittagong within 4 days. The wooden framing craftsmanship is top notch, and the colors look even more vibrant in person than on screen.",
+        "rating": 5,
+        "customer_location": "Panchlaish, Chittagong",
+        "customer_product": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80"
+      }
+    ],
+    "descriptionImage": [
+      "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?w=900&q=80",
+      "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=900&q=80",
+      "https://images.unsplash.com/photo-1579783901586-d88db74b4fe4?w=900&q=80"
+    ]
+  },
+  {
+    "id": "10007",
+    "slug": "sunflowers",
+    "title": "Sunflowers (Fifteen Sunflowers)",
+    "artistSlug": "vincent-van-gogh",
+    "artistName": "Vincent van Gogh",
+    "movement": "POST-IMPRESSIONISM",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Vincent_Willem_van_Gogh_127.jpg/1024px-Vincent_Willem_van_Gogh_127.jpg",
+    "year": "August 1888",
+    "medium": "Oil on canvas",
+    "location": "National Gallery, London",
+    "dimensions": "92.1 cm × 73 cm",
+    "priceFrom": 35880,
+    "priceWas": 51240,
+    "currency": "BDT",
+    "hasAudio": true,
+    "audioIcon": "play",
+    "bestseller": true,
+    "top100Rank": 7,
+    "featured": true,
+    "frames": [
+      {
+        "id": "gold",
+        "name": "Gold",
+        "swatch": "#d4af37"
+      },
+      {
+        "id": "silver-white",
+        "name": "Silver white",
+        "swatch": "#f0efe9"
+      },
+      {
+        "id": "silver",
+        "name": "Silver",
+        "swatch": "#a8a9ad"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "1-hat",
+        "feetLabel": "1 Feet",
+        "hatLabel": "1 Feet",
+        "dimensions": "12 × 18″",
+        "widthInch": 12,
+        "heightInch": 18,
+        "label": "1 Feet (12 × 18″)",
+        "price": 35880
+      },
+      {
+        "id": "2-hat",
+        "feetLabel": "2 Feet",
+        "hatLabel": "2 Feet",
+        "dimensions": "24 × 36″",
+        "widthInch": 24,
+        "heightInch": 36,
+        "label": "2 Feet (24 × 36″)",
+        "price": 61000
+      },
+      {
+        "id": "3-hat",
+        "feetLabel": "3 Feet",
+        "hatLabel": "3 Feet",
+        "dimensions": "36 × 54″",
+        "widthInch": 36,
+        "heightInch": 54,
+        "label": "3 Feet (36 × 54″)",
+        "price": 89700
+      }
+    ],
+    "description": "Created to welcome Paul Gauguin to the Yellow House in Arles, demonstrating Van Gogh's expressive impasto in luminous yellows and ochres.",
+    "orientation": "vertical",
+    "freeDelivery": true,
+    "deliveryFee": 0,
+    "descriptions": [
+      "In August 1888, Vincent van Gogh painted his iconic series of sunflowers in Arles, eagerly preparing to welcome his mentor and fellow painter Paul Gauguin to the Yellow House. Van Gogh viewed sunflowers as symbols of gratitude, warmth, and brotherhood, capturing them in various stages of life from tight buds to full bloom and seed-heavy maturity.",
+      "The canvas is a bold symphony of yellows: chrome yellow, ochre, gold, and citron set against a vibrant turquoise background. Van Gogh applied thick, sculpted impasto that gave the flower petals and thorny seed heads a tactile, sculptural dimensionality that jumps off the canvas.",
+      "Rather than portraying a conventional, pristine floral arrangement, Van Gogh celebrated the authentic cycle of nature. The drooping, wilting sunflowers are treated with the same reverence and luminous energy as the freshest blooms, reflecting Vincent's compassionate view of all living things.",
+      "Housed in the National Gallery in London, 'Fifteen Sunflowers' remains a testament to Van Gogh's sunny optimism during his fruitful Arles period. Our museum-grade canvas reproduction captures Van Gogh's energetic brushwork and vibrant color harmony, infusing any interior with joyful warmth and creative spirit."
+    ],
+    "discountPercent": 30,
+    "customerFeedbacks": [
+      {
+        "customer_name": "Rezwanul Karim",
+        "customer_img": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=160&h=160&fit=crop&crop=face",
+        "feedback": "Safe delivery to Chittagong within 4 days. The wooden framing craftsmanship is top notch, and the colors look even more vibrant in person than on screen.",
+        "rating": 5,
+        "customer_location": "Panchlaish, Chittagong",
+        "customer_product": "https://images.unsplash.com/photo-1540518614846-7ede433c4ef0?w=800&q=80"
+      },
+      {
+        "customer_name": "Sabiha Yasmin",
+        "customer_img": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=160&h=160&fit=crop&crop=face",
+        "feedback": "Every guest who visited our home thought we purchased an original gallery painting from Europe. Customer support was very helpful during frame selection.",
+        "rating": 5,
+        "customer_location": "Baridhara, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1582561121162-71d27194305a?w=800&q=80"
+      },
+      {
+        "customer_name": "Zubair Al-Mamun",
+        "customer_img": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=160&h=160&fit=crop&crop=face",
+        "feedback": "The 90-day money-back guarantee gave me peace of mind, but honestly this painting is never leaving my home. Outstanding canvas reproduction of the original artwork.",
+        "rating": 5,
+        "customer_location": "Zindabazar, Sylhet",
+        "customer_product": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&q=80"
+      }
+    ],
+    "descriptionImage": [
+      "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=900&q=80",
+      "https://images.unsplash.com/photo-1579783901467-31b604eac7a8?w=900&q=80",
+      "https://images.unsplash.com/photo-1579783902269-8a5ff6b1897c?w=900&q=80"
+    ]
+  },
+  {
+    "id": "10008",
+    "slug": "wanderer-above-the-sea-of-fog",
+    "title": "Wanderer above the Sea of Fog",
+    "artistSlug": "caspar-david-friedrich",
+    "artistName": "Caspar David Friedrich",
+    "movement": "ROMANTICISM",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg/1024px-Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg",
+    "year": "1818",
+    "medium": "Oil on canvas",
+    "location": "Hamburger Kunsthalle, Hamburg",
+    "dimensions": "94.8 cm × 74.8 cm",
+    "priceFrom": 35880,
+    "priceWas": 59760,
+    "currency": "BDT",
+    "hasAudio": false,
+    "bestseller": true,
+    "top100Rank": 8,
+    "featured": false,
+    "frames": [
+      {
+        "id": "gold",
+        "name": "Gold",
+        "swatch": "#d4af37"
+      },
+      {
+        "id": "silver-white",
+        "name": "Silver white",
+        "swatch": "#f0efe9"
+      },
+      {
+        "id": "silver",
+        "name": "Silver",
+        "swatch": "#a8a9ad"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "1-hat",
+        "feetLabel": "1 Feet",
+        "hatLabel": "1 Feet",
+        "dimensions": "12 × 18″",
+        "widthInch": 12,
+        "heightInch": 18,
+        "label": "1 Feet (12 × 18″)",
+        "price": 35880
+      },
+      {
+        "id": "2-hat",
+        "feetLabel": "2 Feet",
+        "hatLabel": "2 Feet",
+        "dimensions": "24 × 36″",
+        "widthInch": 24,
+        "heightInch": 36,
+        "label": "2 Feet (24 × 36″)",
+        "price": 61000
+      },
+      {
+        "id": "3-hat",
+        "feetLabel": "3 Feet",
+        "hatLabel": "3 Feet",
+        "dimensions": "36 × 54″",
+        "widthInch": 36,
+        "heightInch": 54,
+        "label": "3 Feet (36 × 54″)",
+        "price": 89700
+      }
+    ],
+    "description": "The epitome of German Romanticism, showing a contemplative figure in a frock coat atop a crag surveying a vast misty mountain landscape.",
+    "orientation": "vertical",
+    "freeDelivery": true,
+    "deliveryFee": 0,
+    "descriptions": [
+      "Created in 1818 by German Romantic master Caspar David Friedrich, 'Wanderer above the Sea of Fog' is the supreme emblem of Romanticism. The painting presents a solitary gentleman standing on a rugged rocky crag, his back turned to the observer as he gazes across a mountainous landscape veiled in thick, swirling alpine mist.",
+      "Friedrich utilized the classical Rückenfigur motif (a figure seen from behind) to draw the viewer directly into the subject's private consciousness. Looking outward through the wanderer's eyes, we contemplate themes of existential solitude, the overwhelming grandeur of nature, and humanity's yearning for spiritual transcendence.",
+      "The atmospheric perspective is masterful: crisp, dark basalt rocks in the foreground fade into airy pastel blues, warm rose mists, and faint distant summits. The composition forms a pyramid centered on the wanderer's heart, elevating human reflection above earthly turmoil.",
+      "Preserved in the Hamburger Kunsthalle in Germany, this painting continues to inspire writers, philosophers, and travelers worldwide. Our custom canvas artwork captures Friedrich's luminous alpine atmosphere and introspective clarity, making it an extraordinary statement piece for libraries, studies, and modern living spaces."
+    ],
+    "discountPercent": 40,
+    "customerFeedbacks": [
+      {
+        "customer_name": "Zubair Al-Mamun",
+        "customer_img": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=160&h=160&fit=crop&crop=face",
+        "feedback": "The 90-day money-back guarantee gave me peace of mind, but honestly this painting is never leaving my home. Outstanding canvas reproduction of the original artwork.",
+        "rating": 5,
+        "customer_location": "Zindabazar, Sylhet",
+        "customer_product": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=80"
+      },
+      {
+        "customer_name": "Tahmina Chowdhury",
+        "customer_img": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=160&h=160&fit=crop&crop=face",
+        "feedback": "Ordered as an anniversary gift. My husband was speechless! The gold leaf frame finish and real linen canvas make it look like a crore-taka museum piece.",
+        "rating": 5,
+        "customer_location": "Mirpur DOHS, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1616137466211-f939a420be84?w=800&q=80"
+      },
+      {
+        "customer_name": "Tanvir Rahman",
+        "customer_img": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=160&h=160&fit=crop&crop=face",
+        "feedback": "The canvas print resolution and rich textured finish on this piece are breathtaking! The Gold frame has a regal, museum-grade weight. It transformed our living room wall in Gulshan.",
+        "rating": 5,
+        "customer_location": "Gulshan-2, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80"
+      }
+    ],
+    "descriptionImage": [
+      "https://images.unsplash.com/photo-1576769267415-9642010aa962?w=900&q=80",
+      "https://images.unsplash.com/photo-1579783902021-396a5b4816be?w=900&q=80",
+      "https://images.unsplash.com/photo-1582201942988-13e60e4556ee?w=900&q=80"
+    ]
+  },
+  {
+    "id": "10009",
+    "slug": "cafe-terrace-at-night",
+    "title": "Café Terrace at Night",
+    "artistSlug": "vincent-van-gogh",
+    "artistName": "Vincent van Gogh",
+    "movement": "POST-IMPRESSIONISM",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Vincent_Willem_van_Gogh_-_Cafe_Terrace_at_Night_%28Yorck%29.jpg/1024px-Vincent_Willem_van_Gogh_-_Cafe_Terrace_at_Night_%28Yorck%29.jpg",
+    "year": "September 1888",
+    "medium": "Oil on canvas",
+    "location": "Kröller-Müller Museum, Otterlo",
+    "dimensions": "80.7 cm × 65.3 cm",
+    "priceFrom": 35880,
+    "priceWas": 71760,
+    "currency": "BDT",
+    "hasAudio": true,
+    "audioIcon": "play",
+    "bestseller": true,
+    "top100Rank": 9,
+    "featured": true,
+    "frames": [
+      {
+        "id": "gold",
+        "name": "Gold",
+        "swatch": "#d4af37"
+      },
+      {
+        "id": "silver-white",
+        "name": "Silver white",
+        "swatch": "#f0efe9"
+      },
+      {
+        "id": "silver",
+        "name": "Silver",
+        "swatch": "#a8a9ad"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "1-hat",
+        "feetLabel": "1 Feet",
+        "hatLabel": "1 Feet",
+        "dimensions": "12 × 18″",
+        "widthInch": 12,
+        "heightInch": 18,
+        "label": "1 Feet (12 × 18″)",
+        "price": 35880
+      },
+      {
+        "id": "2-hat",
+        "feetLabel": "2 Feet",
+        "hatLabel": "2 Feet",
+        "dimensions": "24 × 36″",
+        "widthInch": 24,
+        "heightInch": 36,
+        "label": "2 Feet (24 × 36″)",
+        "price": 61000
+      },
+      {
+        "id": "3-hat",
+        "feetLabel": "3 Feet",
+        "hatLabel": "3 Feet",
+        "dimensions": "36 × 54″",
+        "widthInch": 36,
+        "heightInch": 54,
+        "label": "3 Feet (36 × 54″)",
+        "price": 89700
+      }
+    ],
+    "description": "Van Gogh's first painting with a nocturnal star-filled sky without using black, juxtaposing warm glowing gas lamps with deep violet and blue streets.",
+    "orientation": "vertical",
+    "freeDelivery": false,
+    "deliveryFee": 70,
+    "descriptions": [
+      "In mid-September 1888, Vincent van Gogh set up his easel outdoors on the Place du Forum in Arles after dark, painting 'Café Terrace at Night'. It was a historic moment in art history: the very first time Vincent painted a nocturnal scene with glowing stars without using a single brushstroke of black paint.",
+      "The composition is alive with glowing contrast: the café's wooden terrace is drenched in brilliant sulfur yellow and lantern gold, radiating cozy warmth against the deep violet, sapphire blue, and star-studded midnight sky. Little tables, cobblestones, and walking patrons catch reflections of the golden lamplight.",
+      "In letters to his sister Wil, Van Gogh remarked how delighted he was to capture the sheer chromatic richness of night: 'The night is more richly colored than the day... It amuses me enormously to paint the night right on the spot.' The illuminated terrace acts as a beacon of companionship in the quiet European night.",
+      "Today exhibited at the Kröller-Müller Museum in Otterlo, Netherlands, this beloved canvas exudes warmth, romance, and French bohemian spirit. Our museum canvas art faithfully renders every detail of the cobblestone pavement and twinkling constellations, bringing the historic charm of Arles into your dining or lounge area."
+    ],
+    "discountPercent": 50,
+    "customerFeedbacks": [
+      {
+        "customer_name": "Tanvir Rahman",
+        "customer_img": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=160&h=160&fit=crop&crop=face",
+        "feedback": "The canvas print resolution and rich textured finish on this piece are breathtaking! The Gold frame has a regal, museum-grade weight. It transformed our living room wall in Gulshan.",
+        "rating": 5,
+        "customer_location": "Gulshan-2, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=800&q=80"
+      },
+      {
+        "customer_name": "Nusrat Jahan",
+        "customer_img": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=160&h=160&fit=crop&crop=face",
+        "feedback": "Received high-res preview photos before shipping, which gave me total confidence. Arrived in a reinforced wooden crate without a single scratch. The canvas quality and wood framing are truly museum-grade!",
+        "rating": 5,
+        "customer_location": "Dhanmondi, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80"
+      },
+      {
+        "customer_name": "Dr. Shafiqul Islam",
+        "customer_img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=160&h=160&fit=crop&crop=face",
+        "feedback": "I ordered the 3 Feet canvas. The vibrant archival colors and canvas texture match museum originals. Delivery was prompt and the hanging hardware made installation effortless.",
+        "rating": 5,
+        "customer_location": "Banani DOHS, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1540518614846-7ede433c4ef0?w=800&q=80"
+      }
+    ],
+    "descriptionImage": [
+      "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=900&q=80",
+      "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=900&q=80",
+      "https://images.unsplash.com/photo-1582561121162-71d27194305a?w=900&q=80"
+    ]
+  },
+  {
+    "id": "10010",
+    "slug": "woman-with-a-parasol",
+    "title": "Woman with a Parasol - Madame Monet and Her Son",
+    "artistSlug": "claude-monet",
+    "artistName": "Claude Monet",
+    "movement": "IMPRESSIONISM",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Claude_Monet_-_Woman_with_a_Parasol_-_Madame_Monet_and_Her_Son_-_Google_Art_Project.jpg/1024px-Claude_Monet_-_Woman_with_a_Parasol_-_Madame_Monet_and_Her_Son_-_Google_Art_Project.jpg",
+    "year": "1875",
+    "medium": "Oil on canvas",
+    "location": "National Gallery of Art, Washington, D.C.",
+    "dimensions": "100 cm × 81 cm",
+    "priceFrom": 34680,
+    "priceWas": 53400,
+    "currency": "BDT",
+    "hasAudio": false,
+    "bestseller": true,
+    "top100Rank": 10,
+    "featured": false,
+    "frames": [
+      {
+        "id": "gold",
+        "name": "Gold",
+        "swatch": "#d4af37"
+      },
+      {
+        "id": "silver-white",
+        "name": "Silver white",
+        "swatch": "#f0efe9"
+      },
+      {
+        "id": "silver",
+        "name": "Silver",
+        "swatch": "#a8a9ad"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "1-hat",
+        "feetLabel": "1 Feet",
+        "hatLabel": "1 Feet",
+        "dimensions": "12 × 18″",
+        "widthInch": 12,
+        "heightInch": 18,
+        "label": "1 Feet (12 × 18″)",
+        "price": 34680
+      },
+      {
+        "id": "2-hat",
+        "feetLabel": "2 Feet",
+        "hatLabel": "2 Feet",
+        "dimensions": "24 × 36″",
+        "widthInch": 24,
+        "heightInch": 36,
+        "label": "2 Feet (24 × 36″)",
+        "price": 58960
+      },
+      {
+        "id": "3-hat",
+        "feetLabel": "3 Feet",
+        "hatLabel": "3 Feet",
+        "dimensions": "36 × 54″",
+        "widthInch": 36,
+        "heightInch": 54,
+        "label": "3 Feet (36 × 54″)",
+        "price": 86700
+      }
+    ],
+    "description": "A breezy summer day on the hills of Argenteuil, painted spontaneously en plein air with fluttering veils and wind-blown wild grass.",
+    "orientation": "vertical",
+    "freeDelivery": true,
+    "deliveryFee": 0,
+    "descriptions": [
+      "Painted in 1875 on a breezy summer hill in Argenteuil, 'Woman with a Parasol - Madame Monet and Her Son' is one of Claude Monet's most spontaneous and celebrated plein-air achievements. It portrays his wife Camille Monet holding a parasol while their seven-year-old son Jean stands in the meadow grass behind her.",
+      "Monet positioned his easel at a low vantage point looking upward toward the crest of the hill, silhouette-framing Camille against a windblown sky filled with fluffy white cumulus clouds. Her green parasol casts a luminous, colored shadow across her face, while sunlight glints off her flowing white dress.",
+      "Using fast, feathery brushstrokes of sky blue, warm sunlight yellow, and rich meadow greens, Monet captured the fleeting sensation of a brisk summer breeze rustling through fabrics and wildflowers. It feels not like a staged portrait, but a preserved instant of living sunlight and family joy.",
+      "Now displayed in the National Gallery of Art in Washington, D.C., this impressionist icon represents the essence of outdoor French painting. Our artists reproduce the breezy, fluid brushwork on genuine linen canvas, filling your room with open-air freshness and poetic daylight."
+    ],
+    "discountPercent": 35,
+    "customerFeedbacks": [
+      {
+        "customer_name": "Dr. Shafiqul Islam",
+        "customer_img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=160&h=160&fit=crop&crop=face",
+        "feedback": "I ordered the 3 Feet canvas. The vibrant archival colors and canvas texture match museum originals. Delivery was prompt and the hanging hardware made installation effortless.",
+        "rating": 5,
+        "customer_location": "Banani DOHS, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1582561121162-71d27194305a?w=800&q=80"
+      },
+      {
+        "customer_name": "Farzana Haque",
+        "customer_img": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=160&h=160&fit=crop&crop=face",
+        "feedback": "The Silver-White frame perfectly matches our modern interior. You can clearly feel the heavyweight canvas texture and handcrafted solid wood framing. Exceptional craftsmanship!",
+        "rating": 5,
+        "customer_location": "Uttara Sector 4, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&q=80"
+      },
+      {
+        "customer_name": "Rezwanul Karim",
+        "customer_img": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=160&h=160&fit=crop&crop=face",
+        "feedback": "Safe delivery to Chittagong within 4 days. The wooden framing craftsmanship is top notch, and the colors look even more vibrant in person than on screen.",
+        "rating": 5,
+        "customer_location": "Panchlaish, Chittagong",
+        "customer_product": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=80"
+      }
+    ],
+    "descriptionImage": [
+      "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?w=900&q=80",
+      "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=900&q=80",
+      "https://images.unsplash.com/photo-1579783901586-d88db74b4fe4?w=900&q=80"
+    ]
+  },
+  {
+    "id": "10011",
+    "slug": "sunday-on-la-grande-jatte",
+    "title": "A Sunday on La Grande Jatte",
+    "artistSlug": "georges-seurat",
+    "artistName": "Georges Seurat",
+    "movement": "POINTILLISM",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/A_Sunday_on_La_Grande_Jatte_--_Georges_Seurat.jpg/1280px-A_Sunday_on_La_Grande_Jatte_--_Georges_Seurat.jpg",
+    "year": "1884–1886",
+    "medium": "Oil on canvas",
+    "location": "Art Institute of Chicago",
+    "dimensions": "207.5 cm × 308.1 cm",
+    "priceFrom": 44280,
+    "priceWas": 88560,
+    "currency": "BDT",
+    "hasAudio": true,
+    "audioIcon": "book",
+    "bestseller": true,
+    "top100Rank": 11,
+    "featured": false,
+    "frames": [
+      {
+        "id": "gold",
+        "name": "Gold",
+        "swatch": "#d4af37"
+      },
+      {
+        "id": "silver-white",
+        "name": "Silver white",
+        "swatch": "#f0efe9"
+      },
+      {
+        "id": "silver",
+        "name": "Silver",
+        "swatch": "#a8a9ad"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "1-hat",
+        "feetLabel": "1 Feet",
+        "hatLabel": "1 Feet",
+        "dimensions": "18 × 12″",
+        "widthInch": 18,
+        "heightInch": 12,
+        "label": "1 Feet (18 × 12″)",
+        "price": 44280
+      },
+      {
+        "id": "2-hat",
+        "feetLabel": "2 Feet",
+        "hatLabel": "2 Feet",
+        "dimensions": "36 × 24″",
+        "widthInch": 36,
+        "heightInch": 24,
+        "label": "2 Feet (36 × 24″)",
+        "price": 75280
+      },
+      {
+        "id": "3-hat",
+        "feetLabel": "3 Feet",
+        "hatLabel": "3 Feet",
+        "dimensions": "54 × 36″",
+        "widthInch": 54,
+        "heightInch": 36,
+        "label": "3 Feet (54 × 36″)",
+        "price": 110700
+      }
+    ],
+    "description": "Seurat's monumental masterpiece composed entirely of millions of tiny contrasting colour dots that optically blend in the viewer's eye.",
+    "orientation": "horizontal",
+    "freeDelivery": true,
+    "deliveryFee": 0,
+    "descriptions": [
+      "Between 1884 and 1886, Georges Seurat spent two years meticulously developing 'A Sunday on La Grande Jatte', introducing the world to Pointillism (or Chromoluminarism). Rather than mixing colors on his palette, Seurat applied millions of tiny, deliberate dots of pure color that blend optically in the viewer's eye.",
+      "The scene captures Parisian middle-class society relaxing on an island in the River Seine on a warm Sunday afternoon: gentlemen in top hats, ladies with parasols, boaters, playing children, and pet monkeys resting in the grass beneath dappled shade.",
+      "Seurat's composition is strictly geometric, structured with classical balance, frieze-like stillness, and golden ratio proportions. It combines modern urban fashion with the timeless monumental dignity of ancient Greek friezes and Egyptian sculpture.",
+      "Preserved as a crown jewel of the Art Institute of Chicago, this monumental masterpiece revolutionized European modern art. Our skilled studio painters apply meticulous multi-layered technique on premium canvas, recreating the shimmering vibrational harmony that defines Seurat's legacy."
+    ],
+    "discountPercent": 50,
+    "customerFeedbacks": [
+      {
+        "customer_name": "Rezwanul Karim",
+        "customer_img": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=160&h=160&fit=crop&crop=face",
+        "feedback": "Safe delivery to Chittagong within 4 days. The wooden framing craftsmanship is top notch, and the colors look even more vibrant in person than on screen.",
+        "rating": 5,
+        "customer_location": "Panchlaish, Chittagong",
+        "customer_product": "https://images.unsplash.com/photo-1616137466211-f939a420be84?w=800&q=80"
+      },
+      {
+        "customer_name": "Sabiha Yasmin",
+        "customer_img": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=160&h=160&fit=crop&crop=face",
+        "feedback": "Every guest who visited our home thought we purchased an original gallery painting from Europe. Customer support was very helpful during frame selection.",
+        "rating": 5,
+        "customer_location": "Baridhara, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80"
+      },
+      {
+        "customer_name": "Zubair Al-Mamun",
+        "customer_img": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=160&h=160&fit=crop&crop=face",
+        "feedback": "The 90-day money-back guarantee gave me peace of mind, but honestly this painting is never leaving my home. Outstanding canvas reproduction of the original artwork.",
+        "rating": 5,
+        "customer_location": "Zindabazar, Sylhet",
+        "customer_product": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=800&q=80"
+      }
+    ],
+    "descriptionImage": [
+      "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=900&q=80",
+      "https://images.unsplash.com/photo-1579783901467-31b604eac7a8?w=900&q=80",
+      "https://images.unsplash.com/photo-1579783902269-8a5ff6b1897c?w=900&q=80"
+    ]
+  },
+  {
+    "id": "10012",
+    "slug": "almond-blossoms",
+    "title": "Almond Blossoms",
+    "artistSlug": "vincent-van-gogh",
+    "artistName": "Vincent van Gogh",
+    "movement": "POST-IMPRESSIONISM",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Vincent_van_Gogh_-_Almond_blossom_-_Google_Art_Project.jpg/1280px-Vincent_van_Gogh_-_Almond_blossom_-_Google_Art_Project.jpg",
+    "year": "1890",
+    "medium": "Oil on canvas",
+    "location": "Van Gogh Museum, Amsterdam",
+    "dimensions": "73.5 cm × 92 cm",
+    "priceFrom": 35880,
+    "priceWas": 59760,
+    "currency": "BDT",
+    "hasAudio": true,
+    "audioIcon": "play",
+    "bestseller": true,
+    "top100Rank": 12,
+    "featured": true,
+    "frames": [
+      {
+        "id": "gold",
+        "name": "Gold",
+        "swatch": "#d4af37"
+      },
+      {
+        "id": "silver-white",
+        "name": "Silver white",
+        "swatch": "#f0efe9"
+      },
+      {
+        "id": "silver",
+        "name": "Silver",
+        "swatch": "#a8a9ad"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "1-hat",
+        "feetLabel": "1 Feet",
+        "hatLabel": "1 Feet",
+        "dimensions": "18 × 12″",
+        "widthInch": 18,
+        "heightInch": 12,
+        "label": "1 Feet (18 × 12″)",
+        "price": 35880
+      },
+      {
+        "id": "2-hat",
+        "feetLabel": "2 Feet",
+        "hatLabel": "2 Feet",
+        "dimensions": "36 × 24″",
+        "widthInch": 36,
+        "heightInch": 24,
+        "label": "2 Feet (36 × 24″)",
+        "price": 61000
+      },
+      {
+        "id": "3-hat",
+        "feetLabel": "3 Feet",
+        "hatLabel": "3 Feet",
+        "dimensions": "54 × 36″",
+        "widthInch": 54,
+        "heightInch": 36,
+        "label": "3 Feet (54 × 36″)",
+        "price": 89700
+      }
+    ],
+    "description": "Painted as a gift for his newborn nephew Vincent Willem, blooming branches against a radiant turquoise sky celebrating new life.",
+    "orientation": "horizontal",
+    "freeDelivery": true,
+    "deliveryFee": 0,
+    "descriptions": [
+      "In February 1890, while residing in the Saint-Paul asylum in Saint-Rémy, Vincent van Gogh received the joyful news that his brother Theo and sister-in-law Jo had welcomed a baby boy, named Vincent Willem after him. Overcome with tender love and hope, Vincent painted 'Almond Blossoms' as an heirloom gift to hang above the newborn's bed.",
+      "The canvas depicts blooming almond branches—heralds of spring and new life—set against a clear turquoise-blue sky. Influenced heavily by Japanese woodblock prints (ukiyo-e), Van Gogh depicted the branches from an intimate, cropped perspective with crisp outlines and subtle calligraphic elegance.",
+      "Unlike the turbulent, agitated brushwork of his darker periods, 'Almond Blossoms' radiates peaceful optimism, gentle grace, and renewal. The delicate white petals gleam with touches of pink and ivory, symbolizing the fragile yet persistent beauty of life emerging after a long winter.",
+      "Treasured in the Van Gogh Museum in Amsterdam, this painting remained in the Van Gogh family's private collection for decades as their most cherished work. Our museum-grade canvas artwork is crafted with rich fidelity and tranquil tones, offering an elegant statement of calm, hope, and new beginnings."
+    ],
+    "discountPercent": 40,
+    "customerFeedbacks": [
+      {
+        "customer_name": "Zubair Al-Mamun",
+        "customer_img": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=160&h=160&fit=crop&crop=face",
+        "feedback": "The 90-day money-back guarantee gave me peace of mind, but honestly this painting is never leaving my home. Outstanding canvas reproduction of the original artwork.",
+        "rating": 5,
+        "customer_location": "Zindabazar, Sylhet",
+        "customer_product": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80"
+      },
+      {
+        "customer_name": "Tahmina Chowdhury",
+        "customer_img": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=160&h=160&fit=crop&crop=face",
+        "feedback": "Ordered as an anniversary gift. My husband was speechless! The gold leaf frame finish and real linen canvas make it look like a crore-taka museum piece.",
+        "rating": 5,
+        "customer_location": "Mirpur DOHS, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1540518614846-7ede433c4ef0?w=800&q=80"
+      },
+      {
+        "customer_name": "Tanvir Rahman",
+        "customer_img": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=160&h=160&fit=crop&crop=face",
+        "feedback": "The canvas print resolution and rich textured finish on this piece are breathtaking! The Gold frame has a regal, museum-grade weight. It transformed our living room wall in Gulshan.",
+        "rating": 5,
+        "customer_location": "Gulshan-2, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1582561121162-71d27194305a?w=800&q=80"
+      }
+    ],
+    "descriptionImage": [
+      "https://images.unsplash.com/photo-1576769267415-9642010aa962?w=900&q=80",
+      "https://images.unsplash.com/photo-1579783902021-396a5b4816be?w=900&q=80",
+      "https://images.unsplash.com/photo-1582201942988-13e60e4556ee?w=900&q=80"
+    ]
+  },
+  {
+    "id": "10013",
+    "slug": "the-birth-of-venus",
+    "title": "The Birth of Venus",
+    "artistSlug": "sandro-botticelli",
+    "artistName": "Sandro Botticelli",
+    "movement": "EARLY RENAISSANCE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/1280px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
+    "year": "c. 1485",
+    "medium": "Tempera on canvas",
+    "location": "Uffizi Gallery, Florence",
+    "dimensions": "172.5 cm × 278.9 cm",
+    "priceFrom": 41880,
+    "priceWas": 76200,
+    "currency": "BDT",
+    "hasAudio": false,
+    "bestseller": false,
+    "top100Rank": 13,
+    "featured": false,
+    "frames": [
+      {
+        "id": "gold",
+        "name": "Gold",
+        "swatch": "#d4af37"
+      },
+      {
+        "id": "silver-white",
+        "name": "Silver white",
+        "swatch": "#f0efe9"
+      },
+      {
+        "id": "silver",
+        "name": "Silver",
+        "swatch": "#a8a9ad"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "1-hat",
+        "feetLabel": "1 Feet",
+        "hatLabel": "1 Feet",
+        "dimensions": "18 × 12″",
+        "widthInch": 18,
+        "heightInch": 12,
+        "label": "1 Feet (18 × 12″)",
+        "price": 41880
+      },
+      {
+        "id": "2-hat",
+        "feetLabel": "2 Feet",
+        "hatLabel": "2 Feet",
+        "dimensions": "36 × 24″",
+        "widthInch": 36,
+        "heightInch": 24,
+        "label": "2 Feet (36 × 24″)",
+        "price": 71200
+      },
+      {
+        "id": "3-hat",
+        "feetLabel": "3 Feet",
+        "hatLabel": "3 Feet",
+        "dimensions": "54 × 36″",
+        "widthInch": 54,
+        "heightInch": 36,
+        "label": "3 Feet (54 × 36″)",
+        "price": 104700
+      }
+    ],
+    "description": "Venus arriving on shore atop a giant scallop shell blown by the winds of Zephyr, greeted by the Spring goddess.",
+    "orientation": "horizontal",
+    "freeDelivery": true,
+    "deliveryFee": 0,
+    "descriptions": [
+      "Commissioned in Florence around 1485, likely by Lorenzo di Pierfrancesco de' Medici, Sandro Botticelli's 'The Birth of Venus' is one of the most sublime triumphs of the Italian Early Renaissance. Departing from strictly religious themes, Botticelli drew upon classical mythology to celebrate the neo-Platonic ideal of divine beauty and spiritual rebirth.",
+      "The composition depicts the goddess of love arriving ashore at Cyprus, standing gracefully upon a giant scallop shell pushed forward by the winged wind god Zephyr and gentle nymph Aura. On the shore, one of the Hours (Hora of Spring) waits to drape Venus in a flowered mantle embroidered with cornflowers and roses.",
+      "Venus's figure displays Botticelli's signature lyrical grace: an elongated neck, sinuous golden tresses blowing in the sea wind, and alabaster skin highlighted with translucent tempera glazes. Her pose is adapted from classical Roman Venus Pudica statues, exuding modesty and purity.",
+      "Housed in the prestigious Uffizi Gallery in Florence, Italy, 'The Birth of Venus' continues to enchant generations. Our museum-grade canvas recreation pays homage to Botticelli's sweeping lines, gentle pastel tones, and gilded accents, lending Renaissance elegance to your living space."
+    ],
+    "discountPercent": 45,
+    "customerFeedbacks": [
+      {
+        "customer_name": "Tanvir Rahman",
+        "customer_img": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=160&h=160&fit=crop&crop=face",
+        "feedback": "The canvas print resolution and rich textured finish on this piece are breathtaking! The Gold frame has a regal, museum-grade weight. It transformed our living room wall in Gulshan.",
+        "rating": 5,
+        "customer_location": "Gulshan-2, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&q=80"
+      },
+      {
+        "customer_name": "Nusrat Jahan",
+        "customer_img": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=160&h=160&fit=crop&crop=face",
+        "feedback": "Received high-res preview photos before shipping, which gave me total confidence. Arrived in a reinforced wooden crate without a single scratch. The canvas quality and wood framing are truly museum-grade!",
+        "rating": 5,
+        "customer_location": "Dhanmondi, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=80"
+      },
+      {
+        "customer_name": "Dr. Shafiqul Islam",
+        "customer_img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=160&h=160&fit=crop&crop=face",
+        "feedback": "I ordered the 3 Feet canvas. The vibrant archival colors and canvas texture match museum originals. Delivery was prompt and the hanging hardware made installation effortless.",
+        "rating": 5,
+        "customer_location": "Banani DOHS, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1616137466211-f939a420be84?w=800&q=80"
+      }
+    ],
+    "descriptionImage": [
+      "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=900&q=80",
+      "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=900&q=80",
+      "https://images.unsplash.com/photo-1582561121162-71d27194305a?w=900&q=80"
+    ]
+  },
+  {
+    "id": "10014",
+    "slug": "the-night-watch",
+    "title": "The Night Watch",
+    "artistSlug": "rembrandt",
+    "artistName": "Rembrandt van Rijn",
+    "movement": "BAROQUE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/The_Night_Watch_-_HD.jpg/1280px-The_Night_Watch_-_HD.jpg",
+    "year": "1642",
+    "medium": "Oil on canvas",
+    "location": "Rijksmuseum, Amsterdam",
+    "dimensions": "363 cm × 437 cm",
+    "priceFrom": 47880,
+    "priceWas": 95760,
+    "currency": "BDT",
+    "hasAudio": false,
+    "bestseller": false,
+    "top100Rank": 14,
+    "featured": false,
+    "frames": [
+      {
+        "id": "gold",
+        "name": "Gold",
+        "swatch": "#d4af37"
+      },
+      {
+        "id": "silver-white",
+        "name": "Silver white",
+        "swatch": "#f0efe9"
+      },
+      {
+        "id": "silver",
+        "name": "Silver",
+        "swatch": "#a8a9ad"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "1-hat",
+        "feetLabel": "1 Feet",
+        "hatLabel": "1 Feet",
+        "dimensions": "18 × 12″",
+        "widthInch": 18,
+        "heightInch": 12,
+        "label": "1 Feet (18 × 12″)",
+        "price": 47880
+      },
+      {
+        "id": "2-hat",
+        "feetLabel": "2 Feet",
+        "hatLabel": "2 Feet",
+        "dimensions": "36 × 24″",
+        "widthInch": 36,
+        "heightInch": 24,
+        "label": "2 Feet (36 × 24″)",
+        "price": 81400
+      },
+      {
+        "id": "3-hat",
+        "feetLabel": "3 Feet",
+        "hatLabel": "3 Feet",
+        "dimensions": "54 × 36″",
+        "widthInch": 54,
+        "heightInch": 36,
+        "label": "3 Feet (54 × 36″)",
+        "price": 119700
+      }
+    ],
+    "description": "Rembrandt's revolutionary civic guard group portrait renowned for colossal scale, dramatic chiaroscuro lighting, and fluid movement.",
+    "orientation": "horizontal",
+    "freeDelivery": true,
+    "deliveryFee": 0,
+    "descriptions": [
+      "Painted in 1642 at the apex of Rembrandt van Rijn's career, 'The Night Watch' (Militia Company of District II under the Command of Captain Frans Banninck Cocq) revolutionized group portraiture forever. While conventional civic guard portraits were static and stiff, Rembrandt transformed his commission into a dynamic, theatrical scene of soldiers marching into action.",
+      "Rembrandt employed dramatic chiaroscuro—striking contrasts of intense golden light and deep shadows—to guide the eye across the canvas. A radiant shaft of sunlight illuminates Captain Cocq and a mysterious young girl in gold wearing a dead chicken at her belt (the symbolic emblem of the arquebusiers).",
+      "The composition is packed with kinetic vitality: drums beating, banners raised, halberds gleaming, and musketeers loading powder. Rembrandt's complex interplay of gestures and glances captures the patriotic pride and civic readiness of seventeenth-century Amsterdam.",
+      "Dominating the Honor Gallery of the Rijksmuseum in Amsterdam, 'The Night Watch' is one of the most revered canvases on Earth. Our museum-grade canvas reproduction meticulously captures Rembrandt's dramatic lighting contrasts and rich historic detail, delivering a commanding centerpiece for grand interiors."
+    ],
+    "discountPercent": 50,
+    "customerFeedbacks": [
+      {
+        "customer_name": "Dr. Shafiqul Islam",
+        "customer_img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=160&h=160&fit=crop&crop=face",
+        "feedback": "I ordered the 3 Feet canvas. The vibrant archival colors and canvas texture match museum originals. Delivery was prompt and the hanging hardware made installation effortless.",
+        "rating": 5,
+        "customer_location": "Banani DOHS, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80"
+      },
+      {
+        "customer_name": "Farzana Haque",
+        "customer_img": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=160&h=160&fit=crop&crop=face",
+        "feedback": "The Silver-White frame perfectly matches our modern interior. You can clearly feel the heavyweight canvas texture and handcrafted solid wood framing. Exceptional craftsmanship!",
+        "rating": 5,
+        "customer_location": "Uttara Sector 4, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=800&q=80"
+      },
+      {
+        "customer_name": "Rezwanul Karim",
+        "customer_img": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=160&h=160&fit=crop&crop=face",
+        "feedback": "Safe delivery to Chittagong within 4 days. The wooden framing craftsmanship is top notch, and the colors look even more vibrant in person than on screen.",
+        "rating": 5,
+        "customer_location": "Panchlaish, Chittagong",
+        "customer_product": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80"
+      }
+    ],
+    "descriptionImage": [
+      "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?w=900&q=80",
+      "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=900&q=80",
+      "https://images.unsplash.com/photo-1579783901586-d88db74b4fe4?w=900&q=80"
+    ]
+  },
+  {
+    "id": "10015",
+    "slug": "the-scream",
+    "title": "The Scream",
+    "artistSlug": "edvard-munch",
+    "artistName": "Edvard Munch",
+    "movement": "EXPRESSIONISM",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg/1024px-Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg",
+    "year": "1893",
+    "medium": "Oil, tempera, pastel on cardboard",
+    "location": "National Museum, Oslo",
+    "dimensions": "91 cm × 73.5 cm",
+    "priceFrom": 35880,
+    "priceWas": 51240,
+    "currency": "BDT",
+    "hasAudio": true,
+    "audioIcon": "headphones",
+    "bestseller": true,
+    "top100Rank": 15,
+    "featured": false,
+    "frames": [
+      {
+        "id": "gold",
+        "name": "Gold",
+        "swatch": "#d4af37"
+      },
+      {
+        "id": "silver-white",
+        "name": "Silver white",
+        "swatch": "#f0efe9"
+      },
+      {
+        "id": "silver",
+        "name": "Silver",
+        "swatch": "#a8a9ad"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "1-hat",
+        "feetLabel": "1 Feet",
+        "hatLabel": "1 Feet",
+        "dimensions": "12 × 18″",
+        "widthInch": 12,
+        "heightInch": 18,
+        "label": "1 Feet (12 × 18″)",
+        "price": 35880
+      },
+      {
+        "id": "2-hat",
+        "feetLabel": "2 Feet",
+        "hatLabel": "2 Feet",
+        "dimensions": "24 × 36″",
+        "widthInch": 24,
+        "heightInch": 36,
+        "label": "2 Feet (24 × 36″)",
+        "price": 61000
+      },
+      {
+        "id": "3-hat",
+        "feetLabel": "3 Feet",
+        "hatLabel": "3 Feet",
+        "dimensions": "36 × 54″",
+        "widthInch": 36,
+        "heightInch": 54,
+        "label": "3 Feet (36 × 54″)",
+        "price": 89700
+      }
+    ],
+    "description": "An agonised figure against a blood-red sky, embodying the primordial anxiety and existential vulnerability of modern human existence.",
+    "orientation": "vertical",
+    "freeDelivery": false,
+    "deliveryFee": 70,
+    "descriptions": [
+      "Created in 1893 by Norwegian artist Edvard Munch, 'The Scream' is the ultimate visual icon of modern psychological anxiety. Munch was inspired during a sunset walk in Oslo with two friends, when the sky suddenly turned blood-red and he 'sensed an infinite scream passing through nature.'",
+      "The agonized, skull-like figure in the foreground clutches its ears against a violently warped sky painted in blazing streaks of cadmium red, amber, and deep oceanic blue. The landscape swirls in claustrophobic synaesthesia, echoing the interior psychic anguish of the modern human condition.",
+      "Unlike traditional realistic portraiture, Munch used expressive simplification, undulating contour lines, and raw color dissonance to convey emotion directly to the viewer's nervous system. It laid the foundation for German Expressionism and twentieth-century psychological art.",
+      "Exhibited at the National Museum in Oslo, Norway, 'The Scream' is considered the modern secular equivalent of Leonardo's Mona Lisa. Our museum-grade canvas artwork captures Munch's bold color intensity and visceral emotional resonance, producing a powerful and thought-provoking statement piece."
+    ],
+    "discountPercent": 30,
+    "customerFeedbacks": [
+      {
+        "customer_name": "Rezwanul Karim",
+        "customer_img": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=160&h=160&fit=crop&crop=face",
+        "feedback": "Safe delivery to Chittagong within 4 days. The wooden framing craftsmanship is top notch, and the colors look even more vibrant in person than on screen.",
+        "rating": 5,
+        "customer_location": "Panchlaish, Chittagong",
+        "customer_product": "https://images.unsplash.com/photo-1540518614846-7ede433c4ef0?w=800&q=80"
+      },
+      {
+        "customer_name": "Sabiha Yasmin",
+        "customer_img": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=160&h=160&fit=crop&crop=face",
+        "feedback": "Every guest who visited our home thought we purchased an original gallery painting from Europe. Customer support was very helpful during frame selection.",
+        "rating": 5,
+        "customer_location": "Baridhara, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1582561121162-71d27194305a?w=800&q=80"
+      },
+      {
+        "customer_name": "Zubair Al-Mamun",
+        "customer_img": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=160&h=160&fit=crop&crop=face",
+        "feedback": "The 90-day money-back guarantee gave me peace of mind, but honestly this painting is never leaving my home. Outstanding canvas reproduction of the original artwork.",
+        "rating": 5,
+        "customer_location": "Zindabazar, Sylhet",
+        "customer_product": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&q=80"
+      }
+    ],
+    "descriptionImage": [
+      "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=900&q=80",
+      "https://images.unsplash.com/photo-1579783901467-31b604eac7a8?w=900&q=80",
+      "https://images.unsplash.com/photo-1579783902269-8a5ff6b1897c?w=900&q=80"
+    ]
+  },
+  {
+    "id": "10016",
+    "slug": "luncheon-of-the-boating-party",
+    "title": "Luncheon of the Boating Party",
+    "artistSlug": "pierre-auguste-renoir",
+    "artistName": "Pierre-Auguste Renoir",
+    "movement": "IMPRESSIONISM",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpg/1280px-Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpg",
+    "year": "1881",
+    "medium": "Oil on canvas",
+    "location": "The Phillips Collection, Washington, D.C.",
+    "dimensions": "129.9 cm × 172.7 cm",
+    "priceFrom": 40680,
+    "priceWas": 67800,
+    "currency": "BDT",
+    "hasAudio": false,
+    "bestseller": false,
+    "top100Rank": 16,
+    "featured": false,
+    "frames": [
+      {
+        "id": "gold",
+        "name": "Gold",
+        "swatch": "#d4af37"
+      },
+      {
+        "id": "silver-white",
+        "name": "Silver white",
+        "swatch": "#f0efe9"
+      },
+      {
+        "id": "silver",
+        "name": "Silver",
+        "swatch": "#a8a9ad"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "1-hat",
+        "feetLabel": "1 Feet",
+        "hatLabel": "1 Feet",
+        "dimensions": "18 × 12″",
+        "widthInch": 18,
+        "heightInch": 12,
+        "label": "1 Feet (18 × 12″)",
+        "price": 40680
+      },
+      {
+        "id": "2-hat",
+        "feetLabel": "2 Feet",
+        "hatLabel": "2 Feet",
+        "dimensions": "36 × 24″",
+        "widthInch": 36,
+        "heightInch": 24,
+        "label": "2 Feet (36 × 24″)",
+        "price": 69160
+      },
+      {
+        "id": "3-hat",
+        "feetLabel": "3 Feet",
+        "hatLabel": "3 Feet",
+        "dimensions": "54 × 36″",
+        "widthInch": 54,
+        "heightInch": 36,
+        "label": "3 Feet (54 × 36″)",
+        "price": 101700
+      }
+    ],
+    "description": "A joyful gathering of friends dining on the balcony of Maison Fournaise along the Seine in Chatou, sparkling with warmth and sunlight.",
+    "orientation": "horizontal",
+    "freeDelivery": true,
+    "deliveryFee": 0,
+    "descriptions": [
+      "Painted in 1881 by Pierre-Auguste Renoir, 'Luncheon of the Boating Party' (Le Déjeuner des canotiers) is an exuberant celebration of camaraderie, sunshine, and French joie de vivre. The scene takes place on the balcony of Maison Fournaise in Chatou, overlooking the sparkling Seine River.",
+      "Renoir gathered his real-life circle of friends: fellow painters, poets, art patrons, and his future wife Aline Charigot, who sits in the foreground lovingly cradling a small terrier dog. The tables are laden with wine bottles, grapes, crusty baguettes, and sparkling glassware that catch dappled reflections of the summer sun.",
+      "Renoir's technique is soft and luminous, balancing the crisp details of straw boaters, striped awnings, and linen singlets with fluid, breezy strokes of light. The composition masterfully guides the eye in an intimate circle of conversations, flirtatious glances, and shared laughter.",
+      "Acquired in 1923, this masterpiece is the crowning glory of The Phillips Collection in Washington, D.C. Our museum canvas artwork captures the warm, sociable glow and sparkling impressionistic light of the Parisian terrace, bringing cheerful warmth to your dining room or gallery wall."
+    ],
+    "discountPercent": 40,
+    "customerFeedbacks": [
+      {
+        "customer_name": "Zubair Al-Mamun",
+        "customer_img": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=160&h=160&fit=crop&crop=face",
+        "feedback": "The 90-day money-back guarantee gave me peace of mind, but honestly this painting is never leaving my home. Outstanding canvas reproduction of the original artwork.",
+        "rating": 5,
+        "customer_location": "Zindabazar, Sylhet",
+        "customer_product": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=80"
+      },
+      {
+        "customer_name": "Tahmina Chowdhury",
+        "customer_img": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=160&h=160&fit=crop&crop=face",
+        "feedback": "Ordered as an anniversary gift. My husband was speechless! The gold leaf frame finish and real linen canvas make it look like a crore-taka museum piece.",
+        "rating": 5,
+        "customer_location": "Mirpur DOHS, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1616137466211-f939a420be84?w=800&q=80"
+      },
+      {
+        "customer_name": "Tanvir Rahman",
+        "customer_img": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=160&h=160&fit=crop&crop=face",
+        "feedback": "The canvas print resolution and rich textured finish on this piece are breathtaking! The Gold frame has a regal, museum-grade weight. It transformed our living room wall in Gulshan.",
+        "rating": 5,
+        "customer_location": "Gulshan-2, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80"
+      }
+    ],
+    "descriptionImage": [
+      "https://images.unsplash.com/photo-1576769267415-9642010aa962?w=900&q=80",
+      "https://images.unsplash.com/photo-1579783902021-396a5b4816be?w=900&q=80",
+      "https://images.unsplash.com/photo-1582201942988-13e60e4556ee?w=900&q=80"
+    ]
+  },
+  {
+    "id": "10017",
+    "slug": "irises",
+    "title": "Irises",
+    "artistSlug": "vincent-van-gogh",
+    "artistName": "Vincent van Gogh",
+    "movement": "POST-IMPRESSIONISM",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Irises-Vincent_van_Gogh.jpg/1280px-Irises-Vincent_van_Gogh.jpg",
+    "year": "1889",
+    "medium": "Oil on canvas",
+    "location": "J. Paul Getty Museum, Los Angeles",
+    "dimensions": "71 cm × 93 cm",
+    "priceFrom": 35880,
+    "priceWas": 71760,
+    "currency": "BDT",
+    "hasAudio": false,
+    "bestseller": true,
+    "top100Rank": 17,
+    "featured": false,
+    "frames": [
+      {
+        "id": "gold",
+        "name": "Gold",
+        "swatch": "#d4af37"
+      },
+      {
+        "id": "silver-white",
+        "name": "Silver white",
+        "swatch": "#f0efe9"
+      },
+      {
+        "id": "silver",
+        "name": "Silver",
+        "swatch": "#a8a9ad"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "1-hat",
+        "feetLabel": "1 Feet",
+        "hatLabel": "1 Feet",
+        "dimensions": "18 × 12″",
+        "widthInch": 18,
+        "heightInch": 12,
+        "label": "1 Feet (18 × 12″)",
+        "price": 35880
+      },
+      {
+        "id": "2-hat",
+        "feetLabel": "2 Feet",
+        "hatLabel": "2 Feet",
+        "dimensions": "36 × 24″",
+        "widthInch": 36,
+        "heightInch": 24,
+        "label": "2 Feet (36 × 24″)",
+        "price": 61000
+      },
+      {
+        "id": "3-hat",
+        "feetLabel": "3 Feet",
+        "hatLabel": "3 Feet",
+        "dimensions": "54 × 36″",
+        "widthInch": 54,
+        "heightInch": 36,
+        "label": "3 Feet (54 × 36″)",
+        "price": 89700
+      }
+    ],
+    "description": "Full of vitality and Japanese ukiyo-e influence, painted in the asylum garden with strong outlines and intense colour harmonies.",
+    "orientation": "horizontal",
+    "freeDelivery": true,
+    "deliveryFee": 0,
+    "descriptions": [
+      "In May 1889, immediately upon entering the Saint-Paul-de-Mausole asylum in Saint-Rémy, Vincent van Gogh walked into the hospital's enclosed courtyard and began painting 'Irises'. Vincent called painting 'the lightning rod for my illness,' working tirelessly to preserve his sanity through immersion in nature's beauty.",
+      "The composition is full of life and vitality, heavily influenced by the Japanese woodblock prints (ukiyo-e) Van Gogh collected. He outlined the violet-blue petals with bold contours, creating dynamic decorative silhouettes against a tapestry of warm marigold flowers and copper-toned soil.",
+      "Among the dense cluster of rich purple-blue irises, a solitary white iris stands proudly on the left side of the canvas. Art historians often view this lone white flower as Vincent himself—unique, vulnerable, yet standing resiliently amidst the riotous beauty of life.",
+      "Now prominently featured at the J. Paul Getty Museum in Los Angeles, 'Irises' is celebrated for its decorative opulence and emotional serenity. Our museum canvas reproduction renders the lush foliage and deep botanical hues of Van Gogh's sanctuary garden with breathtaking archival clarity."
+    ],
+    "discountPercent": 50,
+    "customerFeedbacks": [
+      {
+        "customer_name": "Tanvir Rahman",
+        "customer_img": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=160&h=160&fit=crop&crop=face",
+        "feedback": "The canvas print resolution and rich textured finish on this piece are breathtaking! The Gold frame has a regal, museum-grade weight. It transformed our living room wall in Gulshan.",
+        "rating": 5,
+        "customer_location": "Gulshan-2, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=800&q=80"
+      },
+      {
+        "customer_name": "Nusrat Jahan",
+        "customer_img": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=160&h=160&fit=crop&crop=face",
+        "feedback": "Received high-res preview photos before shipping, which gave me total confidence. Arrived in a reinforced wooden crate without a single scratch. The canvas quality and wood framing are truly museum-grade!",
+        "rating": 5,
+        "customer_location": "Dhanmondi, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80"
+      },
+      {
+        "customer_name": "Dr. Shafiqul Islam",
+        "customer_img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=160&h=160&fit=crop&crop=face",
+        "feedback": "I ordered the 3 Feet canvas. The vibrant archival colors and canvas texture match museum originals. Delivery was prompt and the hanging hardware made installation effortless.",
+        "rating": 5,
+        "customer_location": "Banani DOHS, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1540518614846-7ede433c4ef0?w=800&q=80"
+      }
+    ],
+    "descriptionImage": [
+      "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=900&q=80",
+      "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=900&q=80",
+      "https://images.unsplash.com/photo-1582561121162-71d27194305a?w=900&q=80"
+    ]
+  },
+  {
+    "id": "10018",
+    "slug": "creation-of-adam",
+    "title": "The Creation of Adam",
+    "artistSlug": "michelangelo",
+    "artistName": "Michelangelo",
+    "movement": "HIGH RENAISSANCE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg/1280px-Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg",
+    "year": "c. 1512",
+    "medium": "Fresco / Archival canvas reproduction",
+    "location": "Sistine Chapel, Vatican City",
+    "dimensions": "280 cm × 570 cm",
+    "priceFrom": 43080,
+    "priceWas": 66240,
+    "currency": "BDT",
+    "hasAudio": false,
+    "bestseller": true,
+    "top100Rank": 18,
+    "featured": false,
+    "frames": [
+      {
+        "id": "gold",
+        "name": "Gold",
+        "swatch": "#d4af37"
+      },
+      {
+        "id": "silver-white",
+        "name": "Silver white",
+        "swatch": "#f0efe9"
+      },
+      {
+        "id": "silver",
+        "name": "Silver",
+        "swatch": "#a8a9ad"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "1-hat",
+        "feetLabel": "1 Feet",
+        "hatLabel": "1 Feet",
+        "dimensions": "18 × 12″",
+        "widthInch": 18,
+        "heightInch": 12,
+        "label": "1 Feet (18 × 12″)",
+        "price": 43080
+      },
+      {
+        "id": "2-hat",
+        "feetLabel": "2 Feet",
+        "hatLabel": "2 Feet",
+        "dimensions": "36 × 24″",
+        "widthInch": 36,
+        "heightInch": 24,
+        "label": "2 Feet (36 × 24″)",
+        "price": 73240
+      },
+      {
+        "id": "3-hat",
+        "feetLabel": "3 Feet",
+        "hatLabel": "3 Feet",
+        "dimensions": "54 × 36″",
+        "widthInch": 54,
+        "heightInch": 36,
+        "label": "3 Feet (54 × 36″)",
+        "price": 107700
+      }
+    ],
+    "description": "The divine spark of life transferred between the outstretched fingertips of God and Adam, the pinnacle of Western fresco art.",
+    "orientation": "horizontal",
+    "freeDelivery": true,
+    "deliveryFee": 0,
+    "descriptions": [
+      "Painted between 1508 and 1512 on the ceiling of the Sistine Chapel in the Vatican, Michelangelo Buonarroti's 'The Creation of Adam' is one of the supreme monuments of the Italian High Renaissance and Western civilization. Commissioned by Pope Julius II, Michelangelo worked for four arduous years atop scaffolding, bringing the Book of Genesis to life.",
+      "The focal point of the fresco is arguably the most famous gesture in art history: the near-touching index fingers of God and Adam. Separated by a millimeter of charged negative space, this gap crackles with tension, symbolizing the transmission of life, intellect, and soul from Creator to creature.",
+      "Michelangelo's background as a master sculptor is evident in Adam's perfectly proportioned, athletic physique, relaxed upon the newly formed earth, awaiting divine vitality. God is depicted as a powerful, benevolent patriarch surrounded by angels within a swirling celestial mantle resembling the human brain.",
+      "Resting high above the Vatican Palace, this monumental fresco is admired by millions of pilgrims and art connoisseurs annually. Our museum-grade canvas artwork captures Michelangelo's sculptural muscularity, harmonious Renaissance palette, and awe-inspiring spiritual gravity for your home or office."
+    ],
+    "discountPercent": 35,
+    "customerFeedbacks": [
+      {
+        "customer_name": "Dr. Shafiqul Islam",
+        "customer_img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=160&h=160&fit=crop&crop=face",
+        "feedback": "I ordered the 3 Feet canvas. The vibrant archival colors and canvas texture match museum originals. Delivery was prompt and the hanging hardware made installation effortless.",
+        "rating": 5,
+        "customer_location": "Banani DOHS, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1582561121162-71d27194305a?w=800&q=80"
+      },
+      {
+        "customer_name": "Farzana Haque",
+        "customer_img": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=160&h=160&fit=crop&crop=face",
+        "feedback": "The Silver-White frame perfectly matches our modern interior. You can clearly feel the heavyweight canvas texture and handcrafted solid wood framing. Exceptional craftsmanship!",
+        "rating": 5,
+        "customer_location": "Uttara Sector 4, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&q=80"
+      },
+      {
+        "customer_name": "Rezwanul Karim",
+        "customer_img": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=160&h=160&fit=crop&crop=face",
+        "feedback": "Safe delivery to Chittagong within 4 days. The wooden framing craftsmanship is top notch, and the colors look even more vibrant in person than on screen.",
+        "rating": 5,
+        "customer_location": "Panchlaish, Chittagong",
+        "customer_product": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=80"
+      }
+    ],
+    "descriptionImage": [
+      "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?w=900&q=80",
+      "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=900&q=80",
+      "https://images.unsplash.com/photo-1579783901586-d88db74b4fe4?w=900&q=80"
+    ]
+  },
+  {
+    "id": "10019",
+    "slug": "san-giorgio-maggiore-at-dusk",
+    "title": "San Giorgio Maggiore at Dusk",
+    "artistSlug": "claude-monet",
+    "artistName": "Claude Monet",
+    "movement": "IMPRESSIONISM",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Claude_Monet%2C_1908-12%2C_San_Giorgio_Maggiore_at_Dusk.jpg/1280px-Claude_Monet%2C_1908-12%2C_San_Giorgio_Maggiore_at_Dusk.jpg",
+    "year": "1908",
+    "medium": "Oil on canvas",
+    "location": "National Museum Cardiff, Wales",
+    "dimensions": "65.2 cm × 92.4 cm",
+    "priceFrom": 35880,
+    "priceWas": 59760,
+    "currency": "BDT",
+    "hasAudio": false,
+    "bestseller": false,
+    "top100Rank": 19,
+    "featured": false,
+    "frames": [
+      {
+        "id": "gold",
+        "name": "Gold",
+        "swatch": "#d4af37"
+      },
+      {
+        "id": "silver-white",
+        "name": "Silver white",
+        "swatch": "#f0efe9"
+      },
+      {
+        "id": "silver",
+        "name": "Silver",
+        "swatch": "#a8a9ad"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "1-hat",
+        "feetLabel": "1 Feet",
+        "hatLabel": "1 Feet",
+        "dimensions": "18 × 12″",
+        "widthInch": 18,
+        "heightInch": 12,
+        "label": "1 Feet (18 × 12″)",
+        "price": 35880
+      },
+      {
+        "id": "2-hat",
+        "feetLabel": "2 Feet",
+        "hatLabel": "2 Feet",
+        "dimensions": "36 × 24″",
+        "widthInch": 36,
+        "heightInch": 24,
+        "label": "2 Feet (36 × 24″)",
+        "price": 61000
+      },
+      {
+        "id": "3-hat",
+        "feetLabel": "3 Feet",
+        "hatLabel": "3 Feet",
+        "dimensions": "54 × 36″",
+        "widthInch": 54,
+        "heightInch": 36,
+        "label": "3 Feet (54 × 36″)",
+        "price": 89700
+      }
+    ],
+    "description": "Venice bathed in radiant sunset fire, silhouetting the monastery island of San Giorgio Maggiore against incandescent golden waters.",
+    "orientation": "horizontal",
+    "freeDelivery": true,
+    "deliveryFee": 0,
+    "descriptions": [
+      "In the autumn of 1908, Claude Monet visited Venice for the first time, immediately declaring it 'a city too beautiful to be painted.' However, captivated by the unique interaction of Venetian mist, architecture, and water, he painted 'San Giorgio Maggiore at Dusk' from the terrace of the Grand Hotel Britannia.",
+      "The composition captures the monastic island of San Giorgio Maggiore bathed in the fiery glow of sunset. The sky and waters of the lagoon are ignited with dramatic horizontal bands of fiery cadmium orange, glowing magenta, and deep violet-blue, while the neoclassical church and campanile form an ethereal silhouette.",
+      "Monet applied broken, rhythmic strokes that vibrate across the water's surface, capturing the transient shimmer of twilight before nightfall. The architecture dissolves into pure atmosphere and color, exemplifying Impressionism's purest tenet: painting not the object itself, but the light that envelops it.",
+      "Held in the permanent collection of the National Museum Cardiff in Wales, this canvas is acclaimed as one of Monet's most expressive and romantic sunset studies. Our studio artists replicate every glowing reflection with archival oils on canvas, adding a dramatic, warm atmosphere to any interior."
+    ],
+    "discountPercent": 40,
+    "customerFeedbacks": [
+      {
+        "customer_name": "Rezwanul Karim",
+        "customer_img": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=160&h=160&fit=crop&crop=face",
+        "feedback": "Safe delivery to Chittagong within 4 days. The wooden framing craftsmanship is top notch, and the colors look even more vibrant in person than on screen.",
+        "rating": 5,
+        "customer_location": "Panchlaish, Chittagong",
+        "customer_product": "https://images.unsplash.com/photo-1616137466211-f939a420be84?w=800&q=80"
+      },
+      {
+        "customer_name": "Sabiha Yasmin",
+        "customer_img": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=160&h=160&fit=crop&crop=face",
+        "feedback": "Every guest who visited our home thought we purchased an original gallery painting from Europe. Customer support was very helpful during frame selection.",
+        "rating": 5,
+        "customer_location": "Baridhara, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80"
+      },
+      {
+        "customer_name": "Zubair Al-Mamun",
+        "customer_img": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=160&h=160&fit=crop&crop=face",
+        "feedback": "The 90-day money-back guarantee gave me peace of mind, but honestly this painting is never leaving my home. Outstanding canvas reproduction of the original artwork.",
+        "rating": 5,
+        "customer_location": "Zindabazar, Sylhet",
+        "customer_product": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=800&q=80"
+      }
+    ],
+    "descriptionImage": [
+      "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=900&q=80",
+      "https://images.unsplash.com/photo-1579783901467-31b604eac7a8?w=900&q=80",
+      "https://images.unsplash.com/photo-1579783902269-8a5ff6b1897c?w=900&q=80"
+    ]
+  },
+  {
+    "id": "10020",
+    "slug": "the-swing",
+    "title": "The Swing (L'Escarpolette)",
+    "artistSlug": "jean-honore-fragonard",
+    "artistName": "Jean-Honoré Fragonard",
+    "movement": "ROCOCO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/The_Swing_-_Jean-Honor%C3%A9_Fragonard.jpg/1024px-The_Swing_-_Jean-Honor%C3%A9_Fragonard.jpg",
+    "year": "1767",
+    "medium": "Oil on canvas",
+    "location": "Wallace Collection, London",
+    "dimensions": "81 cm × 64.2 cm",
+    "priceFrom": 34680,
+    "priceWas": 63000,
+    "currency": "BDT",
+    "hasAudio": false,
+    "bestseller": false,
+    "top100Rank": 20,
+    "featured": false,
+    "frames": [
+      {
+        "id": "gold",
+        "name": "Gold",
+        "swatch": "#d4af37"
+      },
+      {
+        "id": "silver-white",
+        "name": "Silver white",
+        "swatch": "#f0efe9"
+      },
+      {
+        "id": "silver",
+        "name": "Silver",
+        "swatch": "#a8a9ad"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "1-hat",
+        "feetLabel": "1 Feet",
+        "hatLabel": "1 Feet",
+        "dimensions": "12 × 18″",
+        "widthInch": 12,
+        "heightInch": 18,
+        "label": "1 Feet (12 × 18″)",
+        "price": 34680
+      },
+      {
+        "id": "2-hat",
+        "feetLabel": "2 Feet",
+        "hatLabel": "2 Feet",
+        "dimensions": "24 × 36″",
+        "widthInch": 24,
+        "heightInch": 36,
+        "label": "2 Feet (24 × 36″)",
+        "price": 58960
+      },
+      {
+        "id": "3-hat",
+        "feetLabel": "3 Feet",
+        "hatLabel": "3 Feet",
+        "dimensions": "36 × 54″",
+        "widthInch": 36,
+        "heightInch": 54,
+        "label": "3 Feet (36 × 54″)",
+        "price": 86700
+      }
+    ],
+    "description": "The crowning jewel of Rococo lightheartedness, depicting a young lady in pink silk kicking her slipper in a secluded overgrown bower.",
+    "orientation": "vertical",
+    "freeDelivery": false,
+    "deliveryFee": 70,
+    "descriptions": [
+      "Commissioned in 1767 by a courtier of King Louis XV, Jean-Honoré Fragonard's 'The Swing' (L'Escarpolette) is the definitive masterpiece of the French Rococo era. The painting epitomizes the playful eroticism, wit, and luxuriant indulgence of eighteenth-century aristocratic France.",
+      "The canvas depicts a charming young lady in a frothy pink silk gown swinging high in an overgrown, sun-dappled garden. Below her, hidden among rose bushes, her secret young lover gazes upward in delight as she kicks off her dainty shoe toward a statue of Cupid making a gesture of silence.",
+      "Fragonard's mastery of light and botanical texture is astounding: shafts of sunlight pierce through dense foliage, illuminating swirling clouds of chiffon, lace, and flying slippers. The pastel palette of blush pink, creamy whites, and lush jade-green creates an intoxicating atmosphere of secret joy.",
+      "Now displayed in the Wallace Collection in London, 'The Swing' remains one of the world's most charming and beloved historical paintings. Our oil recreation renders the delicate ruffles, glowing sunlight, and lush garden greenery with meticulous attention to detail."
+    ],
+    "discountPercent": 45,
+    "customerFeedbacks": [
+      {
+        "customer_name": "Zubair Al-Mamun",
+        "customer_img": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=160&h=160&fit=crop&crop=face",
+        "feedback": "The 90-day money-back guarantee gave me peace of mind, but honestly this painting is never leaving my home. Outstanding canvas reproduction of the original artwork.",
+        "rating": 5,
+        "customer_location": "Zindabazar, Sylhet",
+        "customer_product": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80"
+      },
+      {
+        "customer_name": "Tahmina Chowdhury",
+        "customer_img": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=160&h=160&fit=crop&crop=face",
+        "feedback": "Ordered as an anniversary gift. My husband was speechless! The gold leaf frame finish and real linen canvas make it look like a crore-taka museum piece.",
+        "rating": 5,
+        "customer_location": "Mirpur DOHS, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1540518614846-7ede433c4ef0?w=800&q=80"
+      },
+      {
+        "customer_name": "Tanvir Rahman",
+        "customer_img": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=160&h=160&fit=crop&crop=face",
+        "feedback": "The canvas print resolution and rich textured finish on this piece are breathtaking! The Gold frame has a regal, museum-grade weight. It transformed our living room wall in Gulshan.",
+        "rating": 5,
+        "customer_location": "Gulshan-2, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1582561121162-71d27194305a?w=800&q=80"
+      }
+    ],
+    "descriptionImage": [
+      "https://images.unsplash.com/photo-1576769267415-9642010aa962?w=900&q=80",
+      "https://images.unsplash.com/photo-1579783902021-396a5b4816be?w=900&q=80",
+      "https://images.unsplash.com/photo-1582201942988-13e60e4556ee?w=900&q=80"
+    ]
+  },
+  {
+    "id": "10021",
+    "slug": "portrait-of-adele-bloch-bauer-i",
+    "title": "Portrait of Adele Bloch-Bauer I",
+    "artistSlug": "gustav-klimt",
+    "artistName": "Gustav Klimt",
+    "movement": "ART NOUVEAU",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Gustav_Klimt_046.jpg/1024px-Gustav_Klimt_046.jpg",
+    "year": "1907",
+    "medium": "Oil, silver, and gold on canvas",
+    "location": "Neue Galerie, New York",
+    "dimensions": "138 cm × 138 cm",
+    "priceFrom": 41880,
+    "priceWas": 83760,
+    "currency": "BDT",
+    "hasAudio": true,
+    "audioIcon": "play",
+    "bestseller": false,
+    "top100Rank": 21,
+    "featured": false,
+    "frames": [
+      {
+        "id": "gold",
+        "name": "Gold",
+        "swatch": "#d4af37"
+      },
+      {
+        "id": "silver-white",
+        "name": "Silver white",
+        "swatch": "#f0efe9"
+      },
+      {
+        "id": "silver",
+        "name": "Silver",
+        "swatch": "#a8a9ad"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "1-hat",
+        "feetLabel": "1 Feet",
+        "hatLabel": "1 Feet",
+        "dimensions": "18 × 18″",
+        "widthInch": 18,
+        "heightInch": 18,
+        "label": "1 Feet (18 × 18″)",
+        "price": 41880
+      },
+      {
+        "id": "2-hat",
+        "feetLabel": "2 Feet",
+        "hatLabel": "2 Feet",
+        "dimensions": "36 × 36″",
+        "widthInch": 36,
+        "heightInch": 36,
+        "label": "2 Feet (36 × 36″)",
+        "price": 71200
+      },
+      {
+        "id": "3-hat",
+        "feetLabel": "3 Feet",
+        "hatLabel": "3 Feet",
+        "dimensions": "54 × 54″",
+        "widthInch": 54,
+        "heightInch": 54,
+        "label": "3 Feet (54 × 54″)",
+        "price": 104700
+      }
+    ],
+    "description": "The celebrated 'Woman in Gold', combining intricate Byzantine mosaic motifs with delicate Viennese portraiture.",
+    "orientation": "square",
+    "freeDelivery": true,
+    "deliveryFee": 0,
+    "descriptions": [
+      "Completed in 1907 after three years of intensive work, Gustav Klimt's 'Portrait of Adele Bloch-Bauer I'—often called 'The Woman in Gold'—is the supreme manifestation of Austrian Art Nouveau (Jugendstil). Commissioned by industrialist Ferdinand Bloch-Bauer, it portrays his cultured, enigmatic wife Adele.",
+      "Klimt covered the canvas with intricate layers of gold and silver leaf, incised with delicate Egyptian eye motifs, Byzantine mosaics, and flowing Celtic spirals. Adele's porcelain face and delicate hands emerge with lifelike vulnerability from a dizzying, luxurious sea of gilded abstraction.",
+      "The painting gained historic international fame when it was looted by the Nazis during World War II and ultimately restituted to Adele's niece, Maria Altmann, after a landmark legal battle that reached the United States Supreme Court.",
+      "Acquired by Ronald Lauder in 2006 for the Neue Galerie in New York, the painting stands as a triumphant symbol of justice and golden aesthetic genius. Our museum canvas artwork reproduces Klimt's opulent golden motifs and intricate patterns, creating a breathtaking statement of luxury and high art in your home."
+    ],
+    "discountPercent": 50,
+    "customerFeedbacks": [
+      {
+        "customer_name": "Tanvir Rahman",
+        "customer_img": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=160&h=160&fit=crop&crop=face",
+        "feedback": "The canvas print resolution and rich textured finish on this piece are breathtaking! The Gold frame has a regal, museum-grade weight. It transformed our living room wall in Gulshan.",
+        "rating": 5,
+        "customer_location": "Gulshan-2, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&q=80"
+      },
+      {
+        "customer_name": "Nusrat Jahan",
+        "customer_img": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=160&h=160&fit=crop&crop=face",
+        "feedback": "Received high-res preview photos before shipping, which gave me total confidence. Arrived in a reinforced wooden crate without a single scratch. The canvas quality and wood framing are truly museum-grade!",
+        "rating": 5,
+        "customer_location": "Dhanmondi, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=80"
+      },
+      {
+        "customer_name": "Dr. Shafiqul Islam",
+        "customer_img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=160&h=160&fit=crop&crop=face",
+        "feedback": "I ordered the 3 Feet canvas. The vibrant archival colors and canvas texture match museum originals. Delivery was prompt and the hanging hardware made installation effortless.",
+        "rating": 5,
+        "customer_location": "Banani DOHS, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1616137466211-f939a420be84?w=800&q=80"
+      }
+    ],
+    "descriptionImage": [
+      "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=900&q=80",
+      "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=900&q=80",
+      "https://images.unsplash.com/photo-1582561121162-71d27194305a?w=900&q=80"
+    ]
+  },
+  {
+    "id": "10022",
+    "slug": "bal-du-moulin-de-la-galette",
+    "title": "Bal du moulin de la Galette",
+    "artistSlug": "pierre-auguste-renoir",
+    "artistName": "Pierre-Auguste Renoir",
+    "movement": "IMPRESSIONISM",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Auguste_Renoir_-_Danse_au_Moulin_de_la_Galette_-_Google_Art_Project.jpg/1280px-Auguste_Renoir_-_Danse_au_Moulin_de_la_Galette_-_Google_Art_Project.jpg",
+    "year": "1876",
+    "medium": "Oil on canvas",
+    "location": "Musée d'Orsay, Paris",
+    "dimensions": "131 cm × 175 cm",
+    "priceFrom": 40680,
+    "priceWas": 67800,
+    "currency": "BDT",
+    "hasAudio": false,
+    "bestseller": false,
+    "top100Rank": 22,
+    "featured": false,
+    "frames": [
+      {
+        "id": "gold",
+        "name": "Gold",
+        "swatch": "#d4af37"
+      },
+      {
+        "id": "silver-white",
+        "name": "Silver white",
+        "swatch": "#f0efe9"
+      },
+      {
+        "id": "silver",
+        "name": "Silver",
+        "swatch": "#a8a9ad"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "1-hat",
+        "feetLabel": "1 Feet",
+        "hatLabel": "1 Feet",
+        "dimensions": "18 × 12″",
+        "widthInch": 18,
+        "heightInch": 12,
+        "label": "1 Feet (18 × 12″)",
+        "price": 40680
+      },
+      {
+        "id": "2-hat",
+        "feetLabel": "2 Feet",
+        "hatLabel": "2 Feet",
+        "dimensions": "36 × 24″",
+        "widthInch": 36,
+        "heightInch": 24,
+        "label": "2 Feet (36 × 24″)",
+        "price": 69160
+      },
+      {
+        "id": "3-hat",
+        "feetLabel": "3 Feet",
+        "hatLabel": "3 Feet",
+        "dimensions": "54 × 36″",
+        "widthInch": 54,
+        "heightInch": 36,
+        "label": "3 Feet (54 × 36″)",
+        "price": 101700
+      }
+    ],
+    "description": "A dappled Sunday afternoon dance in Montmartre capturing the vibrant bohemian Parisian spirit under acacia trees.",
+    "orientation": "horizontal",
+    "freeDelivery": true,
+    "deliveryFee": 0,
+    "descriptions": [
+      "Painted in 1876, Pierre-Auguste Renoir's 'Bal du moulin de la Galette' is one of Impressionism's most celebrated masterpieces, capturing the bohemian vitality of Paris on a sunlit Sunday afternoon in Montmartre. Working-class Parisians and artists mingle, dance, drink, and flirt under the open-air canopy of acacia trees.",
+      "Renoir achieved a dazzling optical effect by painting dappled sunlight filtering through the tree leaves, casting dancing patches of soft lilac, white, and golden light across the dancers' dresses, coats, and wooden benches. The scene radiates effortless spontaneity and happiness.",
+      "Rather than focusing on a single heroic figure, Renoir democratized the canvas, capturing a tapestry of genuine human warmth: couples waltzing in the background, friends laughing over grenadine at the front table, and straw hats catching the afternoon sun.",
+      "Exhibited in the Musée d'Orsay in Paris, this monumental painting is an enduring symbol of the French belle époque. Our museum canvas reproduction captures Renoir's shimmering dappled light and lively atmosphere, bringing the joy of Montmartre to your living room."
+    ],
+    "discountPercent": 40,
+    "customerFeedbacks": [
+      {
+        "customer_name": "Dr. Shafiqul Islam",
+        "customer_img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=160&h=160&fit=crop&crop=face",
+        "feedback": "I ordered the 3 Feet canvas. The vibrant archival colors and canvas texture match museum originals. Delivery was prompt and the hanging hardware made installation effortless.",
+        "rating": 5,
+        "customer_location": "Banani DOHS, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80"
+      },
+      {
+        "customer_name": "Farzana Haque",
+        "customer_img": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=160&h=160&fit=crop&crop=face",
+        "feedback": "The Silver-White frame perfectly matches our modern interior. You can clearly feel the heavyweight canvas texture and handcrafted solid wood framing. Exceptional craftsmanship!",
+        "rating": 5,
+        "customer_location": "Uttara Sector 4, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=800&q=80"
+      },
+      {
+        "customer_name": "Rezwanul Karim",
+        "customer_img": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=160&h=160&fit=crop&crop=face",
+        "feedback": "Safe delivery to Chittagong within 4 days. The wooden framing craftsmanship is top notch, and the colors look even more vibrant in person than on screen.",
+        "rating": 5,
+        "customer_location": "Panchlaish, Chittagong",
+        "customer_product": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80"
+      }
+    ],
+    "descriptionImage": [
+      "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?w=900&q=80",
+      "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=900&q=80",
+      "https://images.unsplash.com/photo-1579783901586-d88db74b4fe4?w=900&q=80"
+    ]
+  },
+  {
+    "id": "10023",
+    "slug": "the-hay-wain",
+    "title": "The Hay Wain",
+    "artistSlug": "john-constable",
+    "artistName": "John Constable",
+    "movement": "ROMANTICISM",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/The_Hay_Wain_-_John_Constable_%281821%29.jpg/1280px-The_Hay_Wain_-_John_Constable_%281821%29.jpg",
+    "year": "1821",
+    "medium": "Oil on canvas",
+    "location": "National Gallery, London",
+    "dimensions": "130.2 cm × 185.4 cm",
+    "priceFrom": 35880,
+    "priceWas": 51240,
+    "currency": "BDT",
+    "hasAudio": false,
+    "bestseller": false,
+    "top100Rank": 23,
+    "featured": false,
+    "frames": [
+      {
+        "id": "gold",
+        "name": "Gold",
+        "swatch": "#d4af37"
+      },
+      {
+        "id": "silver-white",
+        "name": "Silver white",
+        "swatch": "#f0efe9"
+      },
+      {
+        "id": "silver",
+        "name": "Silver",
+        "swatch": "#a8a9ad"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "1-hat",
+        "feetLabel": "1 Feet",
+        "hatLabel": "1 Feet",
+        "dimensions": "18 × 12″",
+        "widthInch": 18,
+        "heightInch": 12,
+        "label": "1 Feet (18 × 12″)",
+        "price": 35880
+      },
+      {
+        "id": "2-hat",
+        "feetLabel": "2 Feet",
+        "hatLabel": "2 Feet",
+        "dimensions": "36 × 24″",
+        "widthInch": 36,
+        "heightInch": 24,
+        "label": "2 Feet (36 × 24″)",
+        "price": 61000
+      },
+      {
+        "id": "3-hat",
+        "feetLabel": "3 Feet",
+        "hatLabel": "3 Feet",
+        "dimensions": "54 × 36″",
+        "widthInch": 54,
+        "heightInch": 36,
+        "label": "3 Feet (54 × 36″)",
+        "price": 89700
+      }
+    ],
+    "description": "The classic English countryside landscape on the River Stour at Flatford Mill, celebrated for its atmospheric sky and rustic tranquility.",
+    "orientation": "horizontal",
+    "freeDelivery": true,
+    "deliveryFee": 0,
+    "descriptions": [
+      "Completed in 1821 by John Constable, 'The Hay Wain' (originally titled 'Landscape: Noon') is the definitive masterpiece of British romantic landscape painting. It portrays an ordinary rural moment on the River Stour at Flatford Mill in Suffolk, where three horses pull a wooden farm cart across the shallow millpond.",
+      "Constable celebrated his native English countryside with profound devotion, working en plein air to study cloud formations, weather shifts, and the subtle glint of morning dew on river reeds. The expansive, billowing clouds dominating the sky convey the ever-changing majesty of British weather.",
+      "When exhibited at the Paris Salon of 1824, 'The Hay Wain' caused an artistic sensation, winning a Gold Medal from King Charles X and profoundly inspiring French Romantic painter Eugène Delacroix and the future Barbizon school.",
+      "Housed in the National Gallery in London, 'The Hay Wain' represents the pastoral tranquility of timeless England. Our museum canvas reproduction faithfully captures Constable's luminous skies, rustic brick cottage, and tranquil water reflections on genuine artist-grade canvas."
+    ],
+    "discountPercent": 30,
+    "customerFeedbacks": [
+      {
+        "customer_name": "Rezwanul Karim",
+        "customer_img": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=160&h=160&fit=crop&crop=face",
+        "feedback": "Safe delivery to Chittagong within 4 days. The wooden framing craftsmanship is top notch, and the colors look even more vibrant in person than on screen.",
+        "rating": 5,
+        "customer_location": "Panchlaish, Chittagong",
+        "customer_product": "https://images.unsplash.com/photo-1540518614846-7ede433c4ef0?w=800&q=80"
+      },
+      {
+        "customer_name": "Sabiha Yasmin",
+        "customer_img": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=160&h=160&fit=crop&crop=face",
+        "feedback": "Every guest who visited our home thought we purchased an original gallery painting from Europe. Customer support was very helpful during frame selection.",
+        "rating": 5,
+        "customer_location": "Baridhara, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1582561121162-71d27194305a?w=800&q=80"
+      },
+      {
+        "customer_name": "Zubair Al-Mamun",
+        "customer_img": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=160&h=160&fit=crop&crop=face",
+        "feedback": "The 90-day money-back guarantee gave me peace of mind, but honestly this painting is never leaving my home. Outstanding canvas reproduction of the original artwork.",
+        "rating": 5,
+        "customer_location": "Zindabazar, Sylhet",
+        "customer_product": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&q=80"
+      }
+    ],
+    "descriptionImage": [
+      "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=900&q=80",
+      "https://images.unsplash.com/photo-1579783901467-31b604eac7a8?w=900&q=80",
+      "https://images.unsplash.com/photo-1579783902269-8a5ff6b1897c?w=900&q=80"
+    ]
+  },
+  {
+    "id": "10024",
+    "slug": "the-magic-circle",
+    "title": "The Magic Circle",
+    "artistSlug": "john-william-waterhouse",
+    "artistName": "John William Waterhouse",
+    "movement": "PRERAPHAELITE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/John_William_Waterhouse_-_The_Magic_Circle_-_Google_Art_Project.jpg/1024px-John_William_Waterhouse_-_The_Magic_Circle_-_Google_Art_Project.jpg",
+    "year": "1886",
+    "medium": "Oil on canvas",
+    "location": "Tate Britain, London",
+    "dimensions": "183 cm × 127 cm",
+    "priceFrom": 38280,
+    "priceWas": 58920,
+    "currency": "BDT",
+    "hasAudio": true,
+    "audioIcon": "book",
+    "bestseller": false,
+    "top100Rank": 24,
+    "featured": true,
+    "frames": [
+      {
+        "id": "gold",
+        "name": "Gold",
+        "swatch": "#d4af37"
+      },
+      {
+        "id": "silver-white",
+        "name": "Silver white",
+        "swatch": "#f0efe9"
+      },
+      {
+        "id": "silver",
+        "name": "Silver",
+        "swatch": "#a8a9ad"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "1-hat",
+        "feetLabel": "1 Feet",
+        "hatLabel": "1 Feet",
+        "dimensions": "12 × 18″",
+        "widthInch": 12,
+        "heightInch": 18,
+        "label": "1 Feet (12 × 18″)",
+        "price": 38280
+      },
+      {
+        "id": "2-hat",
+        "feetLabel": "2 Feet",
+        "hatLabel": "2 Feet",
+        "dimensions": "24 × 36″",
+        "widthInch": 24,
+        "heightInch": 36,
+        "label": "2 Feet (24 × 36″)",
+        "price": 65080
+      },
+      {
+        "id": "3-hat",
+        "feetLabel": "3 Feet",
+        "hatLabel": "3 Feet",
+        "dimensions": "36 × 54″",
+        "widthInch": 36,
+        "heightInch": 54,
+        "label": "3 Feet (36 × 54″)",
+        "price": 95700
+      }
+    ],
+    "description": "A sorceress drawing a flaming protective circle in the sand around her smoking bronze cauldron under raven-haunted cliffs.",
+    "orientation": "vertical",
+    "freeDelivery": true,
+    "deliveryFee": 0,
+    "descriptions": [
+      "Painted in 1886 by Pre-Raphaelite and Romantic master John William Waterhouse, 'The Magic Circle' is a mesmerizing vision of mysticism, folklore, and feminine power. It depicts an ancient sorceress standing in a barren desert landscape, using a glowing wand to trace a protective circle of fire in the earth around her smoking bronze cauldron.",
+      "Waterhouse combined classical mythology with Middle Eastern and Celtic symbolism: the sorceress wears Greek drapery embroidered with dancing figures, holding a golden sickle reminiscent of ancient Druids, while a murder of black crows gathers solemnly outside the enchanted perimeter.",
+      "The color palette is subtle and dramatic: warm desert ochres, stone grays, and smoky plumes contrast with the sorceress's vibrant indigo robe and the glowing ember at her feet. The painting conveys intense concentration and quiet sovereignty over the unseen spiritual realm.",
+      "Displayed in the Tate Britain in London, 'The Magic Circle' remains one of Waterhouse's most evocative and popular canvases. Our museum canvas reproduction renders the mystical atmosphere, billowing steam, and intricate drapery with archival precision."
+    ],
+    "discountPercent": 35,
+    "customerFeedbacks": [
+      {
+        "customer_name": "Zubair Al-Mamun",
+        "customer_img": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=160&h=160&fit=crop&crop=face",
+        "feedback": "The 90-day money-back guarantee gave me peace of mind, but honestly this painting is never leaving my home. Outstanding canvas reproduction of the original artwork.",
+        "rating": 5,
+        "customer_location": "Zindabazar, Sylhet",
+        "customer_product": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=80"
+      },
+      {
+        "customer_name": "Tahmina Chowdhury",
+        "customer_img": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=160&h=160&fit=crop&crop=face",
+        "feedback": "Ordered as an anniversary gift. My husband was speechless! The gold leaf frame finish and real linen canvas make it look like a crore-taka museum piece.",
+        "rating": 5,
+        "customer_location": "Mirpur DOHS, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1616137466211-f939a420be84?w=800&q=80"
+      },
+      {
+        "customer_name": "Tanvir Rahman",
+        "customer_img": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=160&h=160&fit=crop&crop=face",
+        "feedback": "The canvas print resolution and rich textured finish on this piece are breathtaking! The Gold frame has a regal, museum-grade weight. It transformed our living room wall in Gulshan.",
+        "rating": 5,
+        "customer_location": "Gulshan-2, Dhaka",
+        "customer_product": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80"
+      }
+    ],
+    "descriptionImage": [
+      "https://images.unsplash.com/photo-1576769267415-9642010aa962?w=900&q=80",
+      "https://images.unsplash.com/photo-1579783902021-396a5b4816be?w=900&q=80",
+      "https://images.unsplash.com/photo-1582201942988-13e60e4556ee?w=900&q=80"
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "p2p-1",
+    "title": "Family Portrait in Tuscany",
+    "originalPhoto": "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=800&q=80",
+    "paintingResult": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80",
+    "description": "Commissioned as an anniversary gift framed on premium canvas (24 x 36 in)."
+  },
+  {
+    "id": "p2p-2",
+    "title": "Golden Retriever by the Lake",
+    "originalPhoto": "https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=800&q=80",
+    "paintingResult": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=800&q=80",
+    "description": "Custom canvas pet portrait capturing individual fur texture and warm sunlight."
+  },
+  {
+    "id": "p2p-3",
+    "title": "Vintage Wedding Memory",
+    "originalPhoto": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80",
+    "paintingResult": "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&w=800&q=80",
+    "description": "Heirloom wedding portrait rendered in classic French Impressionist palette."
+  }
+]

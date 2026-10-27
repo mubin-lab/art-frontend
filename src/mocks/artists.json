@@ -1,0 +1,66 @@
+[
+  {
+    "slug": "vincent-van-gogh",
+    "name": "Vincent van Gogh",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%284bzkVelocity%29.jpg/400px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%284bzkVelocity%29.jpg",
+    "artworkCount": 407,
+    "bio": "Dutch Post-Impressionist master whose emotionally evocative, bold impasto brushwork laid the foundation for modern 20th-century art.",
+    "movement": "Post-Impressionism"
+  },
+  {
+    "slug": "claude-monet",
+    "name": "Claude Monet",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet_1899_Nadar_crop.jpg/400px-Claude_Monet_1899_Nadar_crop.jpg",
+    "artworkCount": 284,
+    "bio": "Pioneering founder of French Impressionism, dedicated to expressing one's perceptions before nature, especially through en plein air light studies.",
+    "movement": "Impressionism"
+  },
+  {
+    "slug": "gustav-klimt",
+    "name": "Gustav Klimt",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Gustav_Klimt_1914.jpg/400px-Gustav_Klimt_1914.jpg",
+    "artworkCount": 142,
+    "bio": "Leading Austrian Symbolist painter and president of the Vienna Secession, famed for his Golden Phase decorated with gold leaf and erotic allegories.",
+    "movement": "Art Nouveau / Symbolism"
+  },
+  {
+    "slug": "johannes-vermeer",
+    "name": "Johannes Vermeer",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Jan_Vermeer_van_Delft_002.jpg/400px-Jan_Vermeer_van_Delft_002.jpg",
+    "artworkCount": 36,
+    "bio": "Dutch Golden Age painter who achieved unmatched luminosity, spatial serenity, and psychological intimacy in modest domestic scenes.",
+    "movement": "Dutch Golden Age"
+  },
+  {
+    "slug": "leonardo-da-vinci",
+    "name": "Leonardo da Vinci",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Leonardo_self.jpg/400px-Leonardo_self.jpg",
+    "artworkCount": 89,
+    "bio": "Supreme Italian Renaissance polymath whose sfumato rendering, scientific anatomical precision, and universal curiosity epitomised humanist genius.",
+    "movement": "High Renaissance"
+  },
+  {
+    "slug": "pierre-auguste-renoir",
+    "name": "Pierre-Auguste Renoir",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Pierre-Auguste_Renoir%2C_photo_par_Nadar.jpg/400px-Pierre-Auguste_Renoir%2C_photo_par_Nadar.jpg",
+    "artworkCount": 215,
+    "bio": "Celebrated French Impressionist who celebrated feminine beauty, convivial outdoor celebrations, and warm sun-drenched camaraderie.",
+    "movement": "Impressionism"
+  },
+  {
+    "slug": "rembrandt",
+    "name": "Rembrandt van Rijn",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg/400px-Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg",
+    "artworkCount": 312,
+    "bio": "Dutch Baroque titan renowned for uncompromising emotional honesty, penetrating self-portraits, and incomparable mastery of shadow and light.",
+    "movement": "Baroque"
+  },
+  {
+    "slug": "katsushika-hokusai",
+    "name": "Katsushika Hokusai",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Hokusai_self_portrait.jpg/400px-Hokusai_self_portrait.jpg",
+    "artworkCount": 180,
+    "bio": "Edo-period Japanese artist and printmaker whose Thirty-Six Views of Mount Fuji transformed Eastern landscape art and inspired European modernism.",
+    "movement": "Ukiyo-e"
+  }
+]
