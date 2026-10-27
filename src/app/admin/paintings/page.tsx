@@ -9,10 +9,6 @@ import {
   Trash2,
   ExternalLink,
   Edit,
-  Filter,
-  Palette,
-  AlertCircle,
-  Truck,
 } from "lucide-react";
 import { getAdminPaintings, deletePainting } from "@/lib/api/admin";
 import type { Painting } from "@/types";
@@ -23,16 +19,14 @@ export default function AdminPaintingsPage() {
   const [search, setSearch] = useState("");
   const [selectedOrientation, setSelectedOrientation] = useState<string>("all");
   const [deletingSlug, setDeletingSlug] = useState<string | null>(null);
-  const [error, setError] = useState<string | null>(null);
 
   const fetchCatalog = async () => {
     try {
       setLoading(true);
-      setError(null);
       const data = await getAdminPaintings();
       setPaintings(data);
     } catch (err: any) {
-      setError("Failed to load paintings from API");
+      console.error("Failed to load paintings", err);
     } finally {
       setLoading(false);
     }
@@ -73,17 +67,14 @@ export default function AdminPaintingsPage() {
 
   return (
     <div className="space-y-6">
-      {/* Top Banner and Header */}
+      {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
-          <span className="text-[10px] font-mono font-bold tracking-widest text-[#a87e1a] uppercase">
-            CATALOG INVENTORY
-          </span>
-          <h1 className="font-serif text-2xl sm:text-3xl font-semibold text-[var(--color-ink)] mt-1">
-            All Paintings & Masterpieces
+          <h1 className="font-serif text-2xl sm:text-3xl font-semibold text-[var(--color-ink)]">
+            Paintings
           </h1>
           <p className="text-xs sm:text-sm text-[var(--color-muted)] font-sans mt-0.5">
-            Manage your framed canvas artwork collection, base pricing, and collector details.
+            Manage artworks, base pricing, and catalog inventory.
           </p>
         </div>
 
@@ -133,12 +124,12 @@ export default function AdminPaintingsPage() {
       {/* Paintings Table */}
       <div className="bg-white rounded-2xl border border-[#e8dfd1] shadow-2xs overflow-hidden">
         {loading ? (
-          <div className="p-16 text-center text-sm text-[var(--color-muted)] font-sans">
-            Loading catalog artworks from API...
+          <div className="p-16 text-center text-xs text-[var(--color-muted)] font-sans">
+            Loading catalog artworks...
           </div>
         ) : filteredPaintings.length === 0 ? (
-          <div className="p-16 text-center text-sm text-[var(--color-muted)] font-sans">
-            No artworks match your search query.
+          <div className="p-16 text-center text-xs text-[var(--color-muted)] font-sans">
+            No artworks found.
           </div>
         ) : (
           <div className="overflow-x-auto">
@@ -160,21 +151,21 @@ export default function AdminPaintingsPage() {
                     {/* Artwork Thumb & Title */}
                     <td className="py-3 px-4">
                       <div className="flex items-center gap-3">
-                        <div className="relative w-12 h-12 rounded-lg overflow-hidden bg-neutral-100 border border-[#e8dfd1] flex-shrink-0">
+                        <div className="relative w-11 h-11 rounded-lg overflow-hidden bg-neutral-100 border border-[#e8dfd1] flex-shrink-0">
                           <Image
                             src={p.image}
                             alt={p.title}
                             fill
-                            sizes="48px"
+                            sizes="44px"
                             className="object-cover"
                           />
                         </div>
                         <div className="min-w-0 max-w-[220px]">
-                          <span className="font-serif font-semibold text-sm text-[var(--color-ink)] truncate block">
+                          <span className="font-serif font-semibold text-xs text-[var(--color-ink)] truncate block">
                             {p.title}
                           </span>
                           <span className="text-[10px] text-[var(--color-muted)] font-mono block">
-                            ID: {p.id} · {p.year}
+                            ID: {p.id}
                           </span>
                         </div>
                       </div>
@@ -193,7 +184,7 @@ export default function AdminPaintingsPage() {
                     </td>
 
                     {/* Base Price */}
-                    <td className="py-3 px-4 font-bold font-sans text-sm text-[var(--color-ink)]">
+                    <td className="py-3 px-4 font-bold font-sans text-xs text-[var(--color-ink)]">
                       ৳{(p.priceFrom || 0).toLocaleString()}
                     </td>
 
@@ -213,7 +204,7 @@ export default function AdminPaintingsPage() {
                       {p.freeDelivery ? (
                         <span className="text-emerald-600 font-bold text-[11px]">Free</span>
                       ) : (
-                        <span className="text-[11px] font-medium text-[var(--color-muted)]">
+                        <span className="text-[11px] font-medium text-[var(--color-muted)] font-mono">
                           ৳{p.deliveryFee || 70}
                         </span>
                       )}

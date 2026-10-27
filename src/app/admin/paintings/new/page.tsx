@@ -9,11 +9,6 @@ import {
   Plus,
   Trash2,
   Sparkles,
-  Info,
-  Check,
-  Star,
-  MapPin,
-  Image as ImageIcon,
   CheckCircle2,
 } from "lucide-react";
 import { getAdminArtists, createPainting } from "@/lib/api/admin";
@@ -26,46 +21,41 @@ export default function AdminNewPaintingPage() {
   const [saving, setSaving] = useState(false);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
 
-  // Form Fields
+  // Form Fields - Clean initial state, no garbage defaults
   const [title, setTitle] = useState("");
   const [slug, setSlug] = useState("");
   const [artistSlug, setArtistSlug] = useState("");
   const [artistName, setArtistName] = useState("");
-  const [movement, setMovement] = useState("Post-Impressionism");
+  const [movement, setMovement] = useState("");
   const [image, setImage] = useState("");
   const [orientation, setOrientation] = useState<FrameOrientation>("horizontal");
   const [priceFrom, setPriceFrom] = useState<number>(35000);
-  const [discountPercent, setDiscountPercent] = useState<number>(50);
+  const [discountPercent, setDiscountPercent] = useState<number>(0);
   const [freeDelivery, setFreeDelivery] = useState(false);
   const [deliveryFee, setDeliveryFee] = useState<number>(70);
-  const [year, setYear] = useState("1889");
-  const [medium, setMedium] = useState("Oil on canvas");
-  const [location, setLocation] = useState("Museum of Modern Art, New York");
-  const [dimensions, setDimensions] = useState("73.7 cm × 92.1 cm");
-  const [bestseller, setBestseller] = useState(true);
-  const [featured, setFeatured] = useState(true);
+  const [year, setYear] = useState("");
+  const [medium, setMedium] = useState("Canvas Print on Solid Wood Frame");
+  const [location, setLocation] = useState("");
+  const [dimensions, setDimensions] = useState("");
+  const [bestseller, setBestseller] = useState(false);
+  const [featured, setFeatured] = useState(false);
 
-  // Dynamic Repeaters
-  const [detailImages, setDetailImages] = useState<string[]>([
-    "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=900&q=80",
-    "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=900&q=80",
-  ]);
+  // Dynamic Repeaters - Clean empty initial states
+  const [detailImages, setDetailImages] = useState<string[]>([]);
+  const [newDetailInput, setNewDetailInput] = useState("");
 
-  const [descriptions, setDescriptions] = useState<string[]>([
-    "Painted during a period of intense artistic expression, this celebrated masterpiece embodies the pinnacle of Western art...",
-    "The composition features expressive impasto brushstrokes, layered tones, and striking contrasts that transform any residential or commercial interior...",
-  ]);
+  const [descriptions, setDescriptions] = useState<string[]>([]);
+  const [newParagraphInput, setNewParagraphInput] = useState("");
 
-  const [customerFeedbacks, setCustomerFeedbacks] = useState<CustomerFeedback[]>([
-    {
-      customer_name: "Tanvir Rahman",
-      customer_img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=160&h=160&fit=crop&crop=face",
-      customer_product: "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=800&q=80",
-      feedback: "The canvas print resolution and rich textured finish on this piece are breathtaking! The Gold frame has a regal weight.",
-      rating: 5,
-      customer_location: "Gulshan-2, Dhaka",
-    },
-  ]);
+  const [customerFeedbacks, setCustomerFeedbacks] = useState<CustomerFeedback[]>([]);
+  const [newFeedback, setNewFeedback] = useState<CustomerFeedback>({
+    customer_name: "",
+    customer_img: "",
+    customer_product: "",
+    feedback: "",
+    rating: 5,
+    customer_location: "Dhaka",
+  });
 
   useEffect(() => {
     loadArtists();
@@ -78,9 +68,10 @@ export default function AdminNewPaintingPage() {
       if (data.length > 0) {
         setArtistSlug(data[0].slug);
         setArtistName(data[0].name);
+        if (data[0].movement) setMovement(data[0].movement);
       }
     } catch (e) {
-      console.error(e);
+      console.error("Failed to load artists", e);
     }
   };
 
@@ -100,19 +91,72 @@ export default function AdminNewPaintingPage() {
     const found = artists.find((a) => a.slug === selectedSlug);
     if (found) {
       setArtistName(found.name);
+      if (found.movement && !movement) {
+        setMovement(found.movement);
+      }
     }
   };
 
   // Calculated Sizes from Orientation and Base Price
   const calculatedSizes: SizeOption[] = useMemo(() => {
-    return getSizesForPainting(orientation, priceFrom);
+    return getSizesForPainting(orientation, priceFrom || 0);
   }, [orientation, priceFrom]);
 
   // Calculated strike-through priceWas
   const calculatedPriceWas = useMemo(() => {
     if (!discountPercent || discountPercent <= 0) return undefined;
-    return Math.round(priceFrom / (1 - discountPercent / 100));
+    return Math.round((priceFrom || 0) / (1 - discountPercent / 100));
   }, [priceFrom, discountPercent]);
+
+  // Handlers for dynamic repeaters
+  const handleAddDetailImage = () => {
+    if (!newDetailInput.trim()) return;
+    setDetailImages((prev) => [...prev, newDetailInput.trim()]);
+    setNewDetailInput("");
+  };
+
+  const handleRemoveDetailImage = (index: number) => {
+    setDetailImages((prev) => prev.filter((_, i) => i !== index));
+  };
+
+  const handleAddParagraph = () => {
+    if (!newParagraphInput.trim()) return;
+    setDescriptions((prev) => [...prev, newParagraphInput.trim()]);
+    setNewParagraphInput("");
+  };
+
+  const handleRemoveParagraph = (index: number) => {
+    setDescriptions((prev) => prev.filter((_, i) => i !== index));
+  };
+
+  const handleAddFeedback = () => {
+    if (!newFeedback.customer_name.trim() || !newFeedback.feedback.trim()) {
+      alert("Customer name and feedback review text are required.");
+      return;
+    }
+    setCustomerFeedbacks((prev) => [
+      ...prev,
+      {
+        ...newFeedback,
+        customer_img:
+          newFeedback.customer_img ||
+          "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&h=120&fit=crop",
+        customer_product: newFeedback.customer_product || image,
+      },
+    ]);
+    setNewFeedback({
+      customer_name: "",
+      customer_img: "",
+      customer_product: "",
+      feedback: "",
+      rating: 5,
+      customer_location: "Dhaka",
+    });
+  };
+
+  const handleRemoveFeedback = (index: number) => {
+    setCustomerFeedbacks((prev) => prev.filter((_, i) => i !== index));
+  };
 
   // Form submission
   const handleSubmit = async (e: React.FormEvent) => {
@@ -134,8 +178,8 @@ export default function AdminNewPaintingPage() {
         title,
         slug: slug || title.toLowerCase().replace(/[^a-z0-9]+/g, "-"),
         artistSlug,
-        artistName,
-        movement,
+        artistName: artistName || "Master Artist",
+        movement: movement || "Masterpiece",
         image: image || "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=1200&q=80",
         orientation,
         priceFrom: Number(priceFrom),
@@ -144,16 +188,16 @@ export default function AdminNewPaintingPage() {
         freeDelivery,
         deliveryFee: freeDelivery ? 0 : Number(deliveryFee) || 70,
         currency: "BDT" as const,
-        year,
+        year: year || undefined,
         medium,
-        location,
-        dimensions,
+        location: location || undefined,
+        dimensions: dimensions || undefined,
         bestseller,
         featured,
         sizes: calculatedSizes,
-        description: descriptions[0] || "",
-        descriptions,
-        descriptionImage: detailImages.filter((img) => img.trim() !== ""),
+        description: descriptions[0] || title,
+        descriptions: descriptions.length > 0 ? descriptions : [title],
+        descriptionImage: detailImages,
         customerFeedbacks,
         frames: [
           { id: "gold", name: "Gold" as const, swatch: "#d4af37" },
@@ -173,28 +217,23 @@ export default function AdminNewPaintingPage() {
 
   return (
     <div className="space-y-6 max-w-7xl mx-auto">
-      {/* Breadcrumb & Navigation */}
+      {/* Header */}
       <div className="flex items-center justify-between">
-        <Link
-          href="/admin/paintings"
-          className="inline-flex items-center gap-1.5 text-xs font-semibold text-[var(--color-muted)] hover:text-black transition-colors"
-        >
-          <ArrowLeft className="w-3.5 h-3.5" />
-          <span>Back to Catalog</span>
-        </Link>
-        <span className="text-[11px] font-mono text-emerald-600 font-bold bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-200">
-          Auto-Calculation Engine: Active
-        </span>
-      </div>
-
-      <div className="flex items-center justify-between">
-        <div>
-          <span className="text-xs font-bold font-mono uppercase tracking-widest text-[#a8844a]">
-            NEW MASTERPIECE
-          </span>
-          <h1 className="font-serif text-2xl sm:text-3xl font-semibold text-[var(--color-ink)] mt-0.5">
-            Add Artwork to Gallery
-          </h1>
+        <div className="flex items-center gap-3">
+          <Link
+            href="/admin/paintings"
+            className="p-2 rounded-xl bg-white border border-[#e8dfd1] text-neutral-600 hover:text-black hover:bg-neutral-50 transition-colors"
+          >
+            <ArrowLeft className="w-4 h-4" />
+          </Link>
+          <div>
+            <h1 className="font-serif text-2xl font-semibold text-[var(--color-ink)]">
+              Add New Painting
+            </h1>
+            <p className="text-xs text-[var(--color-muted)] font-sans mt-0.5">
+              Add artwork to the catalog with automatic size & price calculation.
+            </p>
+          </div>
         </div>
       </div>
 
@@ -208,15 +247,15 @@ export default function AdminNewPaintingPage() {
       <form onSubmit={handleSubmit} className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
         {/* Left Column: Form Controls (Col 7) */}
         <div className="lg:col-span-7 space-y-6">
-          {/* Card 1: Core Details */}
+          {/* Section 1: Core Details */}
           <div className="p-5 sm:p-6 rounded-2xl bg-white border border-[#e8dfd1] shadow-2xs space-y-4">
             <h2 className="font-serif text-base font-semibold text-[var(--color-ink)] border-b border-[#eee6da] pb-2">
-              1. Primary Artwork Information
+              1. Artwork Information
             </h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="sm:col-span-2 space-y-1">
-                <label className="text-xs font-bold text-neutral-700">Artwork Title *</label>
+                <label className="text-xs font-bold text-neutral-700">Title *</label>
                 <input
                   type="text"
                   required
@@ -228,9 +267,10 @@ export default function AdminNewPaintingPage() {
               </div>
 
               <div className="space-y-1">
-                <label className="text-xs font-bold text-neutral-700">URL Slug (Auto-generated)</label>
+                <label className="text-xs font-bold text-neutral-700">URL Slug</label>
                 <input
                   type="text"
+                  placeholder="the-starry-night"
                   value={slug}
                   onChange={(e) => setSlug(e.target.value)}
                   className="w-full px-3 py-2 rounded-xl border border-[#d9d0c1] text-xs font-mono bg-neutral-50 text-neutral-600"
@@ -256,6 +296,7 @@ export default function AdminNewPaintingPage() {
                 <label className="text-xs font-bold text-neutral-700">Art Movement</label>
                 <input
                   type="text"
+                  placeholder="e.g. Post-Impressionism"
                   value={movement}
                   onChange={(e) => setMovement(e.target.value)}
                   className="w-full px-3 py-2 rounded-xl border border-[#d9d0c1] text-xs font-sans"
@@ -263,56 +304,30 @@ export default function AdminNewPaintingPage() {
               </div>
 
               <div className="space-y-1">
-                <label className="text-xs font-bold text-neutral-700">Year of Original</label>
+                <label className="text-xs font-bold text-neutral-700">Year</label>
                 <input
                   type="text"
+                  placeholder="e.g. 1889"
                   value={year}
                   onChange={(e) => setYear(e.target.value)}
                   className="w-full px-3 py-2 rounded-xl border border-[#d9d0c1] text-xs font-sans"
                 />
               </div>
 
-              <div className="space-y-1">
-                <label className="text-xs font-bold text-neutral-700">Original Medium</label>
-                <input
-                  type="text"
-                  value={medium}
-                  onChange={(e) => setMedium(e.target.value)}
-                  className="w-full px-3 py-2 rounded-xl border border-[#d9d0c1] text-xs font-sans"
-                />
-              </div>
-
-              <div className="space-y-1">
-                <label className="text-xs font-bold text-neutral-700">Original Museum Dimensions</label>
-                <input
-                  type="text"
-                  value={dimensions}
-                  onChange={(e) => setDimensions(e.target.value)}
-                  className="w-full px-3 py-2 rounded-xl border border-[#d9d0c1] text-xs font-sans"
-                />
-              </div>
-
               <div className="sm:col-span-2 space-y-1">
-                <label className="text-xs font-bold text-neutral-700">Current Museum Location</label>
+                <label className="text-xs font-bold text-neutral-700">High-Res Image URL *</label>
                 <input
-                  type="text"
-                  value={location}
-                  onChange={(e) => setLocation(e.target.value)}
-                  className="w-full px-3 py-2 rounded-xl border border-[#d9d0c1] text-xs font-sans"
+                  type="url"
+                  required
+                  placeholder="https://..."
+                  value={image}
+                  onChange={(e) => setImage(e.target.value)}
+                  className="w-full px-3 py-2 rounded-xl border border-[#d9d0c1] text-xs font-mono focus:outline-none focus:ring-1 focus:ring-[#ceab51]"
                 />
               </div>
-            </div>
-          </div>
 
-          {/* Card 2: Pricing, Canvas Orientation & Delivery */}
-          <div className="p-5 sm:p-6 rounded-2xl bg-white border border-[#e8dfd1] shadow-2xs space-y-4">
-            <h2 className="font-serif text-base font-semibold text-[var(--color-ink)] border-b border-[#eee6da] pb-2">
-              2. Sizing, Pricing & Delivery (BDT ৳)
-            </h2>
-
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               <div className="space-y-1">
-                <label className="text-xs font-bold text-neutral-700">Canvas Orientation *</label>
+                <label className="text-xs font-bold text-neutral-700">Orientation *</label>
                 <select
                   value={orientation}
                   onChange={(e) => setOrientation(e.target.value as FrameOrientation)}
@@ -325,445 +340,351 @@ export default function AdminNewPaintingPage() {
               </div>
 
               <div className="space-y-1">
-                <label className="text-xs font-bold text-neutral-700">Base Price (1 Feet) in BDT *</label>
+                <label className="text-xs font-bold text-neutral-700">Location / Gallery</label>
+                <input
+                  type="text"
+                  placeholder="e.g. Museum of Modern Art"
+                  value={location}
+                  onChange={(e) => setLocation(e.target.value)}
+                  className="w-full px-3 py-2 rounded-xl border border-[#d9d0c1] text-xs font-sans"
+                />
+              </div>
+            </div>
+
+            {/* Checkboxes */}
+            <div className="pt-2 border-t border-[#eee6da] flex items-center gap-6">
+              <label className="flex items-center gap-2 text-xs font-semibold text-neutral-700 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={bestseller}
+                  onChange={(e) => setBestseller(e.target.checked)}
+                  className="rounded text-[#ceab51] focus:ring-[#ceab51]"
+                />
+                <span>Mark as Bestseller</span>
+              </label>
+
+              <label className="flex items-center gap-2 text-xs font-semibold text-neutral-700 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={featured}
+                  onChange={(e) => setFeatured(e.target.checked)}
+                  className="rounded text-[#ceab51] focus:ring-[#ceab51]"
+                />
+                <span>Featured on Homepage</span>
+              </label>
+            </div>
+          </div>
+
+          {/* Section 2: Pricing & Delivery */}
+          <div className="p-5 sm:p-6 rounded-2xl bg-white border border-[#e8dfd1] shadow-2xs space-y-4">
+            <h2 className="font-serif text-base font-semibold text-[var(--color-ink)] border-b border-[#eee6da] pb-2">
+              2. Pricing & Delivery (BDT ৳)
+            </h2>
+
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              <div className="space-y-1">
+                <label className="text-xs font-bold text-neutral-700">Base Price (1 Ft Size) *</label>
+                <div className="relative">
+                  <span className="absolute left-3 top-1/2 -translate-y-1/2 text-xs font-bold text-neutral-400">৳</span>
+                  <input
+                    type="number"
+                    min="1000"
+                    step="500"
+                    required
+                    value={priceFrom || ""}
+                    onChange={(e) => setPriceFrom(Number(e.target.value))}
+                    className="w-full pl-7 pr-3 py-2 rounded-xl border border-[#d9d0c1] text-xs font-mono font-bold focus:outline-none focus:ring-1 focus:ring-[#ceab51]"
+                  />
+                </div>
+              </div>
+
+              <div className="space-y-1">
+                <label className="text-xs font-bold text-neutral-700">Discount %</label>
                 <input
                   type="number"
-                  required
-                  min={100}
-                  step={10}
-                  value={priceFrom}
-                  onChange={(e) => setPriceFrom(Number(e.target.value))}
-                  className="w-full px-3 py-2 rounded-xl border border-[#d9d0c1] text-xs font-mono font-bold text-neutral-900 focus:outline-none focus:ring-1 focus:ring-[#ceab51]"
+                  min="0"
+                  max="90"
+                  value={discountPercent || ""}
+                  onChange={(e) => setDiscountPercent(Number(e.target.value))}
+                  placeholder="0"
+                  className="w-full px-3 py-2 rounded-xl border border-[#d9d0c1] text-xs font-mono font-bold focus:outline-none focus:ring-1 focus:ring-[#ceab51]"
                 />
               </div>
 
               <div className="space-y-1">
-                <label className="text-xs font-bold text-neutral-700">Discount Badge (%)</label>
-                <input
-                  type="number"
-                  min={0}
-                  max={90}
-                  value={discountPercent}
-                  onChange={(e) => setDiscountPercent(Number(e.target.value))}
-                  className="w-full px-3 py-2 rounded-xl border border-[#d9d0c1] text-xs font-mono font-bold text-amber-600 focus:outline-none focus:ring-1 focus:ring-[#ceab51]"
-                />
+                <label className="text-xs font-bold text-neutral-700">Original Price (Was)</label>
+                <div className="px-3 py-2 rounded-xl border border-[#eee6da] bg-neutral-50 text-xs font-mono">
+                  {calculatedPriceWas ? (
+                    <span className="text-neutral-500 line-through font-bold">
+                      ৳{calculatedPriceWas.toLocaleString()}
+                    </span>
+                  ) : (
+                    <span className="text-neutral-400">No discount</span>
+                  )}
+                </div>
               </div>
             </div>
 
-            {/* Auto-Calculated Multiplier Sizes Info Table */}
-            <div className="p-3.5 rounded-xl bg-[#faf8f5] border border-[#e8dfd1] space-y-2">
-              <div className="flex items-center justify-between text-xs font-bold text-[#a8844a]">
-                <span>Automatic Sizing Multipliers ({orientation}):</span>
-                <span>Auto-computed</span>
-              </div>
-              <div className="grid grid-cols-3 gap-2 text-center text-xs">
-                {calculatedSizes.map((s, idx) => (
-                  <div key={s.id} className="p-2 rounded-lg bg-white border border-[#eee6da]">
-                    <div className="font-bold text-[var(--color-ink)]">{s.feetLabel}</div>
-                    <div className="text-[10px] text-[var(--color-muted)] font-mono">{s.dimensions}</div>
-                    <div className="font-bold text-[#a8844a] mt-1">৳{(s.price || 0).toLocaleString()}</div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* Delivery Charge Toggle & Fee */}
-            <div className="pt-2 border-t border-[#eee6da] flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-              <label className="flex items-center gap-2 cursor-pointer text-xs font-medium text-neutral-800">
+            {/* Delivery */}
+            <div className="pt-2 border-t border-[#eee6da] flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+              <label className="flex items-center gap-2 text-xs font-semibold text-neutral-700 cursor-pointer">
                 <input
                   type="checkbox"
                   checked={freeDelivery}
                   onChange={(e) => setFreeDelivery(e.target.checked)}
-                  className="w-4 h-4 rounded text-[#ceab51] focus:ring-0 cursor-pointer"
+                  className="rounded text-[#ceab51] focus:ring-[#ceab51]"
                 />
-                <span>Free Delivery Across Bangladesh (৳0)</span>
+                <span>Free Delivery for this artwork</span>
               </label>
 
               {!freeDelivery && (
                 <div className="flex items-center gap-2">
-                  <span className="text-xs font-bold text-neutral-700">Delivery Fee (BDT):</span>
+                  <span className="text-xs text-neutral-600">Delivery Fee:</span>
                   <input
                     type="number"
-                    min={0}
-                    step={10}
+                    min="0"
                     value={deliveryFee}
                     onChange={(e) => setDeliveryFee(Number(e.target.value))}
-                    className="w-24 px-2 py-1.5 rounded-lg border border-[#d9d0c1] text-xs font-mono font-bold"
+                    className="w-20 px-2 py-1 rounded-lg border border-[#d9d0c1] text-xs font-mono font-bold text-center"
                   />
+                  <span className="text-xs text-neutral-500 font-mono">৳</span>
                 </div>
               )}
             </div>
           </div>
 
-          {/* Card 3: Images & Detail Close-ups */}
-          <div className="p-5 sm:p-6 rounded-2xl bg-white border border-[#e8dfd1] shadow-2xs space-y-4">
-            <h2 className="font-serif text-base font-semibold text-[var(--color-ink)] border-b border-[#eee6da] pb-2">
-              3. Artwork Imagery & Detail Close-ups
-            </h2>
-
-            <div className="space-y-1">
-              <label className="text-xs font-bold text-neutral-700">Primary Artwork Image URL *</label>
-              <input
-                type="url"
-                required
-                placeholder="https://..."
-                value={image}
-                onChange={(e) => setImage(e.target.value)}
-                className="w-full px-3 py-2 rounded-xl border border-[#d9d0c1] text-xs font-mono"
-              />
-            </div>
-
-            {/* descriptionImage repeater */}
-            <div className="space-y-2 pt-2 border-t border-[#eee6da]">
-              <div className="flex items-center justify-between">
-                <div>
-                  <span className="text-xs font-bold text-neutral-700">
-                    Artwork Detail Close-ups (`descriptionImage: []`)
-                  </span>
-                  <p className="text-[11px] text-[var(--color-muted)]">
-                    Appears inline under story paragraphs and in studio textures.
-                  </p>
-                </div>
-                <button
-                  type="button"
-                  onClick={() => setDetailImages([...detailImages, ""])}
-                  className="text-xs font-bold text-[#a8844a] hover:underline inline-flex items-center gap-1"
-                >
-                  <Plus className="w-3.5 h-3.5" />
-                  <span>Add Image</span>
-                </button>
-              </div>
-
-              {detailImages.map((imgUrl, idx) => (
-                <div key={idx} className="flex items-center gap-2">
-                  <input
-                    type="url"
-                    placeholder={`Detail Image #${idx + 1} URL`}
-                    value={imgUrl}
-                    onChange={(e) => {
-                      const updated = [...detailImages];
-                      updated[idx] = e.target.value;
-                      setDetailImages(updated);
-                    }}
-                    className="flex-1 px-3 py-1.5 rounded-xl border border-[#d9d0c1] text-xs font-mono"
-                  />
-                  {detailImages.length > 1 && (
-                    <button
-                      type="button"
-                      onClick={() => setDetailImages(detailImages.filter((_, i) => i !== idx))}
-                      className="p-1.5 text-red-500 hover:bg-red-50 rounded-lg cursor-pointer"
-                    >
-                      <Trash2 className="w-3.5 h-3.5" />
-                    </button>
-                  )}
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Card 4: Story Paragraphs Repeater */}
+          {/* Section 3: Detail Close-up Images */}
           <div className="p-5 sm:p-6 rounded-2xl bg-white border border-[#e8dfd1] shadow-2xs space-y-4">
             <div className="flex items-center justify-between border-b border-[#eee6da] pb-2">
               <h2 className="font-serif text-base font-semibold text-[var(--color-ink)]">
-                4. Artwork Story & Curatorial Narrative (`descriptions: []`)
+                3. Detail Close-up Images
               </h2>
-              <button
-                type="button"
-                onClick={() => setDescriptions([...descriptions, ""])}
-                className="text-xs font-bold text-[#a8844a] hover:underline inline-flex items-center gap-1"
-              >
-                <Plus className="w-3.5 h-3.5" />
-                <span>Add Paragraph</span>
-              </button>
+              <span className="text-xs text-neutral-400 font-mono">({detailImages.length} images)</span>
             </div>
 
-            {descriptions.map((desc, idx) => (
-              <div key={idx} className="space-y-1">
-                <div className="flex items-center justify-between text-xs text-neutral-500">
-                  <span>Paragraph #{idx + 1}</span>
-                  {descriptions.length > 1 && (
-                    <button
-                      type="button"
-                      onClick={() => setDescriptions(descriptions.filter((_, i) => i !== idx))}
-                      className="text-red-500 hover:underline inline-flex items-center gap-0.5"
-                    >
-                      <Trash2 className="w-3 h-3" />
-                      <span>Remove</span>
-                    </button>
-                  )}
+            <div className="space-y-2">
+              {detailImages.map((img, idx) => (
+                <div key={idx} className="flex items-center gap-2 p-2 rounded-xl border border-[#eee6da] bg-neutral-50">
+                  <span className="w-5 h-5 rounded-full bg-white border border-neutral-200 text-[10px] font-bold flex items-center justify-center shrink-0">
+                    {idx + 1}
+                  </span>
+                  <span className="text-xs font-mono text-neutral-600 truncate flex-1">{img}</span>
+                  <button
+                    type="button"
+                    onClick={() => handleRemoveDetailImage(idx)}
+                    className="p-1 text-red-500 hover:text-red-700 rounded transition-colors"
+                  >
+                    <Trash2 className="w-3.5 h-3.5" />
+                  </button>
                 </div>
-                <textarea
-                  rows={3}
-                  value={desc}
-                  onChange={(e) => {
-                    const updated = [...descriptions];
-                    updated[idx] = e.target.value;
-                    setDescriptions(updated);
-                  }}
-                  placeholder="Write history, style, brushwork, or museum significance..."
-                  className="w-full px-3 py-2 rounded-xl border border-[#d9d0c1] text-xs font-sans focus:outline-none focus:ring-1 focus:ring-[#ceab51]"
+              ))}
+
+              <div className="flex gap-2 pt-1">
+                <input
+                  type="url"
+                  placeholder="https://... image URL"
+                  value={newDetailInput}
+                  onChange={(e) => setNewDetailInput(e.target.value)}
+                  className="flex-1 px-3 py-1.5 rounded-xl border border-[#d9d0c1] text-xs font-mono"
                 />
+                <button
+                  type="button"
+                  onClick={handleAddDetailImage}
+                  className="px-3 py-1.5 bg-neutral-900 text-white rounded-xl text-xs font-semibold hover:bg-black"
+                >
+                  Add
+                </button>
               </div>
-            ))}
+            </div>
           </div>
 
-          {/* Card 5: Customer Feedbacks Repeater (6 fields) */}
+          {/* Section 4: Customer Feedbacks */}
           <div className="p-5 sm:p-6 rounded-2xl bg-white border border-[#e8dfd1] shadow-2xs space-y-4">
             <div className="flex items-center justify-between border-b border-[#eee6da] pb-2">
-              <div>
-                <h2 className="font-serif text-base font-semibold text-[var(--color-ink)]">
-                  5. Customer Feedbacks & Collector Reviews
-                </h2>
-                <p className="text-[11px] text-[var(--color-muted)]">
-                  Feeds into the interactive feedback slider above FAQ on the product page.
-                </p>
-              </div>
-              <button
-                type="button"
-                onClick={() =>
-                  setCustomerFeedbacks([
-                    ...customerFeedbacks,
-                    {
-                      customer_name: "",
-                      customer_img: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=160&h=160&fit=crop",
-                      customer_product: "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=800&q=80",
-                      feedback: "",
-                      rating: 5,
-                      customer_location: "Dhanmondi, Dhaka",
-                    },
-                  ])
-                }
-                className="text-xs font-bold text-[#a8844a] hover:underline inline-flex items-center gap-1"
-              >
-                <Plus className="w-3.5 h-3.5" />
-                <span>Add Review</span>
-              </button>
+              <h2 className="font-serif text-base font-semibold text-[var(--color-ink)]">
+                4. Customer Feedbacks
+              </h2>
+              <span className="text-xs text-neutral-400 font-mono">({customerFeedbacks.length} reviews)</span>
             </div>
 
-            {customerFeedbacks.map((fb, idx) => (
-              <div
-                key={idx}
-                className="p-4 rounded-xl bg-[#faf8f5] border border-[#e8dfd1] space-y-3 relative"
-              >
-                <div className="flex items-center justify-between text-xs font-bold text-[#a8844a]">
-                  <span>Review #{idx + 1}</span>
-                  {customerFeedbacks.length > 1 && (
+            <div className="space-y-3">
+              {customerFeedbacks.map((fb, idx) => (
+                <div key={idx} className="p-3 rounded-xl border border-[#eee6da] bg-neutral-50 space-y-1">
+                  <div className="flex items-center justify-between">
+                    <span className="text-xs font-bold text-neutral-900">{fb.customer_name} ({fb.customer_location})</span>
                     <button
                       type="button"
-                      onClick={() =>
-                        setCustomerFeedbacks(customerFeedbacks.filter((_, i) => i !== idx))
-                      }
-                      className="text-red-500 hover:underline inline-flex items-center gap-1 text-[11px]"
+                      onClick={() => handleRemoveFeedback(idx)}
+                      className="text-red-500 hover:text-red-700 text-xs font-semibold"
                     >
-                      <Trash2 className="w-3 h-3" />
-                      <span>Remove</span>
+                      Remove
                     </button>
-                  )}
+                  </div>
+                  <p className="text-xs text-neutral-600 italic">&quot;{fb.feedback}&quot;</p>
                 </div>
+              ))}
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
-                  <div>
-                    <label className="font-semibold text-neutral-700 block mb-0.5">Customer Name</label>
-                    <input
-                      type="text"
-                      placeholder="e.g. Tanvir Rahman"
-                      value={fb.customer_name}
-                      onChange={(e) => {
-                        const updated = [...customerFeedbacks];
-                        updated[idx].customer_name = e.target.value;
-                        setCustomerFeedbacks(updated);
-                      }}
-                      className="w-full px-2.5 py-1.5 rounded-lg border border-[#d9d0c1] bg-white"
-                    />
-                  </div>
-
-                  <div>
-                    <label className="font-semibold text-neutral-700 block mb-0.5">Location in Bangladesh</label>
-                    <input
-                      type="text"
-                      placeholder="e.g. Gulshan-2, Dhaka"
-                      value={fb.customer_location}
-                      onChange={(e) => {
-                        const updated = [...customerFeedbacks];
-                        updated[idx].customer_location = e.target.value;
-                        setCustomerFeedbacks(updated);
-                      }}
-                      className="w-full px-2.5 py-1.5 rounded-lg border border-[#d9d0c1] bg-white"
-                    />
-                  </div>
-
-                  <div>
-                    <label className="font-semibold text-neutral-700 block mb-0.5">Customer Avatar Image URL</label>
-                    <input
-                      type="url"
-                      value={fb.customer_img}
-                      onChange={(e) => {
-                        const updated = [...customerFeedbacks];
-                        updated[idx].customer_img = e.target.value;
-                        setCustomerFeedbacks(updated);
-                      }}
-                      className="w-full px-2.5 py-1.5 rounded-lg border border-[#d9d0c1] bg-white font-mono text-[11px]"
-                    />
-                  </div>
-
-                  <div>
-                    <label className="font-semibold text-neutral-700 block mb-0.5">Customer Wall/Room Photo URL (`customer_product`)</label>
-                    <input
-                      type="url"
-                      value={fb.customer_product || ""}
-                      onChange={(e) => {
-                        const updated = [...customerFeedbacks];
-                        updated[idx].customer_product = e.target.value;
-                        setCustomerFeedbacks(updated);
-                      }}
-                      className="w-full px-2.5 py-1.5 rounded-lg border border-[#d9d0c1] bg-white font-mono text-[11px]"
-                    />
-                  </div>
-
-                  <div>
-                    <label className="font-semibold text-neutral-700 block mb-0.5">Star Rating (1-5)</label>
-                    <select
-                      value={fb.rating}
-                      onChange={(e) => {
-                        const updated = [...customerFeedbacks];
-                        updated[idx].rating = Number(e.target.value);
-                        setCustomerFeedbacks(updated);
-                      }}
-                      className="w-full px-2.5 py-1.5 rounded-lg border border-[#d9d0c1] bg-white"
-                    >
-                      <option value={5}>5 Stars (★★★★★)</option>
-                      <option value={4.8}>4.8 Stars</option>
-                      <option value={4.5}>4.5 Stars</option>
-                    </select>
-                  </div>
-
-                  <div className="sm:col-span-2">
-                    <label className="font-semibold text-neutral-700 block mb-0.5">Feedback Quote</label>
-                    <textarea
-                      rows={2}
-                      value={fb.feedback}
-                      onChange={(e) => {
-                        const updated = [...customerFeedbacks];
-                        updated[idx].feedback = e.target.value;
-                        setCustomerFeedbacks(updated);
-                      }}
-                      placeholder="e.g. The canvas print resolution and rich textured finish on this piece are breathtaking..."
-                      className="w-full px-2.5 py-1.5 rounded-lg border border-[#d9d0c1] bg-white"
-                    />
-                  </div>
+              {/* Add Feedback Box */}
+              <div className="p-3 rounded-xl border border-dashed border-[#d9d0c1] bg-[#faf8f5] space-y-2">
+                <span className="text-xs font-bold text-neutral-700 block">+ Add Customer Feedback:</span>
+                <div className="grid grid-cols-2 gap-2">
+                  <input
+                    type="text"
+                    placeholder="Customer Name"
+                    value={newFeedback.customer_name}
+                    onChange={(e) => setNewFeedback({ ...newFeedback, customer_name: e.target.value })}
+                    className="px-2.5 py-1.5 rounded-lg border border-[#d9d0c1] text-xs bg-white"
+                  />
+                  <input
+                    type="text"
+                    placeholder="Location (e.g. Gulshan, Dhaka)"
+                    value={newFeedback.customer_location}
+                    onChange={(e) => setNewFeedback({ ...newFeedback, customer_location: e.target.value })}
+                    className="px-2.5 py-1.5 rounded-lg border border-[#d9d0c1] text-xs bg-white"
+                  />
+                  <input
+                    type="url"
+                    placeholder="Customer Avatar URL"
+                    value={newFeedback.customer_img}
+                    onChange={(e) => setNewFeedback({ ...newFeedback, customer_img: e.target.value })}
+                    className="px-2.5 py-1.5 rounded-lg border border-[#d9d0c1] text-xs font-mono bg-white"
+                  />
+                  <input
+                    type="url"
+                    placeholder="Wall Photo URL (Customer Product)"
+                    value={newFeedback.customer_product}
+                    onChange={(e) => setNewFeedback({ ...newFeedback, customer_product: e.target.value })}
+                    className="px-2.5 py-1.5 rounded-lg border border-[#d9d0c1] text-xs font-mono bg-white"
+                  />
                 </div>
+                <textarea
+                  rows={2}
+                  placeholder="Feedback comment..."
+                  value={newFeedback.feedback}
+                  onChange={(e) => setNewFeedback({ ...newFeedback, feedback: e.target.value })}
+                  className="w-full px-2.5 py-1.5 rounded-lg border border-[#d9d0c1] text-xs bg-white"
+                />
+                <button
+                  type="button"
+                  onClick={handleAddFeedback}
+                  className="px-3 py-1.5 bg-[#ceab51] text-black rounded-lg text-xs font-bold hover:bg-[#b8953c]"
+                >
+                  Add Review
+                </button>
               </div>
-            ))}
+            </div>
           </div>
 
-          {/* Submit Actions */}
-          <div className="pt-2 flex items-center gap-3">
-            <button
-              type="submit"
-              disabled={saving}
-              className="px-6 py-3 rounded-xl bg-[#ceab51] hover:bg-[#b8953c] text-black font-sans font-bold text-xs uppercase tracking-wider transition-all shadow-md cursor-pointer disabled:opacity-50"
-            >
-              {saving ? "Publishing Artwork..." : "Publish Artwork to Catalog"}
-            </button>
+          {/* Submit Action */}
+          <div className="flex items-center justify-end gap-3 pt-2">
             <Link
               href="/admin/paintings"
-              className="px-5 py-3 rounded-xl border border-neutral-300 text-xs font-semibold text-neutral-600 hover:bg-neutral-50 transition-colors"
+              className="px-4 py-2 rounded-xl border border-neutral-300 text-xs font-semibold text-neutral-700 hover:bg-neutral-50"
             >
               Cancel
             </Link>
+            <button
+              type="submit"
+              disabled={saving}
+              className="px-6 py-2.5 rounded-xl bg-[#ceab51] hover:bg-[#b8953c] text-black font-sans font-bold text-xs uppercase tracking-wider transition-all shadow-md flex items-center gap-1.5 disabled:opacity-50"
+            >
+              {saving ? (
+                <div className="w-4 h-4 border-2 border-black border-t-transparent rounded-full animate-spin" />
+              ) : (
+                <CheckCircle2 className="w-4 h-4" />
+              )}
+              <span>Save Artwork</span>
+            </button>
           </div>
         </div>
 
-        {/* Right Column: Live E-Commerce Card Preview (Col 5) */}
-        <aside className="lg:col-span-5 lg:sticky lg:top-20 space-y-4">
-          <div className="p-5 rounded-2xl bg-white border border-[#e8dfd1] shadow-sm space-y-4">
-            <div className="flex items-center justify-between pb-2 border-b border-[#eee6da]">
-              <span className="text-[10px] font-bold uppercase tracking-wider text-[#a8844a] font-mono">
-                LIVE STORE PREVIEW
+        {/* Right Column: Live Store Preview (Col 5) */}
+        <div className="lg:col-span-5 sticky top-20 space-y-4">
+          <div className="p-5 rounded-2xl bg-white border border-[#e8dfd1] shadow-2xs space-y-4">
+            <div className="flex items-center justify-between border-b border-[#eee6da] pb-3">
+              <span className="font-serif text-sm font-semibold text-[var(--color-ink)] flex items-center gap-1.5">
+                <Sparkles className="w-4 h-4 text-[#ceab51]" />
+                Live Card Preview
               </span>
-              <span className="text-[10px] text-emerald-600 font-bold bg-emerald-50 px-2 py-0.5 rounded-full">
-                Interactive
+              <span className="text-[10px] font-mono uppercase bg-neutral-100 text-neutral-600 px-2 py-0.5 rounded-full font-bold">
+                {orientation}
               </span>
             </div>
 
-            {/* Framed Canvas Mockup */}
-            <div className="relative aspect-4/3 rounded-xl overflow-hidden bg-neutral-900 border-4 border-[#caa142] shadow-md flex items-center justify-center p-4">
-              {image ? (
-                <div className="relative w-full h-full">
-                  <Image
-                    src={image}
-                    alt={title || "Preview"}
-                    fill
-                    className="object-contain"
-                  />
-                </div>
-              ) : (
-                <div className="text-center text-neutral-500 text-xs">
-                  <ImageIcon className="w-8 h-8 mx-auto mb-1 opacity-50" />
-                  <span>Enter image URL to preview framed artwork</span>
-                </div>
-              )}
-            </div>
+            {/* Artwork Card */}
+            <div className="rounded-xl overflow-hidden border border-[#e8dfd1] bg-[#faf8f5]">
+              <div
+                className={`relative w-full bg-neutral-200 overflow-hidden ${
+                  orientation === "horizontal"
+                    ? "aspect-3/2"
+                    : orientation === "vertical"
+                    ? "aspect-2/3"
+                    : "aspect-square"
+                }`}
+              >
+                {image ? (
+                  <img src={image} alt="Preview" className="w-full h-full object-cover" />
+                ) : (
+                  <div className="w-full h-full flex items-center justify-center text-neutral-400 text-xs font-mono">
+                    Paste Image URL to Preview
+                  </div>
+                )}
 
-            {/* Title & Artist */}
-            <div>
-              <span className="text-[10px] font-bold uppercase tracking-widest text-[#a8844a] font-sans block">
-                {movement || "Movement"}
-              </span>
-              <h3 className="font-serif text-lg font-semibold text-[var(--color-ink)] leading-snug">
-                {title || "Artwork Title"}
-              </h3>
-              <p className="text-xs text-[var(--color-muted)] font-serif italic">
-                By {artistName || "Artist Name"} ({year})
-              </p>
-            </div>
+                {discountPercent > 0 && (
+                  <div className="absolute top-2 left-2 bg-rose-600 text-white text-[10px] font-bold px-2 py-0.5 rounded shadow-sm">
+                    {discountPercent}% OFF
+                  </div>
+                )}
 
-            {/* Price Preview */}
-            <div className="p-3.5 rounded-xl bg-[#faf8f5] border border-[#eee6da] space-y-2">
-              <div className="flex items-center justify-between">
-                <span className="text-xs text-[var(--color-muted)]">Base Price (1 Feet):</span>
-                <div className="flex items-center gap-2">
-                  <span className="text-base font-bold font-serif text-[var(--color-ink)]">
+                {freeDelivery && (
+                  <div className="absolute top-2 right-2 bg-emerald-600 text-white text-[10px] font-bold px-2 py-0.5 rounded shadow-sm">
+                    FREE DELIVERY
+                  </div>
+                )}
+              </div>
+
+              <div className="p-4 space-y-1.5">
+                <span className="text-[10px] uppercase tracking-wider text-[var(--color-muted)] font-mono block">
+                  {artistName || "Artist Name"}
+                </span>
+                <h3 className="font-serif text-sm font-semibold text-[var(--color-ink)] truncate">
+                  {title || "Artwork Title"}
+                </h3>
+                <div className="pt-2 flex items-baseline gap-2 border-t border-[#eee6da]">
+                  <span className="text-base font-bold text-[var(--color-ink)] font-mono">
                     ৳{(priceFrom || 0).toLocaleString()}
                   </span>
                   {calculatedPriceWas && (
-                    <span className="text-xs text-[var(--color-muted)] line-through">
+                    <span className="text-xs text-[var(--color-muted)] line-through font-mono">
                       ৳{calculatedPriceWas.toLocaleString()}
                     </span>
                   )}
-                  {discountPercent > 0 && (
-                    <span className="text-[10px] font-bold px-1.5 py-0.5 rounded-full bg-amber-100 text-amber-800">
-                      {discountPercent}% OFF
-                    </span>
-                  )}
+                  <span className="text-[10px] text-neutral-400 ml-auto font-mono">Base 1 Ft</span>
                 </div>
-              </div>
-
-              <div className="pt-2 border-t border-[#eee6da] flex items-center justify-between text-[11px] text-[var(--color-muted)]">
-                <span>Delivery:</span>
-                <span className={freeDelivery ? "text-emerald-600 font-bold" : "text-neutral-700 font-medium"}>
-                  {freeDelivery ? "Free Delivery (৳0)" : `৳${deliveryFee || 70}`}
-                </span>
               </div>
             </div>
 
-            {/* Sizes computed preview */}
-            <div className="space-y-1.5">
-              <span className="text-[11px] font-bold uppercase tracking-wider text-neutral-700 block">
-                Auto-assigned sizes ({orientation}):
+            {/* Calculated Sizes List */}
+            <div className="space-y-1.5 pt-1">
+              <span className="text-[11px] font-mono font-bold uppercase text-neutral-500 block">
+                Auto Calculated Sizes (5 Options):
               </span>
-              <div className="grid grid-cols-3 gap-1.5 text-center text-[10px]">
-                {calculatedSizes.map((s) => (
-                  <div key={s.id} className="p-1.5 rounded-lg border border-[#e8dfd1] bg-white">
-                    <div className="font-bold">{s.feetLabel}</div>
-                    <div className="text-[9px] text-neutral-500">{s.dimensions}</div>
-                    <div className="font-bold text-[#a8844a]">৳{(s.price || 0).toLocaleString()}</div>
+              <div className="space-y-1 max-h-48 overflow-y-auto">
+                {calculatedSizes.map((s, idx) => (
+                  <div
+                    key={idx}
+                    className="flex items-center justify-between px-2.5 py-1 rounded bg-[#faf8f5] border border-[#eee6da] text-[11px]"
+                  >
+                    <span className="font-sans text-neutral-700">{s.label}</span>
+                    <span className="font-mono font-bold text-[var(--color-ink)]">
+                      ৳{(s.price || 0).toLocaleString()}
+                    </span>
                   </div>
                 ))}
               </div>
             </div>
           </div>
-        </aside>
+        </div>
       </form>
     </div>
   );

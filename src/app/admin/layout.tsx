@@ -15,7 +15,6 @@ import {
   Menu,
   X,
   Store,
-  ShieldCheck,
 } from "lucide-react";
 
 interface AdminLayoutProps {
@@ -57,10 +56,10 @@ export default function AdminLayout({ children }: AdminLayoutProps) {
       badge: pendingCount && pendingCount > 0 ? `${pendingCount}` : undefined,
       badgeColor: "bg-amber-500 text-black",
     },
-    { label: "All Paintings", href: "/admin/paintings", icon: Palette },
+    { label: "Paintings", href: "/admin/paintings", icon: Palette },
     { label: "Add Painting", href: "/admin/paintings/new", icon: PlusCircle },
     { label: "Artists", href: "/admin/artists", icon: Users },
-    { label: "Marketing / Hero", href: "/admin/marketing", icon: Sparkles },
+    { label: "Marketing", href: "/admin/marketing", icon: Sparkles },
     { label: "Settings", href: "/admin/settings", icon: Settings },
   ];
 
@@ -90,14 +89,9 @@ export default function AdminLayout({ children }: AdminLayoutProps) {
           <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#dfbe64] to-[#a87e1a] text-black font-serif font-bold flex items-center justify-center text-sm shadow-sm">
             YM
           </div>
-          <div className="flex items-center gap-1.5">
-            <span className="font-serif font-semibold text-sm tracking-tight text-white">
-              YourMuseum
-            </span>
-            <span className="text-[9px] font-mono font-bold px-1.5 py-0.5 rounded bg-[#ceab51]/20 text-[#ceab51]">
-              ADMIN
-            </span>
-          </div>
+          <span className="font-serif font-semibold text-sm tracking-tight text-white">
+            YourMuseum <span className="text-[9px] font-mono font-bold px-1.5 py-0.5 rounded bg-[#ceab51]/20 text-[#ceab51] ml-1">ADMIN</span>
+          </span>
         </div>
 
         <button
@@ -128,19 +122,16 @@ export default function AdminLayout({ children }: AdminLayoutProps) {
         {/* Top Header Section */}
         <div className="p-5 border-b border-white/10 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#dfbe64] to-[#a87e1a] text-black font-serif font-bold flex items-center justify-center text-lg shadow-md">
+            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-[#dfbe64] to-[#a87e1a] text-black font-serif font-bold flex items-center justify-center text-base shadow-md">
               YM
             </div>
             <div>
-              <h1 className="font-serif font-semibold text-base leading-tight tracking-tight text-white">
+              <h1 className="font-serif font-semibold text-sm leading-tight tracking-tight text-white">
                 YourMuseum
               </h1>
-              <div className="flex items-center gap-1.5 mt-0.5">
-                <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-                <span className="text-[10px] uppercase tracking-widest text-[#ceab51] font-mono font-bold">
-                  Studio Admin
-                </span>
-              </div>
+              <span className="text-[10px] tracking-wider text-neutral-400 font-mono block">
+                Studio Admin
+              </span>
             </div>
           </div>
 
@@ -154,12 +145,8 @@ export default function AdminLayout({ children }: AdminLayoutProps) {
           </button>
         </div>
 
-        {/* Scrollable Nav List (Independent internal scroll if viewport is short) */}
-        <nav className="flex-1 overflow-y-auto py-4 px-3 space-y-1.5 scrollbar-thin">
-          <div className="px-3 pb-2 text-[10px] uppercase font-bold tracking-wider text-neutral-400 font-mono">
-            Management Portal
-          </div>
-
+        {/* Scrollable Nav List */}
+        <nav className="flex-1 overflow-y-auto py-3 px-3 space-y-1 scrollbar-thin">
           {navItems.map((item) => {
             const Icon = item.icon;
             const active = isLinkActive(item.href);
@@ -199,33 +186,23 @@ export default function AdminLayout({ children }: AdminLayoutProps) {
           })}
         </nav>
 
-        {/* Bottom Sidebar: Return to Live Store & Profile Info */}
-        <div className="p-4 border-t border-white/10 space-y-3 bg-[#0d0c0a]">
+        {/* Bottom Sidebar: Return to Live Store */}
+        <div className="p-4 border-t border-white/10 space-y-2 bg-[#0d0c0a]">
           <Link
             href="/"
             target="_blank"
-            className="flex items-center justify-between px-3.5 py-2.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-xs text-neutral-300 hover:text-white transition-all font-medium group"
+            className="flex items-center justify-between px-3.5 py-2 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-xs text-neutral-300 hover:text-white transition-all font-medium group"
           >
             <div className="flex items-center gap-2">
               <Store className="w-3.5 h-3.5 text-[#ceab51]" />
-              <span>View Live Gallery</span>
+              <span>Live Website</span>
             </div>
-            <ArrowUpRight className="w-3.5 h-3.5 text-neutral-400 group-hover:text-[#ceab51] group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+            <ArrowUpRight className="w-3.5 h-3.5 text-neutral-400 group-hover:text-[#ceab51] transition-transform" />
           </Link>
 
-          <div className="flex items-center gap-3 px-2 pt-1">
-            <div className="w-8 h-8 rounded-full bg-[#ceab51]/20 border border-[#ceab51]/40 flex items-center justify-center text-xs font-bold text-[#ceab51] shrink-0">
-              AD
-            </div>
-            <div className="min-w-0 flex-1">
-              <div className="text-xs font-bold text-white truncate flex items-center gap-1">
-                Curator Admin
-                <ShieldCheck className="w-3 h-3 text-[#ceab51]" />
-              </div>
-              <div className="text-[10px] text-neutral-400 truncate font-mono">
-                Bangladesh (BDT ৳)
-              </div>
-            </div>
+          <div className="flex items-center gap-2 px-2 pt-1">
+            <span className="w-2 h-2 rounded-full bg-emerald-400" />
+            <span className="text-[11px] text-neutral-400 font-mono">Store Active • BDT (৳)</span>
           </div>
         </div>
       </aside>
@@ -234,18 +211,14 @@ export default function AdminLayout({ children }: AdminLayoutProps) {
       <div className="min-h-screen flex flex-col lg:pl-64">
         {/* Sticky Desktop Header */}
         <header className="sticky top-0 z-30 bg-white/90 backdrop-blur-md border-b border-[#e8dfd1] px-6 py-3 hidden lg:flex items-center justify-between shadow-2xs">
-          <div className="flex items-center gap-3 text-xs">
-            <span className="font-bold text-neutral-400 uppercase tracking-widest font-mono">
-              CURATION PORTAL
-            </span>
+          <div className="flex items-center gap-2 text-xs font-semibold text-neutral-700">
+            <span className="w-2 h-2 rounded-full bg-emerald-500" />
+            <span>Store Admin</span>
             <span className="text-neutral-300">•</span>
-            <span className="font-semibold text-neutral-700 flex items-center gap-1.5">
-              <span className="w-2 h-2 rounded-full bg-emerald-500" />
-              Bangladesh Storefront (BDT ৳)
-            </span>
+            <span className="font-mono text-neutral-500">BDT (৳)</span>
           </div>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2.5">
             <Link
               href="/admin/paintings/new"
               className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#141210] hover:bg-neutral-800 text-white text-xs font-semibold transition-all shadow-xs"
