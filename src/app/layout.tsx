@@ -1,12 +1,7 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Jost } from "next/font/google";
 import "./globals.css";
-import { AnnouncementBar } from "@/components/layout/AnnouncementBar";
-import { UtilityStrip } from "@/components/layout/UtilityStrip";
-import { Header } from "@/components/layout/Header";
-import { MainNav } from "@/components/layout/MainNav";
-import { Footer } from "@/components/layout/Footer";
-import { CartDrawer } from "@/components/layout/CartDrawer";
+import { StoreShell } from "@/components/layout/StoreShell";
 import { getNavigation, getSiteConfig } from "@/lib/api";
 
 const playfair = Playfair_Display({
@@ -54,13 +49,9 @@ export default async function RootLayout({
       className={`${playfair.variable} ${jost.variable} scroll-smooth antialiased`}
     >
       <body className="min-h-screen bg-[var(--color-bg)] text-[var(--color-ink)] font-sans flex flex-col selection:bg-[var(--color-gold)] selection:text-white">
-        <AnnouncementBar announcements={siteConfig.announcements} />
-        <UtilityStrip />
-        <Header />
-        <MainNav navItems={navigation.mainNav} />
-        <main className="flex-1">{children}</main>
-        <Footer navigation={navigation} siteConfig={siteConfig} />
-        <CartDrawer />
+        <StoreShell navigation={navigation} siteConfig={siteConfig}>
+          {children}
+        </StoreShell>
       </body>
     </html>
   );

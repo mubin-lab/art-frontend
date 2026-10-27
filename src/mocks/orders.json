@@ -1,0 +1,147 @@
+[
+  {
+    "id": "ord-1001",
+    "orderNumber": "ORD-84921",
+    "customerName": "Tanvir Rahman",
+    "customerPhone": "01711-234567",
+    "customerEmail": "tanvir.rahman@gmail.com",
+    "deliveryAddress": "House 14, Road 7, Gulshan-2",
+    "city": "Dhaka",
+    "paymentMethod": "Cash on Delivery (COD)",
+    "items": [
+      {
+        "id": "item-1",
+        "paintingId": "10001",
+        "paintingTitle": "The Starry Night",
+        "paintingImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/400px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+        "artistName": "Vincent van Gogh",
+        "sizeLabel": "2 Feet (36 × 24″)",
+        "frameName": "Gold",
+        "price": 61000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 61000,
+    "deliveryFee": 70,
+    "totalAmount": 61070,
+    "status": "Pending",
+    "createdAt": "2026-10-27T10:15:00Z",
+    "notes": "Call before delivery"
+  },
+  {
+    "id": "ord-1002",
+    "orderNumber": "ORD-84920",
+    "customerName": "Nusrat Jahan",
+    "customerPhone": "01819-876543",
+    "customerEmail": "nusrat.j@yahoo.com",
+    "deliveryAddress": "Flat 4B, Concord Tower, Road 27, Dhanmondi",
+    "city": "Dhaka",
+    "paymentMethod": "bKash",
+    "items": [
+      {
+        "id": "item-2",
+        "paintingId": "10002",
+        "paintingTitle": "The Kiss",
+        "paintingImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/400px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+        "artistName": "Gustav Klimt",
+        "sizeLabel": "1 Feet (18 × 18″)",
+        "frameName": "Gold",
+        "price": 38280,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 38280,
+    "deliveryFee": 0,
+    "totalAmount": 38280,
+    "status": "Confirmed",
+    "createdAt": "2026-10-27T08:30:00Z",
+    "notes": "bKash TrxID: 9K48LMN2"
+  },
+  {
+    "id": "ord-1003",
+    "orderNumber": "ORD-84919",
+    "customerName": "Dr. Shafiqul Islam",
+    "customerPhone": "01912-345678",
+    "customerEmail": "dr.shafiq@apollo.com",
+    "deliveryAddress": "House 45, Road 11, Banani DOHS",
+    "city": "Dhaka",
+    "paymentMethod": "Cash on Delivery (COD)",
+    "items": [
+      {
+        "id": "item-3",
+        "paintingId": "10004",
+        "paintingTitle": "Water Lilies",
+        "paintingImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet_-_Water_Lilies_-_Google_Art_Project.jpg/400px-Claude_Monet_-_Water_Lilies_-_Google_Art_Project.jpg",
+        "artistName": "Claude Monet",
+        "sizeLabel": "3 Feet (54 × 36″)",
+        "frameName": "Silver white",
+        "price": 86700,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 86700,
+    "deliveryFee": 70,
+    "totalAmount": 86770,
+    "status": "Framing",
+    "createdAt": "2026-10-26T16:45:00Z",
+    "notes": "Reinforced wooden crate requested"
+  },
+  {
+    "id": "ord-1004",
+    "orderNumber": "ORD-84918",
+    "customerName": "Rezwanul Karim",
+    "customerPhone": "01713-987654",
+    "customerEmail": "rezwan.karim@ctgbank.com",
+    "deliveryAddress": "Apartment 7A, Equity Heights, Panchlaish",
+    "city": "Chittagong",
+    "paymentMethod": "bKash",
+    "items": [
+      {
+        "id": "item-4",
+        "paintingId": "10003",
+        "paintingTitle": "Girl with a Pearl Earring",
+        "paintingImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/400px-1665_Girl_with_a_Pearl_Earring.jpg",
+        "artistName": "Johannes Vermeer",
+        "sizeLabel": "1 Feet (12 × 18″)",
+        "frameName": "Gold",
+        "price": 35880,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 35880,
+    "deliveryFee": 120,
+    "totalAmount": 36000,
+    "status": "Shipped",
+    "createdAt": "2026-10-25T11:20:00Z",
+    "notes": "RedX Tracking: RDX-7839201"
+  },
+  {
+    "id": "ord-1005",
+    "orderNumber": "ORD-84917",
+    "customerName": "Farzana Haque",
+    "customerPhone": "01611-456789",
+    "customerEmail": "farzana.haque@gmail.com",
+    "deliveryAddress": "Sector 4, Road 3, House 18, Uttara",
+    "city": "Dhaka",
+    "paymentMethod": "Cash on Delivery (COD)",
+    "items": [
+      {
+        "id": "item-5",
+        "paintingId": "10005",
+        "paintingTitle": "Mona Lisa",
+        "paintingImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/400px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+        "artistName": "Leonardo da Vinci",
+        "sizeLabel": "2 Feet (24 × 36″)",
+        "frameName": "Gold",
+        "price": 61000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 61000,
+    "deliveryFee": 0,
+    "totalAmount": 61000,
+    "status": "Delivered",
+    "createdAt": "2026-10-24T14:10:00Z",
+    "notes": "Successfully received by customer"
+  }
+]

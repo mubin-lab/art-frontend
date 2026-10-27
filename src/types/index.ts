@@ -205,3 +205,48 @@ export type HomeData = {
   }[];
   faqs: { question: string; answer: string }[];
 };
+export type OrderStatus =
+  | "Pending"
+  | "Confirmed"
+  | "Framing"
+  | "Shipped"
+  | "Delivered"
+  | "Cancelled";
+
+export type OrderItem = {
+  id: string;
+  paintingId: string;
+  paintingTitle: string;
+  paintingImage: string;
+  artistName: string;
+  sizeLabel: string;
+  frameName: string;
+  price: number;
+  quantity: number;
+};
+
+export type Order = {
+  id: string;
+  orderNumber: string;
+  customerName: string;
+  customerPhone: string;
+  customerEmail?: string;
+  deliveryAddress: string;
+  city: string;
+  paymentMethod: "Cash on Delivery (COD)" | "bKash" | "Nagad" | "Bank Transfer";
+  items: OrderItem[];
+  subtotal: number;
+  deliveryFee: number;
+  totalAmount: number;
+  status: OrderStatus;
+  createdAt: string;
+  notes?: string;
+};
+
+export type DashboardStats = {
+  totalRevenueBDT: number;
+  totalOrders: number;
+  pendingOrders: number;
+  totalArtworks: number;
+  recentOrders: Order[];
+};
