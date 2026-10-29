@@ -4,7 +4,9 @@ import type { Painting } from "@/types";
  * Returns SEO-friendly URL for a painting: /painting/{id}-{slug}
  * Example: /painting/10001-the-starry-night
  */
-export function getPaintingUrl(painting: { id?: string; slug?: string } | null | undefined): string {
+export function getPaintingUrl(
+  painting: Partial<Painting> | { id?: string; slug?: string } | null | undefined
+): string {
   if (!painting) return "/shop";
   const id = painting.id?.trim();
   const slug = painting.slug?.trim();
@@ -53,7 +55,9 @@ export function parsePaintingParam(param: string): { id?: string; slug?: string 
 /**
  * Returns URL for the artwork story / blog page: /painting/{id}-{slug}/story
  */
-export function getPaintingStoryUrl(painting: { id?: string; slug?: string } | null | undefined): string {
+export function getPaintingStoryUrl(
+  painting: Partial<Painting> | { id?: string; slug?: string } | null | undefined
+): string {
   const base = getPaintingUrl(painting);
   return `${base}/story`;
 }

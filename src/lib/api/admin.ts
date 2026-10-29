@@ -1,6 +1,14 @@
-import type { Painting, Artist, Order, OrderStatus, DashboardStats } from "@/types";
+import type {
+  Painting,
+  Artist,
+  Order,
+  OrderStatus,
+  DashboardStats,
+  HomeData,
+  HeroSlide,
+} from "@/types";
 
-const BASE = "/api";
+const BASE = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:5000/api";
 
 export async function getAdminPaintings(): Promise<Painting[]> {
   const res = await fetch(`${BASE}/paintings`, { cache: "no-store" });
@@ -113,13 +121,13 @@ export async function updateSiteConfig(data: Partial<SiteConfig>): Promise<SiteC
   return res.json();
 }
 
-export async function getHomeData(): Promise<any> {
+export async function getHomeData(): Promise<HomeData> {
   const res = await fetch(`${BASE}/home`, { cache: "no-store" });
   if (!res.ok) throw new Error("Failed to fetch home data");
   return res.json();
 }
 
-export async function updateHeroSlides(heroSlides: any[]): Promise<any> {
+export async function updateHeroSlides(heroSlides: HeroSlide[]): Promise<HomeData> {
   const res = await fetch(`${BASE}/home`, {
     method: "PUT",
     headers: { "Content-Type": "application/json" },

@@ -168,6 +168,6 @@ export function getSizesForPainting(
     widthInch: s.widthInch,
     heightInch: s.heightInch,
     label: s.label,
-    price: idx === 0 ? basePrice : Math.round(basePrice * s.multiplier),
+    price: idx === 0 ? basePrice : Math.round((basePrice * s.multiplier) / 10) * 10,
   }));
 }

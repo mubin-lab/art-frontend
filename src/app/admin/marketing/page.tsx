@@ -2,22 +2,8 @@
 
 import { useEffect, useState } from "react";
 import { getHomeData, updateHeroSlides, getSiteConfig, updateSiteConfig } from "@/lib/api/admin";
+import type { HeroSlide } from "@/types";
 
-interface HeroSlide {
-  id: string;
-  tag: string;
-  linkLabel: string;
-  linkHref: string;
-  image: string;
-  product?: {
-    title: string;
-    priceFrom: number;
-    priceWas: number;
-    artist: string;
-    thumb: string;
-    href: string;
-  };
-}
 
 export default function AdminMarketingPage() {
   const [slides, setSlides] = useState<HeroSlide[]>([]);

@@ -11,7 +11,7 @@ import samplesData from "@/mocks/samples.json";
 import photoToPaintingData from "@/mocks/photo-to-painting.json";
 import articlesData from "@/mocks/articles.json";
 
-const BASE = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:3000/api";
+const BASE = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:5000/api";
 
 function getLocalMock<T>(cleanPath: string): T | undefined {
   const [pathname, queryString] = cleanPath.split("?");
@@ -125,7 +125,14 @@ export async function api<T>(path: string, init?: RequestInit): Promise<T> {
       ...init,
     });
     if (res.ok) {
-      return res.json();
+      const text = await res.text();
+      if (text && text.trim().length > 0) {
+        try {
+          return JSON.parse(text) as T;
+        } catch {
+          // JSON parse failed on non-empty response, proceed to local fallback
+        }
+      }
     }
   } catch {
     // Handled by local fallback

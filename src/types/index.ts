@@ -86,7 +86,7 @@ export type HeroSlide = {
   linkLabel: string;
   linkHref: string;
   image: string;
-  product: {
+  product?: {
     title: string;
     priceFrom: number;
     priceWas: number;

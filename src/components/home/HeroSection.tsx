@@ -122,7 +122,7 @@ export function HeroSection({
                 {/* Background image */}
                 <Image
                   src={activeSlide.image}
-                  alt={activeSlide.product.title}
+                  alt={activeSlide.product?.title || activeSlide.tag || "Hero banner"}
                   fill
                   priority
                   sizes="(max-width: 1024px) 100vw, 65vw"
@@ -171,12 +171,13 @@ export function HeroSection({
                 </div>
 
                 {/* Bottom Product Pill */}
-                <div className="absolute bottom-3 sm:bottom-6 left-3 right-3 sm:left-6 sm:right-auto sm:max-w-sm z-20">
+                {activeSlide.product && (
+                  <div className="absolute bottom-3 sm:bottom-6 left-3 right-3 sm:left-6 sm:right-auto sm:max-w-sm z-20">
                   <div className="bg-white/95 backdrop-blur-md rounded-xl sm:rounded-2xl p-2 sm:p-3 shadow-xl flex items-center justify-between sm:justify-start gap-2.5 sm:gap-3.5 border border-white/50">
                     <div className="relative w-9 h-9 sm:w-12 sm:h-12 rounded-lg sm:rounded-xl overflow-hidden bg-gray-100 flex-shrink-0">
                       <Image
                         src={activeSlide.product.thumb}
-                        alt={activeSlide.product.title}
+                        alt={activeSlide.product?.title || activeSlide.tag || "Hero banner"}
                         fill
                         className="object-cover"
                       />
@@ -204,6 +205,7 @@ export function HeroSection({
                     </Link>
                   </div>
                 </div>
+                )}
 
                 {/* Bottom-Right "OWN IT." Tag */}
                 <div className="absolute bottom-7 right-7 z-20 hidden md:block">

@@ -16,7 +16,8 @@ import {
   updatePainting,
   getAdminArtists,
 } from "@/lib/api/admin";
-import type { Artist, CustomerFeedback, Painting } from "@/types";
+import type { Artist, CustomerFeedback, Painting, SizeOption } from "@/types";
+import { getSizesForPainting } from "@/lib/sizes";
 
 export default function AdminEditPaintingPage({
   params,
@@ -121,34 +122,9 @@ export default function AdminEditPaintingPage({
     return Math.round(priceFrom / (1 - discountPercent / 100));
   }, [priceFrom, discountPercent]);
 
-  const sizePricingPreview = useMemo(() => {
-    const base = Number(priceFrom) || 0;
-    if (orientation === "horizontal") {
-      return [
-        { size: '1.0 × 1.5 Ft (12" × 18")', price: Math.round(base * 1.0) },
-        { size: '1.5 × 2.0 Ft (18" × 24")', price: Math.round(base * 1.35) },
-        { size: '2.0 × 3.0 Ft (24" × 36")', price: Math.round(base * 1.95) },
-        { size: '2.5 × 3.5 Ft (30" × 42")', price: Math.round(base * 2.55) },
-        { size: '3.0 × 4.0 Ft (36" × 48")', price: Math.round(base * 3.25) },
-      ];
-    } else if (orientation === "vertical") {
-      return [
-        { size: '1.5 × 1.0 Ft (18" × 12")', price: Math.round(base * 1.0) },
-        { size: '2.0 × 1.5 Ft (24" × 18")', price: Math.round(base * 1.35) },
-        { size: '3.0 × 2.0 Ft (36" × 24")', price: Math.round(base * 1.95) },
-        { size: '3.5 × 2.5 Ft (42" × 30")', price: Math.round(base * 2.55) },
-        { size: '4.0 × 3.0 Ft (48" × 36")', price: Math.round(base * 3.25) },
-      ];
-    } else {
-      return [
-        { size: '1.0 × 1.0 Ft (12" × 12")', price: Math.round(base * 1.0) },
-        { size: '1.5 × 1.5 Ft (18" × 18")', price: Math.round(base * 1.3) },
-        { size: '2.0 × 2.0 Ft (24" × 24")', price: Math.round(base * 1.8) },
-        { size: '2.5 × 2.5 Ft (30" × 30")', price: Math.round(base * 2.4) },
-        { size: '3.0 × 3.0 Ft (36" × 36")', price: Math.round(base * 3.0) },
-      ];
-    }
-  }, [priceFrom, orientation]);
+  const calculatedSizes: SizeOption[] = useMemo(() => {
+    return getSizesForPainting(orientation, Number(priceFrom) || 0);
+  }, [orientation, priceFrom]);
 
   const handleAddDescriptionImage = () => {
     if (!newDescImage.trim()) return;
@@ -218,6 +194,7 @@ export default function AdminEditPaintingPage({
         deliveryFee: freeDelivery ? 0 : Number(deliveryFee),
         bestseller,
         featured,
+        sizes: calculatedSizes,
         descriptionImage: descriptionImages,
         descriptions: descriptions.length > 0 ? descriptions : [title],
         customerFeedbacks,
@@ -738,14 +715,14 @@ export default function AdminEditPaintingPage({
                 Calculated Size Options:
               </span>
               <div className="space-y-1 max-h-48 overflow-y-auto">
-                {sizePricingPreview.map((s, idx) => (
+                {calculatedSizes.map((s, idx) => (
                   <div
                     key={idx}
                     className="flex items-center justify-between px-2.5 py-1 rounded bg-[#faf8f5] border border-[#eee6da] text-[11px]"
                   >
-                    <span className="font-sans text-neutral-700">{s.size}</span>
+                    <span className="font-sans text-neutral-700">{s.label}</span>
                     <span className="font-mono font-bold text-[var(--color-ink)]">
-                      ৳{s.price.toLocaleString()}
+                      ৳{(s.price || 0).toLocaleString()}
                     </span>
                   </div>
                 ))}

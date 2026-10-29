@@ -153,10 +153,11 @@ export default function AdminPaintingsPage() {
                       <div className="flex items-center gap-3">
                         <div className="relative w-11 h-11 rounded-lg overflow-hidden bg-neutral-100 border border-[#e8dfd1] flex-shrink-0">
                           <Image
-                            src={p.image}
+                            src={p.image || "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=100&q=80"}
                             alt={p.title}
                             fill
                             sizes="44px"
+                            unoptimized
                             className="object-cover"
                           />
                         </div>

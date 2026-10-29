@@ -27,7 +27,7 @@ export function CurrencySelect({ direction = "down", className }: CurrencySelect
   }, []);
 
   return (
-    <div className="relative inline-block text-left" ref={dropdownRef}>
+    <div className={`relative inline-block text-left ${className || ""}`} ref={dropdownRef}>
       {/* Trigger Button with Flag & Currency Symbol */}
       <button
         type="button"

@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { Check, ShoppingBag, ShieldCheck, Truck, RotateCcw, Ruler, X, Info } from "lucide-react";
+import { Check, ShoppingBag, ShieldCheck, Truck, RotateCcw, Ruler, X } from "lucide-react";
 import type { Painting, FrameOption, SizeOption, FrameOrientation } from "@/types";
 import { formatPrice } from "@/lib/utils";
 import { useCurrencyStore } from "@/lib/store/currency";
