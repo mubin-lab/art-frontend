@@ -2,77 +2,62 @@
   "heroSlides": [
     {
       "id": "slide-1",
-      "tag": "FOR HALLOWEEN",
-      "linkLabel": "The Haunted Gallery →",
-      "linkHref": "/collections/halloween",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/John_William_Waterhouse_-_The_Magic_Circle_-_Google_Art_Project.jpg/1280px-John_William_Waterhouse_-_The_Magic_Circle_-_Google_Art_Project.jpg",
+      "tag": "MUSEUM MASTERPIECE",
+      "linkLabel": "The Night Watch by Rembrandt \u2192",
+      "linkHref": "/painting/the-night-watch",
+      "image": "/images/hero/hero-gallery-1.jpg",
       "product": {
-        "title": "The Magic Circle",
+        "title": "The Night Watch",
         "priceFrom": 38280,
-        "priceWas": 76680,
-        "artist": "John William Waterhouse",
-        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/John_William_Waterhouse_-_The_Magic_Circle_-_Google_Art_Project.jpg/400px-John_William_Waterhouse_-_The_Magic_Circle_-_Google_Art_Project.jpg",
-        "href": "/painting/the-magic-circle"
+        "priceWas": 76560,
+        "artist": "Rembrandt van Rijn",
+        "thumb": "/images/hero/hero-gallery-1.jpg",
+        "href": "/painting/the-night-watch"
       }
     },
     {
       "id": "slide-2",
       "tag": "CURATOR'S CHOICE",
-      "linkLabel": "Post-Impressionist Masterworks →",
-      "linkHref": "/art-movements/post-impressionism",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+      "linkLabel": "Classical European Salon Collection \u2192",
+      "linkHref": "/collections/top-100",
+      "image": "/images/hero/hero-gallery-2.jpg",
       "product": {
-        "title": "The Starry Night",
-        "priceFrom": 35880,
-        "priceWas": 71880,
-        "artist": "Vincent van Gogh",
-        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/400px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
-        "href": "/painting/the-starry-night"
+        "title": "Grand Classical Salon",
+        "priceFrom": 42500,
+        "priceWas": 85000,
+        "artist": "Atelier Masterpiece",
+        "thumb": "/images/hero/hero-gallery-2.jpg",
+        "href": "/collections/top-100"
       }
     },
     {
       "id": "slide-3",
-      "tag": "GOLDEN LUXURY",
-      "linkLabel": "Vienna Secession Collection →",
-      "linkHref": "/collections/gold-frames",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/1280px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+      "tag": "GOLDEN SECESSION",
+      "linkLabel": "The Kiss by Gustav Klimt \u2192",
+      "linkHref": "/painting/the-kiss",
+      "image": "/images/hero/hero-gallery-3.jpg",
       "product": {
         "title": "The Kiss",
         "priceFrom": 41880,
-        "priceWas": 83880,
+        "priceWas": 83760,
         "artist": "Gustav Klimt",
-        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/400px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+        "thumb": "/images/hero/hero-gallery-3.jpg",
         "href": "/painting/the-kiss"
       }
     },
     {
       "id": "slide-4",
-      "tag": "PEACEFUL WATERS",
-      "linkLabel": "Monet's Giverny Gardens →",
-      "linkHref": "/artists/claude-monet",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet_-_Water_Lilies_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_Water_Lilies_-_Google_Art_Project.jpg",
+      "tag": "IMPRESSIONIST TRANQUILITY",
+      "linkLabel": "Water Lilies by Claude Monet \u2192",
+      "linkHref": "/painting/water-lilies",
+      "image": "/images/hero/hero-gallery-4.jpg",
       "product": {
         "title": "Water Lilies",
         "priceFrom": 34680,
-        "priceWas": 69480,
+        "priceWas": 69360,
         "artist": "Claude Monet",
-        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet_-_Water_Lilies_-_Google_Art_Project.jpg/400px-Claude_Monet_-_Water_Lilies_-_Google_Art_Project.jpg",
+        "thumb": "/images/hero/hero-gallery-4.jpg",
         "href": "/painting/water-lilies"
-      }
-    },
-    {
-      "id": "slide-5",
-      "tag": "DUTCH MASTERPIECE",
-      "linkLabel": "Enigmatic Portraits →",
-      "linkHref": "/artists/johannes-vermeer",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/1280px-1665_Girl_with_a_Pearl_Earring.jpg",
-      "product": {
-        "title": "Girl with a Pearl Earring",
-        "priceFrom": 35880,
-        "priceWas": 71880,
-        "artist": "Johannes Vermeer",
-        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/400px-1665_Girl_with_a_Pearl_Earring.jpg",
-        "href": "/painting/girl-with-a-pearl-earring"
       }
     }
   ],

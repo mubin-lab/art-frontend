@@ -4,7 +4,7 @@
     "title": "The Starry Night by Vincent van Gogh: Composition, Solitude and the Celestial Swirl",
     "artist": "Vincent van Gogh",
     "artistSlug": "vincent-van-gogh",
-    "artistAvatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%284bzkVelocity%29.jpg/400px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%284bzkVelocity%29.jpg",
+    "artistAvatar": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.jpg",
     "date": "June 1889",
     "medium": "Oil on canvas",
     "dimensions": "73.7 cm × 92.1 cm",
@@ -136,13 +136,13 @@
       {
         "title": "Sunflowers (Fifteen Sunflowers)",
         "date": "1888",
-        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Vincent_Willem_van_Gogh_127.jpg/400px-Vincent_Willem_van_Gogh_127.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/46/Vincent_Willem_van_Gogh_127.jpg",
         "href": "/painting/sunflowers"
       },
       {
         "title": "Café Terrace at Night",
         "date": "1888",
-        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Vincent_Willem_van_Gogh_-_Cafe_Terrace_at_Night_%28Yorck%29.jpg/400px-Vincent_Willem_van_Gogh_-_Cafe_Terrace_at_Night_%28Yorck%29.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/21/Vincent_Willem_van_Gogh_-_Cafe_Terrace_at_Night_%28Yorck%29.jpg",
         "href": "/painting/cafe-terrace-at-night"
       },
       {

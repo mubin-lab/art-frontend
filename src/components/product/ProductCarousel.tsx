@@ -44,7 +44,7 @@ export function ProductCarousel({ paintings }: ProductCarouselProps) {
           {paintings.map((painting) => (
             <div
               key={painting.id}
-              className="flex-[0_0_58.5%] sm:flex-[0_0_36%] md:flex-[0_0_28%] lg:flex-[0_0_20%] xl:flex-[0_0_16.666%] pl-3 sm:pl-4 min-w-0"
+              className="flex-[0_0_58.5%] sm:flex-[0_0_36%] md:flex-[0_0_28%] lg:flex-[0_0_20%] xl:flex-[0_0_20.666%] pl-3 sm:pl-4 min-w-0"
             >
               <ProductCard painting={painting} />
             </div>

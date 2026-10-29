@@ -82,7 +82,7 @@ export function ProductCard({ painting, className }: ProductCardProps) {
 
         {/* Price & Action Button */}
         <div className="mt-2.5 sm:mt-3.5 space-y-2">
-          <div className="flex flex-col lg:flex-row items-center justify-between">
+          <div className="flex flex-col items-center justify-between">
             <Price
               priceFrom={painting.priceFrom}
               priceWas={painting.priceWas}

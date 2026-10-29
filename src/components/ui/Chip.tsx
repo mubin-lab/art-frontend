@@ -7,14 +7,15 @@ interface ChipProps {
   label: string;
   selected?: boolean;
   onToggle?: () => void;
+  onClick?: () => void;
   className?: string;
 }
 
-export function Chip({ label, selected = false, onToggle, className }: ChipProps) {
+export function Chip({ label, selected = false, onToggle, onClick, className }: ChipProps) {
   return (
     <button
       type="button"
-      onClick={onToggle}
+      onClick={onToggle || onClick}
       className={cn(
         "inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-sans tracking-wide transition-all border cursor-pointer select-none",
         selected

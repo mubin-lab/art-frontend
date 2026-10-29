@@ -2,57 +2,39 @@
   {
     "id": "room-1",
     "title": "Modern Minimalist Salon",
-    "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80",
+    "image": "/images/rooms/modern-minimalist-salon.jpg",
     "hotspots": [
       {
         "id": "h1",
-        "x": 42,
+        "x": 50,
         "y": 32,
         "paintingSlug": "the-starry-night"
-      },
-      {
-        "id": "h2",
-        "x": 74,
-        "y": 38,
-        "paintingSlug": "water-lilies"
       }
     ]
   },
   {
     "id": "room-2",
     "title": "Classical Parisian Living Room",
-    "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=80",
+    "image": "/images/rooms/parisian-luxury-living.jpg",
     "hotspots": [
       {
-        "id": "h3",
-        "x": 50,
-        "y": 30,
-        "paintingSlug": "the-kiss"
-      },
-      {
-        "id": "h4",
-        "x": 26,
+        "id": "h2",
+        "x": 70,
         "y": 40,
-        "paintingSlug": "girl-with-a-pearl-earring"
+        "paintingSlug": "the-kiss"
       }
     ]
   },
   {
     "id": "room-3",
     "title": "Scandinavian Contemporary Study",
-    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=80",
+    "image": "/images/rooms/scandinavian-study.jpg",
     "hotspots": [
       {
-        "id": "h5",
-        "x": 48,
-        "y": 34,
-        "paintingSlug": "sunflowers"
-      },
-      {
-        "id": "h6",
-        "x": 80,
-        "y": 42,
-        "paintingSlug": "the-great-wave"
+        "id": "h3",
+        "x": 44,
+        "y": 38,
+        "paintingSlug": "girl-with-a-pearl-earring"
       }
     ]
   }

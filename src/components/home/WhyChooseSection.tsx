@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { PaletteIcon, EyeIcon, FrameIcon, PainterIcon } from "@/components/icons";
+import { ShieldCheck, Award } from "lucide-react";
 import type { HomeData } from "@/types";
 
 interface WhyChooseSectionProps {
@@ -35,20 +36,20 @@ export function WhyChooseSection({
   const getIcon = (iconName: string) => {
     switch (iconName) {
       case "palette":
-        return <PaletteIcon className="w-8 h-8 sm:w-10 sm:h-10 text-white" />;
+        return <PaletteIcon className="w-8 h-8 sm:w-10 sm:h-10 text-[#d4af37]" />;
       case "eye":
-        return <EyeIcon className="w-8 h-8 sm:w-10 sm:h-10 text-white" />;
+        return <EyeIcon className="w-8 h-8 sm:w-10 sm:h-10 text-[#d4af37]" />;
       case "frame":
-        return <FrameIcon className="w-8 h-8 sm:w-10 sm:h-10 text-white" />;
+        return <FrameIcon className="w-8 h-8 sm:w-10 sm:h-10 text-[#d4af37]" />;
       case "painter":
       default:
-        return <PainterIcon className="w-8 h-8 sm:w-10 sm:h-10 text-white" />;
+        return <PainterIcon className="w-8 h-8 sm:w-10 sm:h-10 text-[#d4af37]" />;
     }
   };
 
   return (
-    <section className="bg-[#1d1916] text-white relative overflow-hidden">
-      <div className="grid grid-cols-1 lg:grid-cols-12 min-h-[560px] lg:min-h-[640px]">
+    <section className="bg-[#181513] text-white relative overflow-hidden">
+      <div className="grid grid-cols-1 lg:grid-cols-12 min-h-[580px] lg:min-h-[660px]">
         {/* Left Column (Copy & 4 rows, Col 7) */}
         <div className="lg:col-span-7 px-4 py-12 sm:p-14 lg:p-20 flex flex-col justify-center">
           <div className="max-w-xl mx-auto lg:mx-0">
@@ -60,7 +61,7 @@ export function WhyChooseSection({
             <div className="space-y-6 sm:space-y-8">
               {items.map((item, idx) => (
                 <div key={idx} className="flex items-start gap-4 sm:gap-5">
-                  <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-white/5 border border-[#d4af37]/20 flex items-center justify-center flex-shrink-0 shadow-inner">
                     {getIcon(item.icon)}
                   </div>
                   <div>
@@ -77,21 +78,33 @@ export function WhyChooseSection({
           </div>
         </div>
 
-        {/* Right Column: Photo of Painter (Col 5) */}
-        <div className="lg:col-span-5 relative min-h-[300px] sm:min-h-[420px] lg:min-h-full bg-[#181513]">
+        {/* Right Column: Artisan Craftsman Framing Workshop (Col 5) */}
+        <div className="lg:col-span-5 relative min-h-[360px] sm:min-h-[460px] lg:min-h-full bg-[#120f0e] overflow-hidden">
           <Image
-            src="https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=1200&q=80"
-            alt="Master painter in atelier studio"
+            src="/images/craftsmanship/master-framing-craftsman.jpg"
+            alt="Master art framing craftsman hand-gilding solid wood baroque museum frame in workshop studio"
             fill
-            className="object-cover"
+            className="object-cover object-center"
+            sizes="(max-width: 1024px) 100vw, 45vw"
           />
-          <div className="absolute inset-0 bg-gradient-to-t lg:bg-gradient-to-r from-[#1d1916] via-transparent to-transparent" />
+          {/* Subtle vignette and gradient blending into left column */}
+          <div className="absolute inset-0 bg-gradient-to-t lg:bg-gradient-to-r from-[#181513] via-black/20 to-transparent pointer-events-none" />
 
-          {/* Organic paint blob SVG overlapping bottom edge */}
-          <div className="absolute -bottom-1 -left-1 w-32 h-32 pointer-events-none hidden lg:block">
-            <svg viewBox="0 0 100 100" fill="#f5f2ed" className="w-full h-full">
-              <path d="M0,100 C30,90 20,40 50,50 C80,60 90,0 100,0 L0,0 Z" />
-            </svg>
+          {/* Floating Artisan Authenticity Badge */}
+          <div className="absolute bottom-6 left-6 right-6 z-10">
+            <div className="bg-black/80 backdrop-blur-md border border-[#d4af37]/40 rounded-2xl p-4 sm:p-5 text-white shadow-2xl flex items-center gap-4">
+              <div className="w-11 h-11 rounded-xl bg-[#d4af37]/20 border border-[#d4af37]/40 flex items-center justify-center flex-shrink-0 text-[#d4af37]">
+                <Award className="w-6 h-6" />
+              </div>
+              <div className="min-w-0">
+                <span className="text-[10px] sm:text-[11px] font-bold tracking-widest uppercase text-[#d4af37] block font-sans">
+                  AUTHENTIC STUDIO WORKMANSHIP
+                </span>
+                <p className="text-xs sm:text-sm font-serif font-medium text-white/95 mt-0.5">
+                  Handcrafted solid wood frames & museum-grade archival canvas prints
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
